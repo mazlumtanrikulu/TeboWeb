@@ -1,0 +1,68 @@
+[dir='rtl']{
+    
+	.accordion-button {
+		text-align: right;
+	}
+	
+	// dz-accordion
+    .accordion{
+        &.dz-accordion1{
+            .accordion-header{
+                .accordion-button{
+                    padding: 20px 35px 20px 65px;
+                    .toggle-close{
+                        right: auto;
+                        left: 25px;
+						transform: rotate(90deg);
+                    }                    
+					&.collapsed{
+						.toggle-close {
+							transform: rotate(180deg);
+						}
+					}
+                }
+                @include respond('phone'){
+                    .accordion-button{
+                        padding: 15px 15px 15px 65px;
+                    }
+                }
+            }
+        }
+        &.dz-accordion2{
+            .accordion-header{
+                .accordion-button{
+                    border-radius: 4px 0 0 4px;
+                    padding: 22px 35px 22px 65px;
+                    text-align: right;
+                    
+                    .toggle-close{
+                        right: auto;
+                        left: 25px;
+                        transform: rotate(-90deg);
+						
+                        &:after{
+                            left:auto;
+                            right:0;
+                        }
+						&:before {
+							content: "\f053";
+						}
+                        
+                        @include respond('phone'){
+                            right: auto;
+                            left: 20px;
+                        }
+                    }
+					&.collapsed .toggle-close {
+						transform: rotate(0deg);
+					}
+				}
+                @include respond('phone'){
+                    .accordion-button{
+                        padding: 15px 15px 15px 65px;
+                    }
+                }
+            }
+        }
+    }
+}

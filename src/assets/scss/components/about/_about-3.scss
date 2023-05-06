@@ -1,0 +1,88 @@
+.about-style3{
+	.section-head {
+		margin-bottom: 20px;
+	}
+	.about-thumb{
+		position: relative;
+		padding: 60px 20px 60px 150px;
+		
+		.about-video{
+			position: relative;			
+			.popup-youtube{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+		&:before{
+			content: "";
+			position: absolute;
+			right: 100px;
+			top: 0px;
+			border: 10px solid var(--primary);
+			height: 100%;
+			width: calc(100% - 100px);
+			-webkit-animation: movedelement 7s linear infinite;
+			animation: movedelement 7s linear infinite;
+
+		}
+	}
+	
+	@include respond('tab-land'){
+		
+	}
+	@include respond('tab-port'){
+		.about-thumb .about-video{
+			height: 500px;
+			overflow: hidden;
+			img{
+				object-fit: cover;
+				height: 100%;
+			}
+		}
+	}
+	@include respond('phone-land'){
+		.about-thumb {
+			padding: 60px 0 60px 150px;
+		}
+	}
+	@include respond('phone'){
+		.about-thumb {
+			padding: 30px 0 30px 30px;
+			.about-video{
+				height: 400px;
+			}
+			&:before{
+				border-width: 5px;
+			}
+		}
+    }
+}
+.bg-particles{
+	position: relative;
+	.particles-js-canvas-el{
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+	}
+}
+
+@keyframes movedelement {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0); }
+  25% {
+    -webkit-transform: translate(10px, 10px);
+    transform: translate(10px, 10px); }
+  50% {
+    -webkit-transform: translate(5px, 5px);
+    transform: translate(5px, 5px); }
+  75% {
+    -webkit-transform: translate(10px, -5px);
+    transform: translate(10px, -5px); }
+  to {
+    -webkit-transform: translate(0);
+    transform: translate(0); }
+}

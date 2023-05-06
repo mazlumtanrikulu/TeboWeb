@@ -1,0 +1,100 @@
+.site-footer{
+	&.style-4{
+		.footer-icon-wraper{
+			border: 0;
+			border-bottom: 1px solid #43507d;
+			border-style: dashed;
+			margin-bottom: 40px;
+			padding-bottom: 10px;
+		}
+		.widget_gallery li img{
+			height: 90px;
+			object-fit: cover;
+		}
+		.input-group{
+			input{
+				background: transparent;
+				&::placeholder{
+					color: rgb(170, 180, 186);
+				}
+			}
+			.form-control{
+				height: 50px;
+				color: inherit;
+			}
+			.input-group-addon{
+				position: absolute;
+				top: 5px;
+				right: 5px;
+				.btn{
+					padding: 0;
+					width: 40px;
+					height: 40px;
+					z-index: 5;
+					i{
+					    font-size: 16px;
+					}
+				}
+			}
+		}
+		.footer-top{
+			background:var(--secondary);
+		}
+		.footer-bottom{
+			background:#0f1724;
+		}
+		.widget_services ul{
+			margin-top:-.5rem;
+		}
+		.footer-title{
+			position:relative;
+			padding-bottom:0;
+			margin-bottom: 30px;
+		}
+		.recent-posts-entry .widget-post-bx .widget-post .title a{
+			color:rgba(255,255,255,1);
+		}
+		.footer-link li{
+			color:rgba(255,255,255,.8);
+		}
+		.footer-bottom{
+			color:rgba(255,255,255,.8);
+			text-align:center;
+			a{
+				color:var(--primary);
+			}
+		}
+		.ft-subscribe{
+			margin-bottom: 30px;
+			border:1px solid #9da2a6;
+			border-radius:var(--border-radius-base);
+			padding: 30px 40px;
+			.ft-row{
+				display: flex;
+				.form-control{
+					flex: 1;
+					margin-right: 15px;
+				}
+			}
+			@include respond ('phone'){
+				padding: 30px 30px;
+				.ft-row{
+					display:block;
+					text-align: center;
+					.form-control{
+						margin-bottom:20px;
+					}
+				}
+			}
+		}
+		
+		.dz-social-icon ul li a{
+		    &:hover{
+				background-color: #fff;
+				color: #192436!important;
+				border-color: #fff;
+			}
+		}
+	}
+}
+

@@ -1,0 +1,159 @@
+.site-header.style-3{
+	.logo-header{
+		background-color:var(--primary);
+		padding: 0px 40px 0 40px;
+		margin-right:60px;
+		img{
+			max-width:150px;
+		}
+		@include respond ('laptop'){
+			margin-right:40px;			
+		}
+		@include respond ('phone'){
+			padding: 0px 15px 0 15px;
+			width:120px;
+			margin-right:0;
+			img{
+				max-width:120px;
+			}
+		}
+	}
+	.extra-nav{
+		padding-right:80px;
+		margin-left:0;
+		padding-left:0;
+		.extra-cell{
+			height: 100%;
+			display:flex;
+			align-items:center;
+		}
+		@include custommq ($max:1200px){
+			padding-right:0;
+		}
+		@include respond ('tab-port'){
+			padding-right:10px;
+		}
+	}
+	@include respond ('tab-port'){
+		.navbar-toggler{
+			margin:15px;
+		}
+		.dz-social-icon ul{
+			margin:0;
+			justify-content:center;
+			a{
+				color:#fff;
+			}
+		}
+	}
+	.header-nav{
+		.logo-header{
+			background-color:transparent;
+			padding:30px;
+		}
+		.nav{
+			@include respond ('tab-port-min'){
+				& > li{
+					&:hover,
+					&.active{
+						& > a{
+							&:before{
+								width:100%;
+							}
+						}
+					}
+					& > a {
+						padding:40px 15px;
+						&:before{
+							content:"";
+							position:absolute;
+							height:2px;
+							background:var(--primary);
+							width:0;
+							@include transitionMedium;
+							transform:translateX(-50%);
+							top:0;
+							left:50%;
+						}
+						@include respond ('laptop'){
+							padding:40px 10px;
+						}
+					}
+				}
+			}
+		}
+	} 
+	.top-bar{
+		.help-text{
+			font-size:14px;
+			margin-bottom:0;
+			color:#7a8aa6;
+			strong{
+				color:#1c1c1c;
+				text-transform:uppercase;
+				font-family:var(--font-family-title);
+				font-weight: 700;
+				padding-right: 10px;
+			}
+		}
+	}
+	.container-fluid{
+		padding-left:0;
+		padding-right:0;
+	}
+	
+}
+
+.search-inhead {
+    position: relative;
+    margin-left: 30px;
+    padding-left: 20px;
+	display: flex;
+	align-items:center;
+	height:100%;
+	background:#f2f2f2;
+	border-right:1px solid #d7d7d7;
+	margin-right:30px;
+	padding-right:30px;
+	@include custommq ($min : 1280px){
+		.dz-quik-search{
+			position:relative;
+			display:block!important;
+			top:0;
+			background:transparent;
+			max-width: 200px;
+			padding: 0;
+			.form-control{
+				color:#000;
+				font-size:16px;
+				font-weight:500;
+				border:0;
+				&::placeholder{
+					color:#1c1c1c;
+				}
+			}
+			span{
+				display:none;
+			}
+		}
+		#quik-search-btn {
+			position: absolute;
+			right: 30px;
+			top: 50%;
+			color:#1c1c1c!important;
+			background:#fff!important;
+			transform:translateY(-50%);
+			z-index:9999;
+			font-size: 18px!important;
+		}
+	}
+	@include custommq ($max:1200px){
+		margin-right:0;
+		padding-right:20px;
+		border-right:0;
+	}
+	@include respond ('phone'){
+		background:transparent;
+		padding-right:0;
+	}
+}

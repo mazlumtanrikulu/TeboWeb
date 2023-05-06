@@ -1,0 +1,17 @@
+:root{
+	--primary: #ff8f16;
+	--secondary: #192436;
+	--primary-hover: #e37f13;
+	--primary-dark: #cb700e;
+	--rgba-primary-1: rgba(255,143,22,0.1);
+	--rgba-primary-2: rgba(255,143,22,0.2);
+	--rgba-primary-3: rgba(255,143,22,0.3);
+	--rgba-primary-4: rgba(255,143,22,0.4);
+	--rgba-primary-5: rgba(255,143,22,0.5);
+	--rgba-primary-6: rgba(255,143,22,0.6);
+	--rgba-primary-7: rgba(255,143,22,0.7);
+	--rgba-primary-8: rgba(255,143,22,0.8);
+	--rgba-primary-9: rgba(255,143,22,0.9);
+	--title: #212529;
+	--quote: url(../../images/quote-9.png);
+}

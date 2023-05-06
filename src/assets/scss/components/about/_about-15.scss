@@ -1,0 +1,15 @@
+.about-style15{
+	.about-media{
+		height:calc(100% - 30px);
+		img{
+			object-fit:cover;
+			width:100%;
+			&:first-child{
+				height:70%;
+			}
+			&:last-child{
+				height:30%;
+			}
+		}
+	}
+}

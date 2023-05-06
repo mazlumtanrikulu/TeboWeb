@@ -1,0 +1,24 @@
+.main-slider1,
+.main-slider2,
+.main-slider3{
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	
+	.swiper-button{
+		position: absolute;
+		display: flex;
+		align-items: center;
+		
+		.swiper-button-prev,
+		.swiper-button-next{
+			position: unset;
+			opacity: 1;
+			@include transitionFast;
+		
+			&:after{
+				content: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,77 @@
+
+.swiper-button{
+	font-size:0;
+}
+.btn-next, 
+.btn-prev{
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    background: var(--primary);
+    font-size: 15px;
+    letter-spacing: 2px;
+    z-index: 1;
+    text-align: center;
+    line-height: 75px;
+    margin: 0 5px;
+	display: inline-block;
+	@include transitionMedium;
+	@include respond('laptop'){
+		width: 45px;
+		height: 45px;
+		line-height: 45px;
+	}
+	&:hover{
+		background:var(--secondary);
+		color:#fff;
+		box-shadow: 0px 12px 20px 0px var(--rgba-primary-3);
+	}
+	&:after{
+		content:none;	
+	}
+	i{
+		font-size: 32px;
+		line-height: inherit;
+		@include respond('laptop'){
+			font-size: 24px;
+		}
+	}
+}
+
+.btn-bottom-left{
+	position:relative;
+	.swiper-button{
+		position:absolute;
+		bottom:25px;
+		left:20px;
+	}
+}
+.btn-center-lr{
+	position:relative;
+	.btn-next, 
+	.btn-prev{
+		position:absolute;
+		top:50%;
+		transform:translateY(-50%);
+	}
+	.btn-next{
+		right:-110px;
+	}
+	.btn-prev{
+		left:-110px;
+	}
+	@include respond ('laptop'){
+		.btn-next{
+			right:0px;
+		}
+		.btn-prev{
+			left:0px;
+		}
+	}
+}

@@ -1,0 +1,93 @@
+.main-slider2{
+    height: 100%;
+	
+	.swiper-slide{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		min-height: 780px;
+		&:after {
+			content: "";
+			height: 100%;
+			width: 100%;
+			left: 0;
+			top: 0;
+			position: absolute;
+			background: -moz-linear-gradient(left,rgba(25,25,25,.9) 40%,rgba(125,185,232,0) 100%);
+			background: -webkit-linear-gradient(left,rgba(25,25,25,.9) 40%,rgba(125,185,232,0) 100%);
+			background: linear-gradient(to right,rgba(25,25,25,.9) 40%,rgba(125,185,232,0) 100%);
+		}
+		@include respond ('phone'){
+			min-height:620px;
+		}
+	}
+	.banner-inner{
+	    z-index: 1;
+		position: relative;
+		
+		.banner-content{
+			z-index: 1;
+			position: relative;
+	
+			.title{
+				font-size: 100px;
+				line-height: 100px;
+				color: #fff;
+				margin-bottom: 25px;
+				@include respond ('laptop'){
+					font-size: 65px;
+					line-height: 70px;
+				}
+				@include respond ('phone-land'){
+					font-size: 50px;
+					line-height: 50px;
+				}
+				@include respond ('phone'){
+					font-size: 38px;
+					line-height: 38px;
+				}
+			}
+			p{
+				color: #fff;
+				font-size: 18px;
+				margin-bottom: 50px;
+				font-weight: 500;
+				@include respond ('phone-land'){
+					margin-bottom: 30px;
+				}
+				@include respond ('phone'){
+					font-size: 16px;
+					padding-right: 0px;
+				}
+			}
+		}
+	}
+	.swiper-button{
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		justify-content: space-between;
+		
+		.swiper-button-prev,
+		.swiper-button-next{
+			height: 85px;
+			width: 85px;
+			background-color: rgba(255,255,255,0.7);
+			line-height: 105px;
+			font-size: 36px;
+			color: var(--primary);
+			text-align: center;
+			
+			&:hover{
+				background-color: #fff;
+			}
+			@include respond ('tab-port'){
+				height: 60px;
+				width: 60px;
+				line-height: 60px;
+				font-size: 30px;
+			}
+		}
+	}
+}

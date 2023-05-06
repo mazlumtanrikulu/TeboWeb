@@ -1,0 +1,70 @@
+[dir='rtl']{
+    
+    //Section head-1
+    
+    .section-head{
+        &.style-1{
+            .sub-title{
+                padding-left: 50px;
+                padding-right: 0;
+                &:after{
+                    right:auto;
+                    left:0;
+                }
+                &.style-1{
+                    padding-right:25px;
+                    padding-left:0;
+                    &:after{
+                        left:auto;
+                        right:0;
+                    }
+                }
+            }
+            &.text-right .sub-title{
+                padding-right: 50px;
+                padding-left: 0;
+                &:before{
+                    left: auto;
+                    right: 0;
+                }
+                &:after{
+                    display: none;
+                }
+            }
+            &.text-center .sub-title{
+                padding-right: 50px;
+                &:before{
+                    left: auto;
+                    right: 0;
+                }
+                &:after{
+                    right:auto;
+                    left:0;
+                }
+            }
+        }
+    }
+    
+    //Section head-2
+    
+    .section-head{
+        &.style-2{
+            .sub-title{
+                &:before,
+                &:after{
+                    margin-right: 0;
+                    margin-left: 10px;
+                    
+                }
+                &:before{
+                    margin-right: 0;
+                    margin-left: 10px;
+                }
+                &:after{
+                    margin-left: 0;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

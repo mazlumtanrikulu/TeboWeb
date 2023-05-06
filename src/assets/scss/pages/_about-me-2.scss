@@ -1,0 +1,102 @@
+.about-bx2{
+	min-height: calc(100vh - 150px);
+	.dz-media{
+		height:100%;
+		img{
+			height:100%;
+			object-fit:cover;
+		}
+		.info{
+			position: absolute;
+			bottom: 100px;
+			left: 100px;
+			z-index: 1;
+			.name{
+				color:#fff;
+				font-size:40px;
+				margin-bottom: 0;
+			}
+			p{
+				color: rgba(255,255,255,.8);
+				font-size: 24px;
+				font-weight: 300;
+				margin-bottom: 40px;
+			}
+		}
+		&:after{
+			content:"";
+			position:absolute;
+			height:100%;
+			width:100%;
+			top:0;
+			left:0;
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff4917+0,000000+100&0+43,0.58+100 */
+			background: -moz-linear-gradient(top,  rgba(255,73,23,0) 0%, rgba(145,42,13,0) 43%, rgba(0,0,0,0.58) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  rgba(255,73,23,0) 0%,rgba(145,42,13,0) 43%,rgba(0,0,0,0.58) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  rgba(255,73,23,0) 0%,rgba(145,42,13,0) 43%,rgba(0,0,0,0.58) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff4917', endColorstr='#94000000',GradientType=0 ); /* IE6-9 */
+
+
+
+
+		}
+		&:before{
+			position:absolute;
+			height:calc(100% - 60px);
+			width:calc(100% - 60px);
+			//border:10px solid #fff;
+			border-width: 10px;
+			border-style: solid;
+			border-radius: inherit;
+			border-image: linear-gradient(var(--primary), rgba(0, 0, 0, 0)) 1 100;
+			content:"";
+			top:50%;
+			left:50%;
+			z-index:1;
+			transform:translate(-50% , -50%);
+		}
+	}
+	.dz-info{
+		padding: 70px 70px;
+		.signature{
+			width:220px;
+		}
+	}
+	@include respond ('phone-land'){
+		.dz-media{
+			.info{
+				bottom: 70px;
+				left: 70px;
+				.name{
+					font-size:30px;
+				}
+				p{
+					font-size:18px;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+	@include respond ('phone'){
+		.dz-info{
+			padding:30px;
+		}
+		.dz-media{
+			&:before{
+				height: calc(100% - 30px);
+				width: calc(100% - 30px);
+			}
+			.info{
+				bottom: 30px;
+				left: 50px;
+				.name{
+					font-size:22px;
+				}
+				p{
+					font-size:16px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}

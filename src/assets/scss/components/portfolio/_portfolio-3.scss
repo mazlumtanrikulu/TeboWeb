@@ -1,0 +1,37 @@
+.dz-box.style-3{
+	overflow: hidden;
+	
+	.dz-media{
+		display:block;
+		background-size:cover;
+		@include transitionMedium;
+	}
+	.dz-info{
+		background:#fff;
+		padding:20px 25px 30px;
+		position:absolute;
+		bottom:-54px;
+		left:0;
+		width:200px;
+		@include transitionFast;
+	}
+	.title,
+	.title a,
+	.btn-link{
+		@include transitionFast;
+	}
+	&:hover{
+		.dz-media{
+			transform:rotate(-5deg)scale(1.2);
+		}
+		.dz-info{
+			background:var(--primary);
+			bottom:0;
+		}
+		.title,
+		.title a,
+		.btn-link{
+			color:#fff;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+.blockquote{
+	&.style-1{
+		box-shadow: unset;
+		padding: 60px 5px 5px 30px;
+		
+		p{
+			color: #999999;
+			font-weight: 400;
+			@include respond ('phone'){
+				font-size:18px;
+			}
+		}
+		&:before{
+			left: 30px;
+			width: 45px;
+			height: 45px;
+			line-height: 45px;
+			opacity: 1;
+			content: "\f10d";
+			font-family: 'Font Awesome 5 Free';
+			transform: rotate(0deg);
+			font-size: 40px;
+			background-image:none;
+		}
+		&:after{
+			width: 2px;
+		}
+		cite{
+			color: #999999;
+			font-size: 16px;
+			font-weight: 400;
+		    margin-left: 6px;
+			
+			&:before{
+				content: "/";
+				background: unset;
+				height: auto;
+				margin-right: -5px;
+				margin-left: 5px;
+			}
+		}
+		.quote-info{
+			display: flex;
+			align-items: center;
+		}
+	}
+}

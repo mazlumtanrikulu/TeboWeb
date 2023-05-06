@@ -1,0 +1,35 @@
+[dir='rtl']{
+    // counter-style-1
+    .counter-style-1{
+        .counter-num{
+            small{
+                margin-left: 0;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    // counter-style-2
+    .counter-style-2{
+        .counter-num{
+            small{
+                margin-left:0;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    // counter-style-3
+    .counter-style-3{
+
+        .icon-bx{
+            margin: 12px 12px 12px 32px;
+        }
+        .counter-num{
+            small{
+                margin-left: 0;
+                margin-right: 5px;
+            }
+        }
+    }
+}

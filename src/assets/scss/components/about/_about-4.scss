@@ -1,0 +1,31 @@
+.about-style4{
+	.section-head {
+		margin-bottom: 20px;
+	}
+	.about-thumb{
+		position: relative;
+		overflow: hidden;
+		border-radius: var(--border-radius-base);
+		margin-right: 20px;
+	}
+	blockquote{
+	    margin: 0 0 30px 30px;
+	}
+	
+	@include respond('tab-land'){
+		
+	}
+	@include respond('tab-port'){
+		.about-thumb {
+			margin-right: 20px;
+		}
+	}
+	@include respond('phone-land'){
+		
+	}
+	@include respond('phone'){
+		blockquote{
+			margin: 0px 0px 25px 0px;
+		}
+    }
+}

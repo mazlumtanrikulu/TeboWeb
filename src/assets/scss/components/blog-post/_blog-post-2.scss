@@ -1,0 +1,82 @@
+.dz-card{
+	&.style-2{
+		.dz-media{
+			img{
+				border-radius:var(--border-radius-base);
+			}
+		}
+		.dz-info{
+			padding: 30px 25px 20px;
+		}
+		.dz-meta{
+			ul li {
+				margin-right: 10px;
+			}
+		}
+		.post-date,
+		.post-author a{
+			background-color: var(--primary);
+			color: #fff;
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family: var(--font-family-title);
+			padding: 8px 18px;
+		}
+		&.blog-half{
+			align-items: center;
+			
+			h2.dz-title{
+				font-size: 42px;
+			}
+			.dz-media{
+				max-width: 60%;
+				min-width: 60%;
+			}
+			.dz-info{
+				padding: 0 70px 0 0;
+				p{
+					margin-bottom: 30px;
+				}
+			}
+			.dz-media + .dz-info{
+				padding: 0 0 0 70px;
+			}
+			@include respond ('tab-land'){
+				h2.dz-title{
+					font-size: 36px;
+				}
+				.dz-media{
+					max-width: 50%;
+					min-width: 50%;
+				}
+				.dz-info{
+					padding: 0 30px 0 0;
+				}
+				.dz-media + .dz-info{
+					padding: 0 0 0 30px;
+				}
+			}
+			@include respond ('tab-port'){
+				display: block;
+				.dz-media{
+					max-width: 100%;
+					min-width: 100%;
+				}
+				.dz-info{
+					padding: 0 0 30px 0;
+				}
+				.dz-media + .dz-info{
+					padding: 30px 0 0 0;
+				}
+			}
+			@include respond ('phone'){
+				h2.dz-title{
+					font-size: 32px;
+				}
+			}
+		}
+		&.text-white .dz-title a{
+			color: #fff;
+		}
+	}
+}

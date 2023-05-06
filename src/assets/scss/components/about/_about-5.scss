@@ -1,0 +1,20 @@
+.about-style5{
+	.about-media{
+		border-top:4px solid var(--primary);
+		border-bottom:4px solid var(--primary);
+		margin-right:15px;
+		margin-top:-180px;
+		@include respond ('tab-port'){
+			margin-top:0;
+		}
+	}
+}
+.video-box{
+	position:relative;
+	.popup-youtube{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+	}
+}

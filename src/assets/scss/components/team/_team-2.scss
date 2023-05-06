@@ -1,0 +1,132 @@
+.dz-team{
+	// Style 2
+	&.style-2{
+		.dz-position{
+			font-size: 16px;
+			font-weight: 400;
+			margin-bottom: 0;
+			font-family: var(--font-family-base);
+			color: #fff;
+		}
+		.dz-name{
+			color: #fff;
+			font-weight: 500;
+			margin-bottom: 5px;
+		}
+		.dz-media{
+			border-radius: 0;
+		}
+		.dz-content{
+			background-color: var(--primary);
+			padding: 20px 40px;
+			margin-left: 30px;
+			margin-top: -30px;
+			margin-right: 50px;
+			position: relative;
+			z-index: 1;
+				
+			&:after{
+				content: "";
+				height: 100%;
+				width: 10px;
+				left: -15px;
+				top: 0px;
+				position: absolute;
+				background-color: var(--primary);
+				@include transitionMedium;
+				z-index: -1;
+			}
+			&:before{
+				content: "";
+				position:absolute;
+				height:100%;
+				width:0px;
+				left:0;
+				top:0;
+				background:var(--secondary);
+				z-index:-1;
+				transition-property: all;
+				transition-duration: 0.5s;
+				transition-timing-function: cubic-bezier(0.83, -0.1, 0.2, 1.01);
+				transition-delay: 0s;
+			}
+		}
+		.team-social{
+			position: absolute;
+			top: 15px;
+			right: 0;
+			@include transitionMedium;
+			li{
+				display: block;
+				margin-bottom: 10px;
+				@include transitionMedium;
+				transform: translateX(80px);
+				
+				@for $i from 1 to 4 {
+					&:nth-child(#{$i}) { 
+						transition: $i * 0.2s;
+					}
+				}
+				
+				&.share{
+					height: 35px;
+					width: 35px;
+					line-height: 35px;
+					text-align: center;
+					font-size: 16px;
+					background-color: var(--secondary);
+					display: block;
+					border-radius: var(--border-radius-base);
+					color: #fff;
+					@include transitionMedium;
+					z-index: 1;
+					position: relative;
+					i{
+						position: relative;
+						@include transitionMedium;
+						display: block;
+					}
+				}
+				a{
+					height: 35px;
+					width: 35px;
+					line-height: 35px;
+					text-align: center;
+					font-size: 15px;
+					background-color: var(--primary);
+					display: block;
+					border-radius: var(--border-radius-base);
+					color: #fff;
+					@include transitionMedium;
+					
+					&:hover{
+						background-color: var(--primary);						
+					}
+					&:after{
+						background-color: var(--primary);						
+					}
+				}
+			}
+		}
+		&:hover{
+			.team-social{
+				li{
+					margin-bottom: 10px;
+					transform: translateX(-15px);
+					
+					&.share{
+						background-color: var(--primary);
+						i{
+							transform: rotate(45deg);
+						}
+					}
+				}
+			}
+			.dz-content{
+				&:before{
+					width:100%;
+				}
+			}
+		}
+	}
+}

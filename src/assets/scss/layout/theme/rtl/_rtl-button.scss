@@ -1,0 +1,66 @@
+[dir='rtl']{
+    
+	// Button
+	.btn{
+	
+		i{
+			&.fa-long-arrow-alt-right{
+				&:before{
+					content: "\f30a";
+				}
+			}
+			
+		}
+		&:not(.btn-icon):hover [class*="right"]{
+			-webkit-animation: upToLeft 0.5s forwards;
+			-moz-animation: upToLeft 0.5s forwards;
+			animation: upToLeft 0.5s forwards;
+		}
+		
+		&.btn-icon{
+			padding: 15px 25px 15px 65px;
+			i{
+				right: auto;
+				left: 5px;
+				transform: translateY(-50%) rotate(180deg);
+				
+				@include respond ('phone'){
+					right: auto;
+					left: 4px;
+				}
+			}
+			&.btn-sm{
+				padding: 12px 25px 12px 60px;
+			}
+			&.btn-lg{
+				padding: 20px 40px 20px 85px;
+			}
+		}
+		
+		// btn border
+		&.btnstyle1{
+			padding: 14px 35px 20px 39px;
+			margin: 6px 6px 0 0;
+			
+			&:after{
+				left: auto;
+				right: -6px;
+			}
+			&:hover{
+				margin: 0 0 6px 6px;
+				padding: 20px 39px 14px 35px;
+				&:after{
+					left: auto;
+					right: 6px;
+				}
+			}
+			&.btn-sm{
+				padding: 8px 20px 14px 24px;
+				
+				&:hover{
+					padding: 14px 24px 8px 20px;
+				}
+			}
+		}
+	}
+}

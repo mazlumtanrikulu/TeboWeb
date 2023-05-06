@@ -1,0 +1,79 @@
+
+.dz-box.style-1{
+	overflow: hidden;
+	@include transitionMedium;
+	.dz-media{
+		@include transitionMedium;
+		img {
+			height: 590px;
+			object-fit: cover;
+			@include transitionMedium;
+			@include respond ('laptop'){
+				height:450px;
+			}
+			@include respond ('phone'){
+				height:300px;
+			}
+		}
+	}
+	.title,
+	.title a{
+		color:#fff;
+	}
+	.sub-title{
+		font-family:var(--font-family-base);
+	}
+	.dz-info{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#192436+39,192436+100&0+34,1+100 */
+		background: -moz-linear-gradient(top,  rgba(25,36,54,0) 34%, rgba(25,36,54,0.08) 39%, rgba(25,36,54,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(25,36,54,0) 34%,rgba(25,36,54,0.08) 39%,rgba(25,36,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(25,36,54,0) 34%,rgba(25,36,54,0.08) 39%,rgba(25,36,54,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00192436', endColorstr='#192436',GradientType=0 ); /* IE6-9 */
+
+
+	}
+	&:hover{
+		.dz-media{
+			transform:rotate(-5deg)scale(1.2);
+		}
+	}
+}
+.swiper-portfolio-1 {
+	.swiper-slide{
+	    margin-top: 70px;
+		margin-bottom: 70px;
+		@include transitionMedium;
+		&.swiper-slide-active{
+			margin-top:0;
+			margin-bottom:0;
+			.dz-media img{	
+				height:730px;
+			}
+		}
+		@include respond ('laptop'){
+			margin-top: 30px;
+			margin-bottom: 30px;
+			&.swiper-slide-active{
+				.dz-media img{	
+					height:510px;
+				}
+			}
+		}
+		@include respond ('phone'){
+			&.swiper-slide-active{
+				.dz-media img{	
+					height:360px;
+				}
+			}
+		}
+	}
+}

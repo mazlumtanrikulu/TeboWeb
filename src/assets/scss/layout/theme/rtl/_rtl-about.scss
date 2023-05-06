@@ -1,0 +1,340 @@
+[dir='rtl']{
+    
+    //About Style-1
+    
+    .about-style1{
+        .exp-bx{
+            margin-left: 0;
+            margin-right: -125px;
+            .counter-num{
+                small{
+                    margin-left: 0;
+                    margin-right: 5px;
+                }
+            }
+        }
+        
+        @include respond('tab-land'){
+            .exp-bx{
+                margin-left: 0;
+                margin-right: -185px;
+            }
+        }
+        @include respond('tab-port'){
+            .exp-bx{
+                margin-left: 0;
+                margin-right: -65px;
+            }
+        }
+        @include respond('phone-land'){
+            .exp-bx{
+                margin-left: 0;
+                margin-right: -155px;
+            }
+        }
+        @include respond('phone'){
+            .exp-bx{
+                margin: 0;
+                .exp-info{
+                    ul li{
+                        padding: 4px 25px 4px 0px;
+                    }
+                }
+            }
+        }
+    }
+    
+    //About Style-2
+    
+    .about-style2{
+        .about-thumb{
+            .popup-youtube{
+                left: auto;
+                right: -45px;
+            }
+        }
+        .section-head {
+            margin-right: 0;
+            margin-left: -5px;
+        }
+        @include respond('tab-port'){
+            .about-thumb{
+                .popup-youtube{
+                    left: 50%;
+                    right: auto;
+                }
+            }
+        }
+    }
+    
+    //About Style-3
+    
+    .about-style3{
+        .about-thumb{
+            padding: 60px 150px 60px 20px;
+            &:before{
+                left: 100px;
+                right: auto;
+            }
+        }
+        @include respond('phone-land'){
+            .about-thumb {
+                padding: 60px 150px 60px 0;
+            }
+        }
+        @include respond('phone'){
+            .about-thumb {
+                padding: 30px 30px 30px 0;
+            }
+        }
+    }
+    .bg-particles{
+        .particles-js-canvas-el{
+            left: auto;
+            right: 0;
+        }
+    }  
+    
+    //About Style-4
+    
+    .about-style4{
+        .about-thumb{
+            margin-right: 0;
+            margin-left: 20px;
+        }
+        blockquote{
+            margin: 0 30px 30px 0;
+        }
+        
+        @include respond('tab-port'){
+            .about-thumb {
+                margin-right: 0;
+                margin-left: 20px;
+            }
+        }
+    }
+    
+    //About Style-5
+    
+    .about-style5{
+        .about-media{
+            margin-right:0;
+            margin-left:15px;
+        }
+    }
+    
+    //About Style-6
+    
+    .about-style6{
+        .about-media{
+            .dz-media{
+                .popup-youtube{
+                    right:auto;
+                    left:0;
+                }
+            }
+        }
+    }
+    
+    //About Style-7
+    
+    .about-style7{
+        .about-media{
+            padding-left:0;
+            padding-right:65px;
+            .ov-img{
+                left:auto;
+                right:0;
+                padding-right:0;
+                padding-left:140px;
+            }
+            @include respond ('phone'){
+                padding-left:0;
+                padding-right:30px;
+                .ov-img{
+                    padding-right:0;
+                    padding-left:80px;
+                }
+            }
+        }
+    }
+    
+    //About Style-8
+    
+    .about-style8{
+        .dz-media{
+            ul{
+                left: auto;
+                right: 50px;
+            }
+        }
+    }
+    
+    //About Style-9
+    
+    .company-info{
+        .users,
+        .brand{
+            margin-right:0;
+            margin-left:20px;
+        }
+    }
+    
+    //About Style-10
+    
+    .about-style10{
+        .list-check-circle{
+            li{
+                padding:8px 30px 8px 5px;
+            }
+        }
+    }
+    
+    //About Style-11
+    
+    .about-style11{
+        .dz-media{
+            margin-left:0;
+            margin-right:30px;
+            overflow:visible;
+            .exp-box{
+                left:auto;
+                right:-30px;
+            }
+        }
+    }
+
+    .check-box{
+        padding:30px 95px 30px 30px;
+        &:before{
+            left:auto;
+            right:30px;
+        }
+    }
+    
+    //About Style-12
+    
+    .about-style12{
+        .dz-media{
+            padding-left: 0;
+            padding-right: 100px;
+            margin-left: 0;
+            margin-right: 75px;
+            &:after{
+                left:auto;
+                right:0;
+            }
+            ul{
+                left:auto;
+                right:-75px;
+            }
+            @include custommq ($max:1200px){
+                padding-left: 0;
+                padding-right: 60px;
+                margin-left: 0;
+                margin-right: 40px;
+                ul{
+                    left:auto;
+                    right:-40px;
+                }
+            }
+            @include respond ('phone'){
+                margin-right:0;
+                padding-right: 30px;
+                padding-left: 0;
+            }
+        }
+    }
+    
+    //About Style-13
+    
+    .about-style13{
+        .dz-media{
+            padding-right:70px;
+            padding-left:40px;
+            .bg-img{
+                left:auto;
+                right:0;
+            }
+            @include respond ('tab-port'){
+                padding-left:0;
+            }
+            @include respond ('phone'){
+                padding-right:40px;
+            }
+        }
+    }
+    
+    //About Style-14
+    
+    .about-style14{
+        .dz-media{
+            padding-left:30px;
+            padding-right:0;
+            @include respond ('tab-port'){
+                padding-left:0;
+            }
+        }
+        .about-content{
+            margin-left: 0;
+            margin-right: -140px;
+            .section-head{
+                margin-right:0;
+                margin-left:155px;
+            }
+            .info{
+                padding-left: 0;
+                padding-right: 190px;
+                &:after{
+                    left:auto;
+                    right:50px;
+                }
+            }
+            @include respond ('tab-port'){
+                margin-left:0;
+                .section-head{
+                    margin-left:0;
+                    margin-right:155px;
+                }
+                .info{
+                    padding-left: 0;
+                    &:after{
+                        content:none;
+                    }
+                }
+            }
+        }
+    }
+    
+    //About Box-2
+    
+    .about-bx2{
+        .dz-media{
+            .info{
+                left: auto;
+                right: 100px;
+            }
+            &:after{
+                left:auto;
+                right:0;
+            }
+        }
+        @include respond ('phone-land'){
+            .dz-media{
+                .info{
+                    left: auto;
+                    right: 70px;
+                }
+            }
+        }
+        @include respond ('phone'){
+            .dz-media{
+                .info{
+                    left: auto;
+                    right: 50px;
+                }
+            }
+        }
+    }
+
+}

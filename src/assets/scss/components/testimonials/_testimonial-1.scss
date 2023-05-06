@@ -1,0 +1,113 @@
+// Testimonial 1
+.testimonial-1{
+	display: flex;
+	align-items: center;
+	
+	.testimonial-pic {
+		min-width: 50%;
+		height: 330px;
+		background: #f0f0f0;
+		position: relative;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transition: 0s .5s;
+		-o-transition: 0s .5s;
+		transition: 0s .5s;
+		img{
+			width: 350px;
+			height: 100%;
+			object-fit: cover;
+		}
+		
+		&:after,
+		&:before{
+			content: "";
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+		&:before{
+			background-color: var(--primary);
+			z-index: 1;
+			-webkit-transform: translateX(-101%);
+			-ms-transform: translateX(-101%);
+			transform: translateX(-101%);
+		}
+		&:after{
+			background-color: var(--secondary);
+			z-index: 2;
+			-webkit-transform: translateX(-101%);
+			-ms-transform: translateX(-101%);
+			transform: translateX(-101%);
+		}
+		
+	}
+	.testimonial-text {
+		margin: 15px 0;
+	}
+	.testimonial-info{
+	    z-index: 1;
+		position: relative;
+		padding: 30px;
+		p{
+			font-size: 18px;
+		}
+	}
+	.testimonial-head{
+		.sub-title{
+		    font-size: 20px;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+		.title{
+			text-transform: uppercase;
+			font-size: 52px;
+			line-height: 52px;
+			margin-left: -100px;
+			@include custommq($max:1200px){
+				font-size: 42px;
+				line-height: 45px;
+			}
+			@include respond('tab-port'){
+				font-size: 35px;
+				line-height: 38px;
+			}
+			@include respond('phone'){
+				font-size: 32px;
+				line-height: 36px;
+			}
+		}
+	}
+	@include respond ('phone-land'){
+		display:block;
+		.testimonial-head .title{
+			margin-left:0;
+		}
+		.testimonial-info{
+			padding: 30px 0;
+		}
+	}
+}
+
+.testimonial-swiper{
+	.swiper-slide{
+		&.swiper-slide-active{
+			.testimonial-1{
+				.testimonial-pic {
+					opacity: 1;
+					&:after{
+						-webkit-animation: split-box-animation 1.2s 0.2s cubic-bezier(1, 0, 0.54, 0.99) forwards;
+						animation: split-box-animation 1.2s 0.2s cubic-bezier(1, 0, 0.54, 0.99) forwards;
+					}
+					&:before{
+						-webkit-animation: split-box-animation 1.5s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+						animation: split-box-animation 1.5s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+					}
+				}
+			}
+		}
+	}
+}

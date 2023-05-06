@@ -1,0 +1,62 @@
+.dz-bnr-inr.style-2{
+	overflow: visible;
+	h1 {
+		font-size: 80px;
+		margin-bottom: 10px;
+		line-height: 1.2;
+		color:#fff;
+		text-transform: capitalize;
+		@include respond('tab-port'){
+			font-size: 42px;
+		}
+		@include respond('phone-land'){
+			font-size: 32px;
+		}
+	}
+	p{
+		color:#fff;
+		font-size:18px;
+		max-width: 560px;
+		@include respond ('phone'){
+			font-size:14px;
+		}
+	}
+	&:after{
+		position:absolute;
+		top:0;
+		right:0;
+		content:"";
+		height:100%;
+		width:60%;
+		background-color:#fff;
+		opacity:.15;
+		clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	}
+	.breadcrumb-row{  
+		position:absolute;
+		left:50%;
+		transform:translateX(-50%);
+		bottom:-20px;
+		ul{
+			background:var(--primary);
+			padding: 0;
+			display:inline-block;
+			padding: 15px 30px;
+			margin-bottom:0;
+		}
+		@include respond ('phone-land'){
+			padding: 5px 20px;
+			li{
+				font-size:15px;
+			}
+		}
+		@include respond ('tab-port'){
+			left:15px;
+			right:15px;
+			transform:translateX(0px);
+		}
+	}
+	@include respond ('phone'){
+		height:300px;
+	}
+}

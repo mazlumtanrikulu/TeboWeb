@@ -1,0 +1,21 @@
+[dir='rtl']{
+	.blockquote{
+        &.style-1{
+            box-shadow: unset;
+            padding: 60px 30px 5px 5px;
+            &:before{
+                left: auto;
+                right: 30px;
+            }
+            cite{
+                margin-left: 0;
+                margin-right: 6px;
+                
+                &:before{
+                    margin-left: -5px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

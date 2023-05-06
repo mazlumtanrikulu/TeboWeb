@@ -1,0 +1,625 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?9f36a1366a83260b9167055d4f06bc7f") format("truetype"),
+url("./flaticon.woff?9f36a1366a83260b9167055d4f06bc7f") format("woff"),
+url("./flaticon.woff2?9f36a1366a83260b9167055d4f06bc7f") format("woff2"),
+url("./flaticon.eot?9f36a1366a83260b9167055d4f06bc7f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?9f36a1366a83260b9167055d4f06bc7f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "factory": "\f101",
+    "factory-1": "\f102",
+    "conveyor": "\f103",
+    "tool": "\f104",
+    "cart": "\f105",
+    "eolic-energy": "\f106",
+    "robotic-arm": "\f107",
+    "fuel-station": "\f108",
+    "gear": "\f109",
+    "radiation": "\f10a",
+    "nuclear-plant": "\f10b",
+    "robot-arm": "\f10c",
+    "factory-2": "\f10d",
+    "engineer": "\f10e",
+    "truck": "\f10f",
+    "tanker": "\f110",
+    "professional": "\f111",
+    "battery": "\f112",
+    "triangle": "\f113",
+    "settings": "\f114",
+    "nut": "\f115",
+    "cogwheel": "\f116",
+    "engineer-1": "\f117",
+    "repair": "\f118",
+    "axe": "\f119",
+    "pie-chart": "\f11a",
+    "saw": "\f11b",
+    "loupe": "\f11c",
+    "battery-1": "\f11d",
+    "wall": "\f11e",
+    "wrench": "\f11f",
+    "hierarchy": "\f120",
+    "processor": "\f121",
+    "engineer-2": "\f122",
+    "cogwheel-1": "\f123",
+    "bulb": "\f124",
+    "package": "\f125",
+    "pie-chart-1": "\f126",
+    "home": "\f127",
+    "trophy": "\f128",
+    "monitor": "\f129",
+    "shopping-cart": "\f12a",
+    "favorites": "\f12b",
+    "video-camera": "\f12c",
+    "key": "\f12d",
+    "placeholder": "\f12e",
+    "idea": "\f12f",
+    "message": "\f130",
+    "edit": "\f131",
+    "phone-call": "\f132",
+    "heart": "\f133",
+    "checked": "\f134",
+    "shield": "\f135",
+    "bar-chart": "\f136",
+    "laptop": "\f137",
+    "wifi": "\f138",
+    "settings-1": "\f139",
+    "microphone": "\f13a",
+    "reload": "\f13b",
+    "atomic": "\f13c",
+    "planet-earth": "\f13d",
+    "line-chart": "\f13e",
+    "megaphone": "\f13f",
+    "chat": "\f140",
+    "padlock": "\f141",
+    "information": "\f142",
+    "layers": "\f143",
+    "users": "\f144",
+    "calculator": "\f145",
+    "trash": "\f146",
+    "cloud-computing": "\f147",
+    "share": "\f148",
+    "medal": "\f149",
+    "stopwatch": "\f14a",
+    "home-1": "\f14b",
+    "time": "\f14c",
+    "music-player": "\f14d",
+    "calendar": "\f14e",
+    "placeholder-1": "\f14f",
+    "star": "\f150",
+    "users-1": "\f151",
+    "calendar-1": "\f152",
+    "placeholder-2": "\f153",
+    "user": "\f154",
+    "list": "\f155",
+    "video-player": "\f156",
+    "database": "\f157",
+    "clock": "\f158",
+    "picture": "\f159",
+    "route": "\f15a",
+    "users-2": "\f15b",
+    "alarm-clock": "\f15c",
+    "diamond": "\f15d",
+    "server": "\f15e",
+    "hourglass": "\f15f",
+    "alarm-clock-1": "\f160",
+    "locked": "\f161",
+    "smartphone": "\f162",
+    "smartphone-1": "\f163",
+    "home-2": "\f164",
+    "database-1": "\f165",
+    "menu": "\f166",
+    "view": "\f167",
+    "hourglass-1": "\f168",
+    "video-camera-1": "\f169",
+    "speaker": "\f16a",
+    "speaker-1": "\f16b",
+    "stopwatch-1": "\f16c",
+    "stopwatch-2": "\f16d",
+    "settings-2": "\f16e",
+    "search": "\f16f",
+    "briefcase": "\f170",
+    "notebook": "\f171",
+    "calculator-1": "\f172",
+    "layers-1": "\f173",
+    "calendar-2": "\f174",
+    "app": "\f175",
+    "warning": "\f176",
+    "server-1": "\f177",
+    "calendar-3": "\f178",
+    "exit": "\f179",
+    "eyeglasses": "\f17a",
+    "flag": "\f17b",
+    "gift": "\f17c",
+    "umbrella": "\f17d",
+    "map": "\f17e",
+    "sign": "\f17f",
+    "checked-1": "\f180",
+    "placeholder-3": "\f181",
+    "funnel": "\f182",
+    "paper-plane": "\f183",
+    "login": "\f184",
+    "download": "\f185",
+    "smartphone-2": "\f186",
+    "archive": "\f187",
+    "fingerprint": "\f188",
+    "user-1": "\f189",
+    "settings-3": "\f18a",
+    "call": "\f18b",
+    "phone": "\f18c",
+    "phone-message": "\f18d",
+    "phone-1": "\f18e",
+    "agree": "\f18f",
+    "chat-1": "\f190",
+    "search-1": "\f191",
+    "like": "\f192",
+    "user-2": "\f193",
+    "share-1": "\f194",
+    "file": "\f195",
+    "edit-1": "\f196",
+);
+
+.flaticon-factory:before {
+    content: map-get($flaticon-map, "factory");
+}
+.flaticon-factory-1:before {
+    content: map-get($flaticon-map, "factory-1");
+}
+.flaticon-conveyor:before {
+    content: map-get($flaticon-map, "conveyor");
+}
+.flaticon-tool:before {
+    content: map-get($flaticon-map, "tool");
+}
+.flaticon-cart:before {
+    content: map-get($flaticon-map, "cart");
+}
+.flaticon-eolic-energy:before {
+    content: map-get($flaticon-map, "eolic-energy");
+}
+.flaticon-robotic-arm:before {
+    content: map-get($flaticon-map, "robotic-arm");
+}
+.flaticon-fuel-station:before {
+    content: map-get($flaticon-map, "fuel-station");
+}
+.flaticon-gear:before {
+    content: map-get($flaticon-map, "gear");
+}
+.flaticon-radiation:before {
+    content: map-get($flaticon-map, "radiation");
+}
+.flaticon-nuclear-plant:before {
+    content: map-get($flaticon-map, "nuclear-plant");
+}
+.flaticon-robot-arm:before {
+    content: map-get($flaticon-map, "robot-arm");
+}
+.flaticon-factory-2:before {
+    content: map-get($flaticon-map, "factory-2");
+}
+.flaticon-engineer:before {
+    content: map-get($flaticon-map, "engineer");
+}
+.flaticon-truck:before {
+    content: map-get($flaticon-map, "truck");
+}
+.flaticon-tanker:before {
+    content: map-get($flaticon-map, "tanker");
+}
+.flaticon-professional:before {
+    content: map-get($flaticon-map, "professional");
+}
+.flaticon-battery:before {
+    content: map-get($flaticon-map, "battery");
+}
+.flaticon-triangle:before {
+    content: map-get($flaticon-map, "triangle");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-nut:before {
+    content: map-get($flaticon-map, "nut");
+}
+.flaticon-cogwheel:before {
+    content: map-get($flaticon-map, "cogwheel");
+}
+.flaticon-engineer-1:before {
+    content: map-get($flaticon-map, "engineer-1");
+}
+.flaticon-repair:before {
+    content: map-get($flaticon-map, "repair");
+}
+.flaticon-axe:before {
+    content: map-get($flaticon-map, "axe");
+}
+.flaticon-pie-chart:before {
+    content: map-get($flaticon-map, "pie-chart");
+}
+.flaticon-saw:before {
+    content: map-get($flaticon-map, "saw");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-battery-1:before {
+    content: map-get($flaticon-map, "battery-1");
+}
+.flaticon-wall:before {
+    content: map-get($flaticon-map, "wall");
+}
+.flaticon-wrench:before {
+    content: map-get($flaticon-map, "wrench");
+}
+.flaticon-hierarchy:before {
+    content: map-get($flaticon-map, "hierarchy");
+}
+.flaticon-processor:before {
+    content: map-get($flaticon-map, "processor");
+}
+.flaticon-engineer-2:before {
+    content: map-get($flaticon-map, "engineer-2");
+}
+.flaticon-cogwheel-1:before {
+    content: map-get($flaticon-map, "cogwheel-1");
+}
+.flaticon-bulb:before {
+    content: map-get($flaticon-map, "bulb");
+}
+.flaticon-package:before {
+    content: map-get($flaticon-map, "package");
+}
+.flaticon-pie-chart-1:before {
+    content: map-get($flaticon-map, "pie-chart-1");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-favorites:before {
+    content: map-get($flaticon-map, "favorites");
+}
+.flaticon-video-camera:before {
+    content: map-get($flaticon-map, "video-camera");
+}
+.flaticon-key:before {
+    content: map-get($flaticon-map, "key");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
+}
+.flaticon-message:before {
+    content: map-get($flaticon-map, "message");
+}
+.flaticon-edit:before {
+    content: map-get($flaticon-map, "edit");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon-map, "checked");
+}
+.flaticon-shield:before {
+    content: map-get($flaticon-map, "shield");
+}
+.flaticon-bar-chart:before {
+    content: map-get($flaticon-map, "bar-chart");
+}
+.flaticon-laptop:before {
+    content: map-get($flaticon-map, "laptop");
+}
+.flaticon-wifi:before {
+    content: map-get($flaticon-map, "wifi");
+}
+.flaticon-settings-1:before {
+    content: map-get($flaticon-map, "settings-1");
+}
+.flaticon-microphone:before {
+    content: map-get($flaticon-map, "microphone");
+}
+.flaticon-reload:before {
+    content: map-get($flaticon-map, "reload");
+}
+.flaticon-atomic:before {
+    content: map-get($flaticon-map, "atomic");
+}
+.flaticon-planet-earth:before {
+    content: map-get($flaticon-map, "planet-earth");
+}
+.flaticon-line-chart:before {
+    content: map-get($flaticon-map, "line-chart");
+}
+.flaticon-megaphone:before {
+    content: map-get($flaticon-map, "megaphone");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-padlock:before {
+    content: map-get($flaticon-map, "padlock");
+}
+.flaticon-information:before {
+    content: map-get($flaticon-map, "information");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon-map, "layers");
+}
+.flaticon-users:before {
+    content: map-get($flaticon-map, "users");
+}
+.flaticon-calculator:before {
+    content: map-get($flaticon-map, "calculator");
+}
+.flaticon-trash:before {
+    content: map-get($flaticon-map, "trash");
+}
+.flaticon-cloud-computing:before {
+    content: map-get($flaticon-map, "cloud-computing");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-medal:before {
+    content: map-get($flaticon-map, "medal");
+}
+.flaticon-stopwatch:before {
+    content: map-get($flaticon-map, "stopwatch");
+}
+.flaticon-home-1:before {
+    content: map-get($flaticon-map, "home-1");
+}
+.flaticon-time:before {
+    content: map-get($flaticon-map, "time");
+}
+.flaticon-music-player:before {
+    content: map-get($flaticon-map, "music-player");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-placeholder-1:before {
+    content: map-get($flaticon-map, "placeholder-1");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-users-1:before {
+    content: map-get($flaticon-map, "users-1");
+}
+.flaticon-calendar-1:before {
+    content: map-get($flaticon-map, "calendar-1");
+}
+.flaticon-placeholder-2:before {
+    content: map-get($flaticon-map, "placeholder-2");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-list:before {
+    content: map-get($flaticon-map, "list");
+}
+.flaticon-video-player:before {
+    content: map-get($flaticon-map, "video-player");
+}
+.flaticon-database:before {
+    content: map-get($flaticon-map, "database");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-picture:before {
+    content: map-get($flaticon-map, "picture");
+}
+.flaticon-route:before {
+    content: map-get($flaticon-map, "route");
+}
+.flaticon-users-2:before {
+    content: map-get($flaticon-map, "users-2");
+}
+.flaticon-alarm-clock:before {
+    content: map-get($flaticon-map, "alarm-clock");
+}
+.flaticon-diamond:before {
+    content: map-get($flaticon-map, "diamond");
+}
+.flaticon-server:before {
+    content: map-get($flaticon-map, "server");
+}
+.flaticon-hourglass:before {
+    content: map-get($flaticon-map, "hourglass");
+}
+.flaticon-alarm-clock-1:before {
+    content: map-get($flaticon-map, "alarm-clock-1");
+}
+.flaticon-locked:before {
+    content: map-get($flaticon-map, "locked");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-smartphone-1:before {
+    content: map-get($flaticon-map, "smartphone-1");
+}
+.flaticon-home-2:before {
+    content: map-get($flaticon-map, "home-2");
+}
+.flaticon-database-1:before {
+    content: map-get($flaticon-map, "database-1");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-view:before {
+    content: map-get($flaticon-map, "view");
+}
+.flaticon-hourglass-1:before {
+    content: map-get($flaticon-map, "hourglass-1");
+}
+.flaticon-video-camera-1:before {
+    content: map-get($flaticon-map, "video-camera-1");
+}
+.flaticon-speaker:before {
+    content: map-get($flaticon-map, "speaker");
+}
+.flaticon-speaker-1:before {
+    content: map-get($flaticon-map, "speaker-1");
+}
+.flaticon-stopwatch-1:before {
+    content: map-get($flaticon-map, "stopwatch-1");
+}
+.flaticon-stopwatch-2:before {
+    content: map-get($flaticon-map, "stopwatch-2");
+}
+.flaticon-settings-2:before {
+    content: map-get($flaticon-map, "settings-2");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon-map, "briefcase");
+}
+.flaticon-notebook:before {
+    content: map-get($flaticon-map, "notebook");
+}
+.flaticon-calculator-1:before {
+    content: map-get($flaticon-map, "calculator-1");
+}
+.flaticon-layers-1:before {
+    content: map-get($flaticon-map, "layers-1");
+}
+.flaticon-calendar-2:before {
+    content: map-get($flaticon-map, "calendar-2");
+}
+.flaticon-app:before {
+    content: map-get($flaticon-map, "app");
+}
+.flaticon-warning:before {
+    content: map-get($flaticon-map, "warning");
+}
+.flaticon-server-1:before {
+    content: map-get($flaticon-map, "server-1");
+}
+.flaticon-calendar-3:before {
+    content: map-get($flaticon-map, "calendar-3");
+}
+.flaticon-exit:before {
+    content: map-get($flaticon-map, "exit");
+}
+.flaticon-eyeglasses:before {
+    content: map-get($flaticon-map, "eyeglasses");
+}
+.flaticon-flag:before {
+    content: map-get($flaticon-map, "flag");
+}
+.flaticon-gift:before {
+    content: map-get($flaticon-map, "gift");
+}
+.flaticon-umbrella:before {
+    content: map-get($flaticon-map, "umbrella");
+}
+.flaticon-map:before {
+    content: map-get($flaticon-map, "map");
+}
+.flaticon-sign:before {
+    content: map-get($flaticon-map, "sign");
+}
+.flaticon-checked-1:before {
+    content: map-get($flaticon-map, "checked-1");
+}
+.flaticon-placeholder-3:before {
+    content: map-get($flaticon-map, "placeholder-3");
+}
+.flaticon-funnel:before {
+    content: map-get($flaticon-map, "funnel");
+}
+.flaticon-paper-plane:before {
+    content: map-get($flaticon-map, "paper-plane");
+}
+.flaticon-login:before {
+    content: map-get($flaticon-map, "login");
+}
+.flaticon-download:before {
+    content: map-get($flaticon-map, "download");
+}
+.flaticon-smartphone-2:before {
+    content: map-get($flaticon-map, "smartphone-2");
+}
+.flaticon-archive:before {
+    content: map-get($flaticon-map, "archive");
+}
+.flaticon-fingerprint:before {
+    content: map-get($flaticon-map, "fingerprint");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon-map, "user-1");
+}
+.flaticon-settings-3:before {
+    content: map-get($flaticon-map, "settings-3");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon-map, "phone");
+}
+.flaticon-phone-message:before {
+    content: map-get($flaticon-map, "phone-message");
+}
+.flaticon-phone-1:before {
+    content: map-get($flaticon-map, "phone-1");
+}
+.flaticon-agree:before {
+    content: map-get($flaticon-map, "agree");
+}
+.flaticon-chat-1:before {
+    content: map-get($flaticon-map, "chat-1");
+}
+.flaticon-search-1:before {
+    content: map-get($flaticon-map, "search-1");
+}
+.flaticon-like:before {
+    content: map-get($flaticon-map, "like");
+}
+.flaticon-user-2:before {
+    content: map-get($flaticon-map, "user-2");
+}
+.flaticon-share-1:before {
+    content: map-get($flaticon-map, "share-1");
+}
+.flaticon-file:before {
+    content: map-get($flaticon-map, "file");
+}
+.flaticon-edit-1:before {
+    content: map-get($flaticon-map, "edit-1");
+}

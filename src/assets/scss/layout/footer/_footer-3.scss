@@ -1,0 +1,139 @@
+// ft-clients
+.ft-clients{
+	background-color: $white;
+	border-bottom: 10px solid var(--primary);
+	box-shadow: 5px 0 15px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	z-index: 1;
+	position: relative;
+}
+.ft-clients-area{
+	position: relative;
+	&:before{
+		content: "";
+		position: absolute;
+		height: 50%;
+		width: 100%;
+		left: 0;
+		top: 0;
+		background-color: $white;
+	}
+	&.bg-gray{
+		background-color: transparent;
+		&:before{
+			background-color: #f7f9fb;
+		}
+	}
+}
+.footer-logo-head{
+	border-bottom:1px dashed #959595;
+    margin-bottom: 50px;
+	padding-bottom:20px;
+	@include respond('phone'){
+		margin-bottom: 30px;	
+		padding-bottom:40px;
+	}
+}
+.site-footer{
+	&.style-3{
+		position:relative;
+		z-index:1;
+		overflow:hidden;
+		.footer-top{
+			padding-top:100px;
+			padding-bottom:40px;
+			position:relative;
+			z-index:1;
+			&:after{
+				content:"";
+				height:220px;
+				width:220px;
+				position:absolute;
+				bottom:0;
+				left:100px;
+				background-image:url('../images/pattern3.png');
+				background-repeat: no-repeat;
+				background-size: 100%;
+				z-index:-1;
+				-webkit-animation: move1 5s infinite;
+				animation: move1 5s infinite;
+			}
+			&:before{
+				content:"";
+				height:197px;
+				width:197px;
+				position:absolute;
+				right:100px;
+				top:50px;
+				background-image:url('../images/pattern4.png');
+				background-repeat: no-repeat;
+				background-size: 100%;
+				z-index:-1;
+				-webkit-animation: move2 5s infinite;
+				animation: move2 5s infinite;
+			}
+			@include custommq ($max:1200px){
+				padding-top:80px;
+				padding-bottom:20px;
+			}
+			@include respond ('phone-land'){
+				padding-top: 50px;
+				padding-bottom: 20px;
+			}
+		}
+		.widget_services ul{
+			margin-top:-.5rem;
+		}
+		.footer-title{
+			position:relative;
+			padding-bottom:0;
+			margin-bottom: 30px;
+		}
+		.recent-posts-entry .widget-post-bx .widget-post .title a{
+			color:rgba(255,255,255,1);
+			&:hover{
+				color: var(--primary);
+			}
+		}
+		.footer-bottom{
+			border:0;
+			background-color:transparent;
+			border-top:1px solid #32434f;
+			border-style: dashed;
+			
+			@include respond ('phone-land'){
+				.copyright-text {
+					margin-bottom: 10px;
+					display: block;
+				}
+			}
+		}
+		.footer-link li{
+			color:rgba(255,255,255,.8);
+		}
+		&:after{
+			content: "";
+			position: absolute;
+			top: -200px;
+			left: -200px;
+			z-index: -1;
+			opacity: .7;
+			height: 500px;
+			width: 500px;
+			background: radial-gradient(at center center, var(--rgba-primary-2) 30%, var(--rgba-primary-2) 35%, rgba(255, 73, 23, 0) 76%, rgba(255, 73, 23, 0) 96%);
+		}
+		
+		&:before{
+			content: "";
+			position: absolute;
+			bottom: -200px;
+			right: -200px;
+			z-index: -1;
+			opacity: .7;
+			height: 500px;
+			width: 500px;
+			background: radial-gradient(at center center, var(--rgba-primary-2) 30%, var(--rgba-primary-2) 35%, rgba(255, 73, 23, 0) 76%, rgba(255, 73, 23, 0) 96%);
+		}
+	}
+}
+

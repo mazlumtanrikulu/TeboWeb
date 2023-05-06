@@ -1,0 +1,83 @@
+[dir='rtl']{
+    
+    //Portfolio-1
+    
+    .dz-box.style-1{
+        .dz-info{
+            left: auto;
+            right: 0;
+        }
+        &:hover{
+            .dz-media{
+                transform:rotate(5deg)scale(1.2);
+            }
+        }
+    }
+    
+    //Portfolio-2
+       
+    .dz-box.style-2{
+        .dz-info{;
+            left:auto;
+            right:0;
+        }
+        &:hover{
+            .dz-media{
+                transform:rotate(5deg)scale(1.2);
+            }
+        }
+    }
+    
+    //Portfolio-3
+    
+    .dz-box.style-3{
+        .dz-info{
+            left:auto;
+            right:0;
+        }
+        &:hover{
+            .dz-media{
+                transform:rotate(5deg)scale(1.2);
+            }
+        }
+    }
+    
+    //Portfolio-4
+    
+    .dz-box.style-4{
+        .dz-media{
+            &:after{
+                left:auto;
+                right:0;
+            }
+        }
+    }
+    
+    //Portfolio-5
+    
+    .dz-box.style-5{
+        .overlay-primary{
+            &:before{
+                left:auto;
+                right:0;
+            }
+        }
+    }
+    
+    //Portfolio-6
+    
+    .dz-box.style-6{
+        &:after{
+            left:auto;
+            right:0;
+        }
+        .info{
+            left:auto;
+            right:0;
+            text-align:right;
+        }
+        .view-btn{
+            margin: -50px -50px 0px 0;
+        }
+    }
+}

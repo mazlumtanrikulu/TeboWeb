@@ -1,0 +1,130 @@
+// to ignore cli warning about deprecated mixin
+$enable-deprecation-messages: false;
+$ignore-warning             : true;
+
+// Color
+$primary   : #ff5317;
+$secondary : #192436 !default;
+$success   : #10ca93 !default;
+$info      : #00afef !default;
+$warning   : #ff9f00 !default;
+$danger    : #ff5269 !default;
+$light     : #faf8f2 !default;
+$dark      : #181c32;
+
+// Body
+$body-bg   : #ffffff;
+$body-color: #555;
+
+// Typography
+$barlow: 'Barlow', sans-serif;
+$font-family-base : 'Roboto', sans-serif;;
+$font-family-title : 'Oswald', sans-serif;
+$headings-font-weight   : 700;
+
+// $headings-font-family:        $fm;
+$font-size-base         : 1rem !default;
+$font-weight-base       : 400 !default;
+
+$line-height-base    : 1.6;
+$h1-font-size           : 2.625rem;
+$h2-font-size           : 2.1875rem;
+$h3-font-size           : 1.75rem;
+$h4-font-size           : 1.5rem;
+$h5-font-size           : 1.25rem;
+$h6-font-size           : 1rem;
+
+$text-muted : #AEAED5;
+$colors     : () !default;
+
+$heading-primary-size: 1.8rem;
+$sub-heading-size    : 1.6rem !default;
+$grid-gutter-width   : 30px;
+$dropdown-lik-color  : $body-color;
+$border-color        : #E1E1F0;
+$headings-color      : #212529 !default;
+$grid-breakpoints    : (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440);
+$container-max-widths: (sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1199px) !default;
+
+$input-btn-focus-width: 0rem !default;
+$border-radius-base   : 0 !default;
+$shadow-color: rgba(160, 159, 202, 0.15);
+
+// Other Color
+$orange  : #ff8853;
+$skyblue : #00aeff;
+$maroon  : #9e0168;
+$yellow  : #ffa808;
+$red     : #ff586e;
+$green   : #029e76;
+$blue    : #5543d1;
+
+// Color Opacity
+$primary-light: rgba($primary,0.1);
+$secondary-light: rgba($secondary,0.1);
+$success-light: rgba($success,0.1);
+$warning-light: rgba($warning,0.1);
+$danger-light: rgba($danger,0.1);
+$info-light: rgba($info,0.1);
+$dark-light: rgba($dark,0.1);
+$white-light: rgba($light,0.1);
+$yellow-light: rgba($yellow,0.1);
+
+// border radius
+$border-radius: .25rem !default;
+$border-radius-lg: 1rem !default;
+$border-radius-sm: .75rem !default;
+
+
+//color for coller pallate
+$color_pallate_1: $primary;
+$color_pallate_2: #ff6016;
+$color_pallate_3: #f7ae00;
+
+// Social Colors
+$facebook: #3b5998;
+$twitter: #1da1f2;
+$youtube: #FF0000;
+$google-plus: #db4439;
+$linkedin: #007bb6;
+$instagram: #c32aa3;
+$pinterest: #bd081c;
+$google: #4285f4;
+$snapchat: #fffc00;
+$whatsapp: #25d366;
+$tumblr: #35465d;
+$reddit: #ff4500;
+$spotify: #1ed760;
+$yahoo: #430297;
+$dribbble: #ea4c89;
+$skype: #00aff0;
+$quora: #aa2200;
+$riverBed: #4C585C;
+$vimeo: #1ab7ea;
+
+
+:root{
+	--gradient: linear-gradient( to right, rgb(255,64,62) 0%, rgb(255,129,27) 100%);
+	--gradient-sec: linear-gradient( to right, rgb(57,26,166) 0%, rgb(6,163,245) 100%);
+	--primary: #{$primary};
+	--secondary: #{$secondary};
+	--primary-hover: #{darken($primary, 10)};
+	--primary-dark: #{darken($primary, 30)};
+	--rgba-primary-1: #{rgba($primary, 0.1)};
+	--rgba-primary-2: #{rgba($primary, 0.2)};
+	--rgba-primary-3: #{rgba($primary, 0.3)};
+	--rgba-primary-4: #{rgba($primary, 0.4)};
+	--rgba-primary-5: #{rgba($primary, 0.5)};
+	--rgba-primary-6: #{rgba($primary, 0.6)};
+	--rgba-primary-7: #{rgba($primary, 0.7)};
+	--rgba-primary-8: #{rgba($primary, 0.8)};
+	--rgba-primary-9: #{rgba($primary, 0.9)};
+	--font-family-base: #{$font-family-base};
+	--border-radius-base: #{$border-radius-base};
+	--font-family-title: #{$font-family-title};
+	--title: #{$headings-color};
+	
+}

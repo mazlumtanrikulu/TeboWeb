@@ -1,0 +1,96 @@
+[dir='rtl']{
+    
+    .toggle-switch {
+        &:before {
+            left: auto;
+            right: 3px;
+        }
+        
+        .toggle-checkbox:checked+& {
+            &:before {
+                left: auto;
+                right: 26px;
+            }
+        }
+    }
+    .toggle-label {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    // Upload btn
+    .file-upload-wrapper {
+        &:after {
+            left: auto;
+            right: 0;
+        }
+
+        &:before {
+            right: auto;
+            left: 0;
+        }
+        input {
+            left: auto;
+            right: 0;
+        }
+    }
+
+    .input-group-prepend {
+        left: auto;
+        right: 10px;
+        margin-right: auto;
+        margin-left: 10px;
+        border-right: 0;
+        border-left: 1px solid #9192a4;
+    }
+    
+    
+    .input-group-prepend + .form-control,
+    .input-group-prepend + .form-control + .bootstrap-select,
+    .input-group-prepend + .form-control + .custom-file-label{
+        padding: 10px 65px 10px 20px;
+    }
+
+    .ui-datepicker-header a {
+        &.ui-datepicker-prev {
+            left: auto;
+            right: 0;
+        }
+
+        &.ui-datepicker-next {
+            right: auto;
+            left: 0;
+        }
+    }
+    
+    .form-select{
+        .dropdown-menu {
+            ul li {
+                a {
+                    img {
+                        margin-right: auto;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .form-select.btn-group{
+        .dropdown-toggle{
+            .caret{
+                right: auto;
+                left: 5px;
+            }
+        }
+    }
+    .form-check{
+        padding-right: 1.5rem;
+        padding-left: 0;
+        .form-check-input{
+            float: right!important;
+            margin-right: -1.5rem!important;
+            margin-left: 0!important;
+        }
+    }
+}

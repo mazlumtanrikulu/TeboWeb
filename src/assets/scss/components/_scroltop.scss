@@ -1,0 +1,36 @@
+// Scroltop
+.scroltop {
+    box-shadow: -4px 4px 24px -10px var(--primary) !important;
+    background: var(--primary);
+    border-color: var(--primary);
+    border-style: solid;
+    border-width: 0;
+    bottom: 15px;
+    color: $white;
+    cursor: pointer;
+    //display: none;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+	border-radius: var(--border-radius);
+    width: 50px;
+    z-index: 999;
+    box-shadow: -4px 4px 24px -10px;
+    transition: all .8s;
+    -moz-transition: all .8s;
+    -webkit-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+	svg{
+		display: none;
+	}
+	@include respond('phone'){
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+	}
+	
+}

@@ -1,0 +1,30 @@
+
+.dz-box.style-2{
+	overflow: hidden;
+	@include transitionMedium;
+	.dz-media{
+		background-size:cover;
+		display:block;
+		@include transitionMedium;
+	}
+	.title,
+	.title a{
+		color:#fff;
+	}
+	.sub-title{
+		font-family:var(--font-family-base);
+	}
+	.dz-info{
+		position:absolute;
+		bottom:0;
+		left:0;
+		visibility:hidden;
+		opacity:0;
+		padding:20px;
+	}
+	&:hover{
+		.dz-media{
+			transform:rotate(-5deg)scale(1.2);
+		}
+	}
+}

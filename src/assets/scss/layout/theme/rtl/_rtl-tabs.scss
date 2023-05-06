@@ -1,0 +1,15 @@
+[dir='rtl']{
+    
+    .nav-tabs{
+        &.style-1{
+            .nav-item{
+                border-left:1px solid #dee2e6;
+                border-right:0;
+                width: 100%;
+                &:last-child{
+                    border-left:0;
+                }
+            }
+        }
+    }
+}

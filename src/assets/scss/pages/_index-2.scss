@@ -1,0 +1,105 @@
+.service-wrapper{
+	z-index: 1;
+	position:relative;
+	background-size: cover;
+    background-position: right;
+	&:after{
+		content:"";
+		height:100%;
+		width:40%;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:-1;
+		background-color:#e8e8e8;
+		background-image:url('../images/background/bg5.png');
+		background-size:cover;
+		background-position:bottom;
+	}
+}
+.service-box{
+	background:#fff;
+	padding:70px;
+	@include respond ('phone-land'){
+		padding:40px;
+	}
+	@include respond ('phone'){
+		padding:25px;
+	}
+}
+
+.content-box{
+	background: #fff;
+	box-shadow: 0px 3px 29px 0px rgba(0, 0, 0, 0.07);
+	.dz-info{
+		padding: 30px;
+		position: relative;
+		&:after{
+			content: attr(data-num);
+			position: absolute;
+			top:30px;
+			right: 30px;
+			font-family: var(--font-family-title);
+			color:#dcdcdc;
+			font-size: 50px;
+			line-height: 1;
+			font-weight: 300;
+			@include transitionFast;
+		}
+	}
+	&:hover{
+		.dz-bottom .btn{
+			background-color: var(--secondary);
+		}
+		.dz-info{
+			&:after{
+				color: var(--primary);
+				font-size: 60px;
+				transform: rotate(-10deg);
+			}
+		}
+	}
+}
+
+.service-wrapper-2{
+	position: relative;
+	&:after{
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 29%;
+		background: #fff;
+	}
+}
+.contact-area1{
+	padding: 50px;
+	background: #fff;
+  	box-shadow: 0px 3px 29px 0px rgba(0, 0, 0, 0.07);
+  	@include respond ('phone'){
+  		padding: 30px;
+  	}
+}
+
+.jq-tip-dialog{
+	position:absolute;
+	background:#fff;
+	z-index:999;
+}
+.image-tooltip{
+	position:absolute;
+	background:var(--secondary);
+	padding:20px;
+	z-index:999;
+	width:0px;
+	.title{
+		color:#fff;
+		white-space:nowrap;
+	}
+	.sub-title{
+		white-space:nowrap;
+		color:var(--primary);
+		margin-bottom:0;
+	}
+}

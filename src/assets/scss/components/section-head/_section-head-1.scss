@@ -1,0 +1,57 @@
+// Section Head
+.section-head{
+	&.style-1{
+		.sub-title{
+			margin-bottom: 5px;
+			font-weight: 500;
+			position: relative;
+			display: inline-block;
+			padding-right: 50px;
+
+			&:before,
+			&:after{
+				content: "";
+				height: 2px;
+				width: 40px;
+				background-color: var(--primary);
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				display: none;
+			}
+			&:after{
+				right:0;
+				display: block;
+			}
+			&.style-1{
+				font-size:22px;
+				padding-right:0;
+				padding-left:25px;
+				&:after{
+					height:14px;
+					width:14px;
+					left:0;
+				}
+			}
+		}
+		&.text-right .sub-title{
+			padding-left: 50px;
+			padding-right: 0;
+			&:before{
+				left: 0;
+				display: block;
+			}
+		}
+		&.text-center .sub-title{
+			padding: 0 50px;
+			&:before{
+				left: 0;
+				display: block;
+			}
+			&:after{
+				right:0;
+				display: block;
+			}
+		}
+	}
+}

@@ -1,0 +1,147 @@
+.image-slider-wrapper{
+	.button-prev,
+	.button-next{
+		position:absolute;
+		top:50%;
+		height:75px;
+		width:75px;
+		line-height:75px;
+		border-radius:75px;
+		text-align:center;
+		border:2px solid #fff;
+		color:#fff;
+		z-index:2;
+		font-size:25px;
+		@include respond ('phone'){
+			height:55px;
+			width:55px;
+			line-height:55px;
+		}
+	}
+	.button-prev{
+		left:30px;
+	}
+	.button-next{
+		right:30px;
+	}
+}
+
+.image-box{
+	position:relative;
+	.info{
+		position:absolute;
+		bottom:0;
+		left:0;
+		padding: 30px 60px 30px 10px;
+		@include respond ('phone'){
+			padding: 30px 60px 30px 30px;
+		}
+	}
+	.dz-media{
+		overflow:hidden;
+		transform:skewX(-10deg);
+		height:500px;
+		@include transitionSlow;
+		img{
+			height:100%;
+			width:100%;
+			object-fit:cover;
+			transform:skewX(10deg)scale(1.3);
+		}
+		&:before{
+			content:"";
+			height:100%;
+			width:100%;
+			left:0;
+			top:0;
+			z-index:1;
+			border:5px solid var(--primary);
+			opacity:0;
+			position:absolute;
+			@include transitionSlow;
+		}
+		&:after{
+			content:"";
+			position:absolute;
+			height:100%;
+			width:100%;
+			left:0;
+			top:0;
+			background:rgba(0,0,0,.5);
+			@include transitionSlow;
+		}
+		@include respond ('phone'){
+			height:440px;
+		}
+	}
+	&:hover{
+		.dz-media{
+			&:after{
+				opacity:.5;
+			}
+			&:before{
+				opacity:1;
+			}
+		}
+	}
+}
+
+.best-service-box{
+	background:var(--secondary);
+	padding:70px;
+	@include respond ('tab-port'){
+		padding:30px;
+	}
+	p{
+		color:#bababa;
+	}
+}
+
+.bg-half-img{
+	position:absolute;
+	height:100%;
+	left:0;
+	top:0;
+	width:35%;
+	background-size:cover;
+}
+ul.info-desc{
+	li{
+		color:var(--primary);
+		display:flex;
+		border-bottom:1px solid var(--secondary);
+		padding-top:10px;
+		padding-bottom:10px;
+		&:before{
+			top:10px;
+		}
+		&:last-child{
+			border-bottom:0;
+		}
+		span{
+			color:#e5e5e5;
+			font-weight:300;
+			display:inline-block;
+			margin-left:auto;
+			width:50%;
+		}
+	}
+}
+
+.dz-section-1{
+	position:relative;
+	z-index:1;
+	.bg-img{
+		position:absolute;
+		top:0;
+		width:100%;
+		height:730px;
+		z-index:-1;
+		@include respond ('tab-port'){
+			height:400px;		
+		}
+		@include respond ('phone'){
+			height:300px;		
+		}
+	}
+}

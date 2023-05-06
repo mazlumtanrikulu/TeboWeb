@@ -1,0 +1,61 @@
+// Testimonial 4
+.testimonial-4{
+	display: flex;
+	
+	.testimonial-pic {
+		border: 0px;
+		margin-right: 35px;
+		height: auto;
+		width: auto;
+		padding: 20px 20px 0 0;
+	
+		img{
+			min-width: 135px;
+			height: 135px;
+			border-radius: 50%;
+		}
+		&:after{
+			content: "\f10e";
+			position: absolute;
+			right: 0;
+			top: 0;
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			font-size: 65px;
+			line-height: 65px;
+			color: var(--primary);
+		}
+	}
+	.testimonial-text{
+		margin-bottom: 15px;
+		margin-top: 10px;
+
+		p{
+			font-size: 20px;
+			font-style: italic;
+		}
+	}
+	.testimonial-name{
+		margin-bottom: 0;
+	}
+	
+	@include respond('phone-land'){
+		.testimonial-text{
+			p{
+				font-size: 16px;
+			}
+		}
+	}
+	@include respond('phone'){
+		display: block;
+	}
+}
+.swiper-container{
+	.testimonial-4{
+		max-width: 850px;
+		margin: 0 auto;
+		@include respond('phone'){
+			padding-right: 0;
+		}
+	}
+}

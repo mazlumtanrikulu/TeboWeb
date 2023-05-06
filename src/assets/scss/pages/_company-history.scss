@@ -1,0 +1,21 @@
+.dz-media-list{
+	img{
+		width: 70px;
+		height: 70px;
+		border-radius: 70px;
+		object-fit: cover;
+	}
+	a{
+		&:hover{
+			h4{
+				color: var(--primary);
+			}
+		}
+	}
+}
+
+.worker{
+	img{
+		border-radius: var(--border-radius-base);
+	}
+}

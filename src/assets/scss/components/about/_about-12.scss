@@ -1,0 +1,60 @@
+.about-style12{
+	.dz-media{
+		padding-left: 100px;
+		padding-top: 100px;
+		margin-left: 75px;
+		overflow: visible;
+		img{
+			border-radius:var(--border-radius-base);
+		}
+		&:after{
+			content:"";
+			height:calc(100% - 100px);
+			width:calc(100% - 100px);
+			position:absolute;
+			border:30px solid var(--primary);
+			left:0;
+			top:0;
+			border-radius:var(--border-radius-base);
+			z-index: -1;
+		}
+		ul{
+			padding:40px 30px;
+			position:absolute;
+			bottom:30px;
+			left:-75px;
+			background:#fff;
+			border:1px solid #d9d9d9;
+			border-radius:var(--border-radius-base);
+			z-index:1;
+			li{
+				font-size:20px;
+			}
+		}
+		@include custommq ($max:1200px){
+			padding-left: 60px;
+			padding-top: 60px;
+			margin-left: 40px;
+			&:after{
+				border-width:20px;
+			}
+			ul{
+				left:-40px;
+			}
+		}
+		@include respond ('phone'){
+			margin-left:0;
+			padding-left: 30px;
+			padding-top: 30px;
+			&:after{
+				height:calc(100% - 30px);
+				width:calc(100% - 30px);
+				border-width:10px;
+			}
+			ul{
+				position:unset;
+				margin-top:30px;
+			}
+		}
+	}
+}

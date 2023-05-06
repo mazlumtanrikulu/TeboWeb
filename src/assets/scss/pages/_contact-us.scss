@@ -1,0 +1,57 @@
+.contact-wraper1{
+    margin-bottom: 60px;
+	position: relative;
+	background-position: -260px center;
+		
+	.contact-info{
+		padding: 80px 30px;
+	}
+	.contact-area1{
+	    margin-top: -180px;
+		margin-bottom: -100px;
+	}
+	&:before{
+		content: "";
+		height: 100%;
+		width: 50%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		background: -moz-linear-gradient(left,  rgba(20,20,20,0) 0%, rgba(20,20,20,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left,  rgba(20,20,20,0) 0%,rgba(20,20,20,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right,  rgba(20,20,20,0) 0%,rgba(20,20,20,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	}
+	&:after{
+		content: "";
+		height: 100%;
+		width: 50%;
+		background-color: #fff;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: -1;
+	}
+	@include respond ('tab-land'){
+		.contact-info{
+			padding: 50px 0px;
+		}
+	}
+	@include respond ('tab-port'){
+		background-position: center;
+		background-size: cover;
+		margin-bottom: 0;
+	
+		&:after,
+		&:before{
+			content: none;
+		}
+		.contact-area1 {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		.contact-info{
+			padding: 50px 0px 20px;
+		}
+	}
+}

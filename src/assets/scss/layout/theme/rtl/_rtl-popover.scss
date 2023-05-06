@@ -1,0 +1,37 @@
+[dir='rtl']{
+    
+    .bs-popover-start > .popover-arrow, 
+	.bs-popover-auto[data-popper-placement^="left"] > .popover-arrow{
+		right: auto;
+		left: calc(-0.5rem - 1px);
+		
+		&:before,
+		&:after{
+			right: auto;
+			left: 1px;
+			border-width: 0.5rem 0.5rem 0.5rem 0;
+			border-right-color: #ffffff;
+		}
+	}
+	.bs-popover-end > .popover-arrow,
+	.bs-popover-auto[data-popper-placement^="right"] > .popover-arrow{
+		left: auto;
+		right: calc(-0.5rem - 1px);
+		
+		&:after{
+			left: auto;
+			border-width: 0.5rem 0 0.5rem 0.5rem;
+			border-right-color: transparent;
+			border-left-color: #ffffff;
+			right: 2px;
+		}
+		&:before{
+			left: auto;
+			border-width: 0.5rem 0 0.5rem 0.5rem;
+			border-right-color: transparent;
+			right: 0;
+			border-left-color: rgba(0, 0, 0, 0.25);
+		}
+	}
+    
+}

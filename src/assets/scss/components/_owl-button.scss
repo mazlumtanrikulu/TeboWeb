@@ -1,0 +1,55 @@
+// Slider Button
+[class*="slider-btn-"]{
+	.swiper-button{
+		.button-prev,
+		.button-next{
+			cursor: pointer;
+		
+			&:after{
+				content: none;
+			}
+		}
+	}
+}
+.slider-btn-1{
+	.swiper-pagination{
+		position: unset;
+		font-size: 20px;
+		font-weight: 500;
+		&.swiper-pagination-fraction{
+			position: absolute;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			bottom: -18px;
+			.swiper-pagination-current{
+				color: var(--primary);
+			}
+		}
+	}
+	.swiper-button{
+		z-index: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		width: 180px;
+		margin: 30px auto 0;	
+		position: relative;
+		
+		.button-prev,
+		.button-next{
+			position: unset;
+			display: block;
+			text-align: center;
+			font-size: 25px;
+			line-height: 1;
+			color: #000;
+			margin: 0 40px;
+			@include transitionFast;
+		}
+		
+		@include respond('phone'){
+			margin-top: 20px;
+		}
+	}
+}

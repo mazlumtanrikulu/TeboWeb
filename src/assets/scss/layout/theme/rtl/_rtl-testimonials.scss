@@ -1,0 +1,90 @@
+[dir='rtl']{
+    
+    // Testimonial-1
+    .testimonial-1{
+        .testimonial-pic {
+            &:after,
+            &:before{
+                left: auto;
+                right: 0;
+            }
+        }
+        .testimonial-head{
+            .title{
+                margin-left: 0;
+                margin-right: -100px;
+            }
+        }
+        @include respond ('phone-land'){
+            display:block;
+            .testimonial-head .title{
+                margin-right:0;
+            }
+        }
+    }
+    
+    // Testimonial-2
+    .testimonial-2{
+        &:after{
+            right: auto;
+            left: 50px;
+            transform: rotateY(185deg);
+        }
+        .info{
+            .testimonial-name{
+                margin-right: 0;
+                margin-left: 10px;
+            }
+            .testimonial-position {
+                padding-left: 0;
+                padding-right: 15px;
+                
+                &:before{
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+    }
+    
+    
+    // Testimonial-3
+    .testimonial-3{
+        .testimonial-info{
+            
+            &:after{
+                left: auto;
+                right: 30px;
+            }
+        }
+        .testimonial-pic{
+            margin-right: 0;
+            margin-left: 20px;
+        }
+    }
+    
+    // Testimonial-4
+    .testimonial-4{
+        .testimonial-pic {
+            margin-right: 0;
+            margin-left: 35px;
+            padding: 20px 0 0 20px;
+        
+            &:after{
+                right: auto;
+                left: 0;
+                transform: rotateY(185deg);
+            }
+        }
+        
+    }
+    .swiper-container{
+        .testimonial-4{
+            padding-right: 0;
+            padding-left: 50px;
+            @include respond('phone'){
+                padding-left: 0;
+            }
+        }
+    }
+}

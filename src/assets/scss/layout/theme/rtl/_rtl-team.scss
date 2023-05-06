@@ -1,0 +1,49 @@
+[dir='rtl']{
+    
+    // Team-1
+    .dz-team{
+        &.style-1{
+            &:hover,
+            &.active{
+                .team-social{
+                    li{
+                        transform: translateY(0px);
+                        opacity:1;
+                    }
+                }
+            }
+        }
+    }
+
+    // Team-2
+    .dz-team{
+        &.style-2{
+            .dz-content{
+                margin-right: 30px;
+                margin-left: 50px;                    
+                &:after{
+                    left: auto;
+                    right: -15px;
+                }
+                &:before{
+                    left:auto;
+                    right:0;
+                }
+            }
+            .team-social{
+                left: 0;
+                right: auto;
+                li{
+                    transform: translateX(-80px);
+                }
+            }
+            &:hover{
+                .team-social{
+                    li{
+                        transform: translateX(15px);
+                    }
+                }
+            }
+        }
+    }
+}

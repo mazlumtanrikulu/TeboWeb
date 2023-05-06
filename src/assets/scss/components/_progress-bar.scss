@@ -1,0 +1,135 @@
+// Progress Bar
+.progress-bx{
+	overflow: hidden;
+	
+	// Progress Info
+	.progress-info{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 15px;
+		.title{
+			margin-bottom: 0;
+		}
+		.progress-value{
+			margin-bottom: 0;
+		}
+	}
+	
+	// Progress
+	.progress{
+		overflow: unset;		
+		.progress-bar{
+			position: relative;
+			overflow: unset;
+		}
+	}
+	
+	// Style 1
+	&.style-1{
+		.progress{
+			background-color: #efefef;
+			height: 20px;
+			border-radius: 0;
+	
+			.progress-bar{
+				border-radius:var(--primary);
+				background: var(--primary);
+				animation-duration: 5s;
+				animation-name: myanimation;
+				transition: all 5s ease 0s;
+			}
+		}
+		.title,
+		.progress-value{
+			font-size:20px;
+			font-family: var(--font-family-title);
+		}
+	}
+	
+}
+
+@keyframes myanimation {
+	0% {
+		width: 0;
+	}
+}
+
+svg.radial-progress {
+	height: auto;
+	overflow: visible;
+	max-width: 250px;
+	transform: rotate(-90deg);
+	
+	.percentage{
+		font-size: 16px;
+		fill: var(--primary);
+		font-weight: 500;
+		font-family: var(--font-family-title);
+	}
+	circle {
+		fill: rgba(0,0,0,0);
+		stroke: #fff;
+		stroke-dashoffset: 219.91148575129; /* Circumference */
+		stroke-width: 3px;
+		
+		&.incomplete {
+			opacity: 0;
+		}
+		&.complete{
+			stroke-dasharray: 219.91148575129; /* Circumference */ 
+		}
+	}
+	text{
+		fill: #000;
+		text-anchor: middle;
+	}
+	.basic-circle{
+		stroke:#f2f2f2!important;
+	}
+	&:nth-of-type(6n+1) circle { 
+		stroke: var(--primary);
+	}
+}
+.radial-progress {
+	height: auto;
+	overflow: visible;
+	//max-width: 250px;
+	position: relative;
+	//transform: rotate(-90deg);
+	
+	.percentage{
+		font-size: 40px;
+		color: var(--primary);
+		font-weight: 700;
+		font-family: var(--font-family-title);
+		position: absolute;
+		top: 46%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		
+	}
+	circle {
+		fill: rgba(0,0,0,0);
+		stroke: #fff;
+		stroke-dashoffset: 219.91148575129; /* Circumference */
+		stroke-width: 3px;
+		
+		&.incomplete {
+			opacity: 0;
+		}
+		&.complete{
+			stroke-dasharray: 219.91148575129; /* Circumference */ 
+		}
+	}
+	text{
+		fill: #000;
+		text-anchor: middle;
+	}
+	.basic-circle{
+		stroke:#f2f2f2!important;
+	}
+	&:nth-of-type(6n+1) circle { 
+		stroke: var(--primary);
+	}
+}

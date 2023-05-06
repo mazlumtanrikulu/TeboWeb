@@ -1,0 +1,292 @@
+// Appointment
+.app-form-wraper{
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    background-color: #fff;
+	
+	&.card{
+		background: transparent;
+		box-shadow: none;
+		border-radius: 0;
+		.card-body{
+			border-radius: 0;
+		}
+		.card-footer{
+			border-top: 0;
+			border-radius: 0;
+		}
+	}
+	
+	.dz-info{
+		li{
+			display: inline-block;
+			margin-right: 20px;
+			font-size: 14px;
+			i{
+				color: $primary;
+				font-size: 18px;
+				margin-right: 10px;
+			}
+		}
+	}
+	
+	.dz-social{		
+		li{
+			font-size: 16px;
+			a{
+				padding: 3px 8px;
+			}
+		}
+	}
+	
+	.form-group{
+		margin-bottom: 30px;
+	}
+	
+	
+	/* Form Wizard */
+	.form-wizard{
+		border: 0;
+		&>.nav{
+			box-shadow: unset!important;
+			li{
+				.nav-link{
+					padding: 12px 0;
+					color: #000;
+					margin: 0 5px;
+					.number{
+						display: block;
+						height: 50px;
+						width: 50px;
+						margin: 0 auto 15px;
+						border-radius: 500%;
+						background-color: var(--title);
+						line-height: 50px;
+						color: #fff;
+						font-weight: 700;
+						z-index: 2;
+						position: relative;
+						@include transitionMedium;
+					}
+					.title{
+					    font-family: var(--font-family-title);
+						color: var(--title);
+						font-weight: 500;
+					}
+					&:after{
+						height: 2px;
+						width: 100%;
+						left: 50%;
+						background-color: var(--title)!important;
+						top: 36px;
+					}
+					&.active,
+					&.done{
+						.number{
+							background-color: var(--primary);
+							box-shadow: 0 0px 0 10px var(--rgba-primary-3);
+						}
+						&:after{
+							background-color: var(--primary)!important;
+						}
+					}
+				}
+				&:last-child{
+					.nav-link:after{
+						display: none;
+					}
+				}
+			}
+		}
+		.tab-content{
+			margin: 30px 0 0;
+			overflow: unset;
+		}
+	}
+	
+	/* Form group */
+	.form-group{
+		margin-bottom:30px;
+	}
+	
+	/* Book Time */
+	.book-time{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -5px;
+		li{
+			width: 25%;
+			padding: 0 5px;
+			.btn{
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				color: #000;
+				margin-bottom: 10px;
+				display: block;
+				input{
+					position:absolute;
+					opacity:0;
+				}
+				&.active{
+					background-color:$primary;
+					color:#fff;
+				}
+				&.active-time{
+					background-color:$primary;
+					font-weight:700;
+					color:#fff;
+				}
+			}
+			input{
+				display: none;
+			}
+			input:checked ~ label{
+				background-color: var(--primary)!important;
+				color: #fff!important;
+			}
+		}
+	}
+	
+	.check-date{
+		margin: 0 -5px;
+		flex-flow:wrap;
+		li{
+			display: inline-block;
+			width: 70px;
+			text-align: center;
+			padding: 5px 5px;
+				
+			
+			
+		}
+		label{
+			border: 0px;
+			position: relative;
+			padding: 10px 10px 35px 10px;
+			text-transform: capitalize;
+			background-color: var(--secondary);
+			display: block;
+			color: #fff;
+			cursor: pointer;
+			input{
+				display: none;
+			}
+			&.active{
+				&:after{
+					background: $primary;
+				}
+			}
+			&:after{
+				content: "\f00c";
+				height: 25px;
+				width: 25px;
+				font-family: "Font Awesome 5 Free";
+				background: var(--title);
+				border-radius: 50px;
+				position: absolute;
+				bottom: 8px;
+				color: #fff;
+				left: 50%;
+				transform: translateX(-50%);
+				line-height: 25px;
+				font-size: 10px;
+				font-weight: 700;
+			}
+		}
+		.form-check{
+			padding-left: 0;
+			margin-bottom: 0;
+		}
+		.form-check-input{
+			display: none;
+		}
+		input:checked ~ label{
+			background-color: var(--primary);
+		}
+	}
+	.form-group{
+		label{
+			margin-bottom:0px;
+			font-weight: 400;
+			font-size: 16px;
+		}
+		.form-label{
+			color: var(--title);
+			font-weight: 700;
+			font-size: 14px;
+			margin-bottom: 10px;
+			display: block;
+		}
+	}
+	.sw-theme-default .toolbar>.btn{
+		border-radius: 0;
+		padding: 12px 30px;
+		background-color: var(--primary);
+		color: #fff;
+		border: 0;
+		
+		&:hover{
+			color: #fff;
+		}
+	}
+	.toolbar{
+		padding:0;
+		text-align:center!important;
+		margin-top: 20px;
+	}
+	
+	
+	// successful
+	.successful-box {
+		h2 {
+			font-size: 60px;
+			line-height: 100px;
+			margin-bottom: 0;
+			font-weight: 500;
+		}
+		.successful-check {
+			width: 150px;
+			height: 150px;
+			border: 7px solid #00bb27;
+			font-size: 70px;
+			color: #00bb27;
+			border-radius: 200px;
+			line-height: 155px;
+			margin: auto;
+
+		}
+	}
+	.dz-content-box{
+		height: 100%;
+		padding: 50px 50px 30px;
+	}
+	
+	@include respond('phone-land'){
+		padding: 30px;
+		.form-wizard > .nav {
+			flex-direction: row!important;
+		}
+	}
+	@include respond('phone'){
+		.form-wizard > .nav {
+			flex-direction: column!important;
+		}
+		.book-time li {
+			width: 50%;
+		}
+		.form-wizard > .nav{
+			display: flex;
+			justify-content: center;
+			flex-direction: row!important;
+			
+			li{
+				width: 33.33%;
+				flex-basis: unset;
+					
+				.nav-link::after {
+					content: none;
+				}
+			}
+		}
+	}
+}

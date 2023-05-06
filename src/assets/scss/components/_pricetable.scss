@@ -1,0 +1,235 @@
+// PRICING TABLE
+.pricingtable-features {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+		padding: 12px;
+		i{
+			margin: 0 3px;
+		}
+	}
+	
+}
+.no-col-gap .pricingtable-wrapper {
+    margin-left: -1px;
+}
+
+// Table =======
+.table-option{
+	border: 2px solid #adadad;
+	border-radius: 6px;
+	padding:50px 0px 30px 0;
+	
+	.pricingtable-footer{
+		border:0;
+		background-color: transparent;
+	}
+	.pricingtable-features{
+		border:0;
+		background-color: transparent;
+		li{
+			border:0;
+			background-color: transparent;
+			color:#919191;
+			font-size:18px;
+		}
+	}
+	.pricingtable-title{
+		border:0;
+		background-color: transparent;
+		padding: 0;
+		
+		*{
+			color:#000;
+		}
+		h2{
+			font-size: 28px;
+			line-height: 36px;
+		}
+	}
+	.pricingtable-price{
+		padding: 0;
+		border:0;
+		background-color: transparent;
+	}
+	.pricingtable-bx {
+		color: #000;
+		font-size: 63px;
+		font-weight: 800;
+		
+		strong, sup{
+			font-size: 30px;
+			font-weight: 700;
+		}
+	}
+	&:hover,
+	&.active{
+		background-color:#eeeeee;
+		border: 2px solid #eeeeee;
+	}
+	&.dark{
+		@include transitionMedium;
+		
+		&:hover, 
+		&.active {
+			background-color: #404040;
+			border: 2px solid #404040;
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+			transition: all 0.5s;
+			.pricingtable-features li,
+			.pricingtable-title h2,
+			.pricingtable-price .pricingtable-bx{
+				color: #fff;
+				@include transitionMedium;
+			}
+			.pricingtable-footer .btn.black{
+				background-color: #fff;
+				border-color: rgba(0,0,0,0);
+				color: #000;
+			}
+		}
+	}
+}
+
+// pricingtable-toggle
+.pricingtable-toggle{
+	display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 10px;
+	span{
+	    font-size: 18px;
+		margin-top: 5px;
+		font-weight: 500;
+	}
+	.custom-control-label{
+		margin: 0 35px 0 50px;
+	}
+}
+
+
+// Pricing Table
+.pricingtable-wrapper{
+	box-shadow: 1px 0 50px rgba(0, 0, 0, 0.1);
+	border-radius: var(--border-radius-base)!important;
+	overflow: hidden;
+	@include transitionMedium;
+	background-color: $white;
+	
+	&.style-1{
+		padding: 35px;
+		position:relative;
+		z-index:1;
+		height:100%;
+		
+		.pricingtable-inner{
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+		}
+		.pricingtable-head{
+			padding-bottom: 25px;
+			.pricingtable-title{
+				margin-bottom: 0;
+				font-size: 35px;
+				@include respond ('tab-land'){
+					font-size: 24px;
+				}				  
+			}
+			.sub-title{
+				color: var(--title);
+				font-size: 14px;
+				font-family: var(--font-family-title);
+			}
+		}
+		.pricingtable-media{
+			margin: -35px -35px 40px;
+			img{
+				width:100%;
+			}
+		}
+		.pricingtable-footer{
+			margin-top:auto;
+		}
+		.pricingtable-price{
+			margin-bottom: 30px;
+			.pricingtable-bx{
+				display: flex;
+				font-size: 78px;
+				line-height: 78px;
+				@include respond ('tab-land'){
+					font-size: 50px;
+					line-height: 1;
+					font-size: 40px;
+					margin: 7px 5px 0;
+					line-height: 40px;
+					@include respond ('tab-land'){
+						font-size: 28px;
+						line-height: 1;
+						margin: 5px 2px 0;
+					}
+				}
+				.ext{
+				    margin-left: 12px;
+				}
+			}
+			.pricingtable-type{
+				display: block;
+				font-weight: 300;
+				font-size: 24px;
+				line-height: 24px;
+				font-family:var(--font-family-title);
+				margin-top: 10px;				
+				@include respond ('tab-land'){
+					font-size: 16px;
+					line-height: 1;
+					margin-top: 2px;
+				}	
+			}
+		}
+		.pricingtable-features{
+			border-top:1px solid #E1E1F0;
+			padding-top:20px;
+			padding-bottom:25px;
+			text-align: left;
+			li{
+				font-size: 20px;
+				padding: 5px 0 5px 35px;
+				position: relative;
+				font-family: var(--font-family-title);
+				color: #666e82;
+				cursor:pointer;
+				@include respond ('tab-land'){
+					font-size: 16px;
+					padding: 5px 0 5px 25px;
+				}
+				&:after {
+					content: "\f00c";
+					font-family: 'Font Awesome 5 Free';
+					font-size: 16px;
+					font-weight: 600;
+					display: block;
+					position: absolute;
+					left: 0;
+					color: var(--title);
+					border-radius: 35px;
+					text-align: center;
+					top: 10px;
+					@include transitionMedium;
+					@include respond ('tab-land'){
+						font-size: 14px;
+						top: 7px;
+					}
+				}
+				  
+				&:hover:after{
+					transform: scale(1.25);
+					color:var(--primary)
+				} 			
+			}
+		}
+		
+	}	
+}

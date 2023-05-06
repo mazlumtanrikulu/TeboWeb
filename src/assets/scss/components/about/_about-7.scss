@@ -1,0 +1,21 @@
+.about-style7{
+	.about-media{
+		padding-left:65px;
+		position:relative;
+		padding-bottom:170px;
+		.ov-img{
+			position:absolute;
+			left:0;
+			bottom:0;
+			object-fit: cover;
+			padding-right:140px;
+		}
+		@include respond ('phone'){
+			padding-left:30px;
+			padding-bottom:120px;
+			.ov-img{
+				padding-right:80px;
+			}
+		}
+	}
+}

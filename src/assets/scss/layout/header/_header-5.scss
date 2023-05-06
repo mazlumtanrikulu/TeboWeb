@@ -1,0 +1,155 @@
+.site-header.style-5{
+	&+.page-content{
+		.dz-bnr-inr{
+			overflow:unset;
+			.container{
+				display:block;
+			}
+			.dz-bnr-inr-entry{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: calc(100% - 45px);
+				@include respond ('tab-port'){
+					height: 100%;
+				}
+			}
+		}
+	}
+	.middle-bar{
+		.middle-area{
+			display:flex;
+			align-items:center;
+			justify-content:space-between;
+		}
+		@include respond ('tab-port'){
+			display:none;
+		}
+		.logo-white{
+			display: none;
+		}
+		.logo-dark{
+			display: block;
+		}
+	}
+	.logo-header{
+		img{
+			max-width:150px;
+			@include respond ('phone'){
+				max-width:120px;
+			}
+		}
+	}
+	@include respond ('tab-port'){
+		.dz-social-icon ul{
+			margin:0;
+			justify-content:center;
+			a{
+				color:#fff;
+			}
+		}
+	}
+	.main-bar{
+		@include respond ('tab-port-min'){
+			background:transparent;
+			box-shadow:none;
+			margin-bottom:-45px;
+			.container{
+				background:var(--secondary);
+				border-radius:var(--border-radius-base);
+			}
+			.extra-nav{
+				height:90px;
+			}
+		}
+		@include respond ('tab-port'){
+			background:var(--secondary);
+		}
+	}
+	.header-nav{
+		@include respond ('tab-port-min'){
+			.nav{
+				& > li{
+					& > a{
+						color:#fff;
+						padding:35px 15px;
+					}
+					&:hover,
+					&.active{
+						& > a{
+							color:var(--primary);
+						}
+					}
+				}
+			}
+		}
+	}
+	.top-bar{
+		background:#ededed;
+		border-bottom:0;
+		padding:0;
+		.dz-topbar-left,
+		.dz-topbar-right,
+		.dz-topbar-center{
+			ul li{
+				font-size:16px;
+				font-weight:700;
+			}
+		}
+		.dz-topbar-left{
+			ul{
+				li{
+					border-right:1px solid #e3e3e3;
+					margin-right: 20px;
+					padding-top: 10px;
+					padding-bottom: 10px;
+					&:last-child{
+						border-right:0;
+					}	
+				}
+			}
+		}
+		.dz-social{
+			display:flex;
+			li{
+				border-left:1px solid #e3e3e3;
+				padding:0;
+				a{
+					padding: 14px 12px;
+					&:hover{
+						color:var(--primary);
+					}
+				}
+				&:last-child{
+					border-right:1px solid #e3e3e3;
+				}
+			}
+		}
+	}
+	.service-info{
+		margin-right:30px;
+		span{
+			font-size:14px;
+			color:#020e28;
+			text-transform:uppercase;
+			font-weight:700;
+		}
+		.title{
+			font-size:22px;
+			color:var(--primary);
+			font-family:var(--font-family-base);
+			margin-bottom:0;
+		}
+	}
+	.extra-nav{
+		#quik-search-btn{
+			height:48px;
+			width:48px;
+			line-height:48px;
+			background:#ededed;
+			color:#020e28;
+		}
+	}
+}

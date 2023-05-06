@@ -1,0 +1,32 @@
+/*
+    Name: Indiro 
+    Author: DexignZone
+    Portfolio : https://themeforest.net/user/dexignzone/portfolio
+   
+    Table of Content: 
+
+    1. Abstract
+    2. Bootstrap CSS
+    3. Base
+    4. Layout
+    5. Component
+    7. Pages
+    
+*/
+
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap";
+@import "https://cdn.rawgit.com/alpertuna/react-metismenu/master/dist/react-metismenu-standart.min.css";
+
+@import url("./../vendor/animate/animate.min.css");
+@import "./abstract/abstract";
+@import "./../vendor/bootstrap/scss/bootstrap.scss";
+@import "./base/base";
+@import "./components/components";
+@import "./pages/pages";
+@import "./layout/layout";
+
+/*=== Switcher ===*/
+@import "./layout/theme/dark.scss";
+
+/*=== Switcher ===*/
+@import "switcher.scss";

@@ -1,0 +1,158 @@
+// dz-bnr-inr
+.dz-bnr-inr{
+	background:var(--gradient-sec);
+    height: 600px;
+    background-size: cover;
+	background-position: center;
+	position: relative;
+    overflow: hidden;
+	z-index:1;
+	width: 100%;
+		
+	@include respond('tab-port'){
+		height: 300px;
+	}
+	@include respond('phone'){
+		height: 230px;
+	}
+	.container{
+		display: table;
+		height: 100%;
+		
+	}
+	.dz-bnr-inr-entry{
+	    height: 400px;
+		vertical-align: middle;
+		display: table-cell;
+		@include respond('tab-port'){
+			height: 300px;
+		}		
+		@include respond('phone-land'){
+			text-align:center;
+			.breadcrumb-row{
+				display:inline-block;
+			}
+		}	
+		@include respond('phone'){
+			height: 230px;
+		}	
+	}
+	h1 {
+		font-weight: 700;
+		font-size: 70px;
+		margin-bottom: 10px;
+		color:#fff;
+		text-transform: capitalize;
+		@include respond('tab-port'){
+			font-size: 42px;
+		}
+		@include respond('phone-land'){
+			font-size: 32px;
+		}
+	}
+	
+	// height sm
+	&.dz-bnr-inr-lg{
+		height: 800px;
+		.dz-bnr-inr-entry{
+			height: 100%;
+			padding-bottom: 0;
+		}
+		@include respond('tab-port'){
+			height: 460px;
+			.dz-bnr-inr-entry{
+				height: 460px;
+				padding-bottom: 50px;
+			}
+		}
+		@include respond('phone-land'){
+			height: 350px;
+			.dz-bnr-inr-entry{
+				height: 350px;
+				padding-bottom:0;
+			}
+		}
+		@include respond('phone'){
+			height: 300px;
+			.dz-bnr-inr-entry{
+				height: 300px;
+			}
+		}
+	}
+	
+	// height sm
+	&.dz-bnr-inr-sm{
+		height: 450px;
+		.dz-bnr-inr-entry{
+			height: 450px;
+		}
+		h1 {
+			font-size: 60px;
+		}
+		@include respond('tab-port'){
+			
+			h1 {
+				font-size: 42px;
+			}
+		}
+		@include respond('phone-land'){
+			height: 350px;
+			.dz-bnr-inr-entry{
+				height: 350px;
+			}
+			h1{
+				font-size: 32px;
+			}
+		}
+	}
+}
+.breadcrumb-row{
+	ul {
+		display:inline-block;
+		li {
+			padding: 0;
+			margin-right: 3px;
+			display: inline-block;
+			font-size: 18px;
+			font-weight: 300;
+			color: $white;
+			font-family: var(--font-family-title);
+			
+			&.active{
+				color: $white;			
+			}
+			a{
+				color: $white;
+			}
+		}
+		.breadcrumb-item + .breadcrumb-item::before{
+			content: "\f101";
+			color: $white;
+			font-weight: 700;
+			font-family: 'Line Awesome Free';
+			font-size: 15px;
+			padding-right: 10px;
+			top: 5px;
+			position: relative;
+			@include respond ('phone-land'){
+				top: 2px;
+			}
+		}
+		@include respond ('phone-land'){
+			padding: 5px 20px;
+			li{
+				font-size:15px;
+			}
+		}
+	}
+}
+
+
+.site-header.style-1.header-transparent + .page-content{
+	.dz-bnr-inr .dz-bnr-inr-entry{
+		padding-top: 160px;
+		@include respond ('tab-port'){
+			padding-top: 90px;
+		}
+	}
+}

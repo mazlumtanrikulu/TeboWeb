@@ -1,0 +1,274 @@
+[dir='rtl']{
+    
+    //Slider-1
+    
+    .main-slider1{
+        padding: 140px 0 0 140px;
+        @include respond ('laptop'){
+            padding: 100px 0px 0px 100px;	
+        }
+        @include respond ('phone'){
+            padding: 80px 0px 0px 0px;	
+        }
+        // Banner inner
+        .banner-inner{    
+            border-left: 4px solid var(--primary);
+            border-right:0;
+            .banner-content{
+                left: auto;
+                right: calc((100% - 970px) / 2);
+                @include custommq ($max:1200px){
+                    left: auto;
+                    right: calc((100% - 805px) / 2);
+                }
+                @include respond ('tab-port'){
+                    left: auto;
+                    right: calc((100% - 590px) / 2);
+                }
+                @include respond ('phone-land'){
+                    left:auto;
+                    right:0;
+                }
+            }
+        }
+        
+        // progressbar
+        
+        .image-slider__pagination{
+            right: auto;
+            left: -80px;
+            @include respond ('laptop'){
+                right: auto;
+                left: -100px;
+            }
+        }
+        
+        // Swiper Button
+        .swiper-button{
+            right: auto;
+            left: 0;
+        }
+        
+        // Slider Thumbs Wraper
+        .slider-thumbs-wraper{
+            left: auto;
+            right: 0;
+        }
+    }
+    
+    //Slider-2
+     
+    .main-slider2{        
+        .swiper-slide{
+            &:after {
+                left: auto;
+                right: 0;
+                background: linear-gradient(to left, rgba(25, 25, 25, 0.9) 40%, rgba(125, 185, 232, 0) 100%);
+            }
+        }
+        .banner-inner{
+            .banner-content{
+                p{
+                    @include respond ('phone'){
+                        padding-left: 0px;
+                    }
+                }
+            }
+        }
+        .swiper-button{
+            left: auto;
+            right: 0;
+        }
+    } 
+    
+    //Slider-3
+    
+    .main-slider3{
+        padding: 0 0 80px 80px;
+        @include respond ('tab-land'){
+            padding: 0px;
+        }
+        &:after{
+            left: auto;
+            right: 0;
+        }
+        .banner-inner{
+            .swiper-slide{
+                background-position:center right;
+                &:after{
+                    left:auto;
+                    right:0;
+                }
+            }
+        }
+        .slider-thumbs-wraper{
+            right: auto;
+            left: 100px;
+            @include respond ('phone'){
+                left:auto;
+                right:15px;
+            }
+        }
+        .slider-thumbs{
+            .dz-info{
+                padding-left: 0;
+                padding-right: 20px;
+            }
+        }
+        .banner-inner{
+            .banner-content{
+                padding-left: 0;
+                padding-right: 55px;
+                p{
+                    padding-right: 0;
+                    padding-left: 150px;
+                    @include respond ('phone-land'){
+                        padding-left: 0px;
+                    }
+                }
+                @include respond ('phone'){
+                    padding-left:0;
+                    padding-right:15px;
+                    margin-bottom:30px;
+                }
+            }
+        }
+        .swiper-button{
+            left: auto;
+            right: 0;
+        }
+    }
+    
+    //Slider-4
+    
+    .banner-one{
+        .banner-inner{
+            margin-right: auto;
+            margin-left: 0;
+        }
+        .video-bx{
+            .video-text{
+                margin-left:0;
+                margin-right:30px;
+                @include respond ('phone'){
+                    margin-left:0;
+                    margin-right:10px;
+                }
+            }
+        }
+        .banner-media{
+            right: auto;
+            left: -200px;
+            transform: skewX(10deg);
+            img{
+                margin-left: 0;
+                margin-right: -200px;
+                transform: skewX(-10deg);
+            }
+            @include respond ('phone'){
+                right:auto;
+                left:0;
+                transform: skewX(0deg);
+                img{
+                    margin-right: 0px;
+                }
+            }
+        }
+        .banner-content{
+            padding-right:0;
+            padding-left:120px;
+            @include respond ('laptop'){
+                padding-right:0;
+                padding-left:40px;
+            }
+            @include respond ('phone'){
+                padding-right:15px;
+                padding-left:15px;
+            }
+        }
+        &:after{
+            left:auto;
+            right:0;
+        }
+    }
+    
+    //Slider-5
+     
+    .main-slider5{
+        .banner-inner{
+            padding-right:0;
+            padding-left:70px;
+            margin-left:0;
+            margin-right:calc(calc(100% - 1140px) / 2);
+            @include custommq ($max:1200px){
+                margin-left:0;
+                margin-right:calc(calc(100% - 960px) / 2);
+            }
+            @include respond ('tab-port'){
+                margin-left:0;			
+                margin-right:calc(calc(100% - 720px) / 2);			
+            }
+            @include respond ('phone-land'){
+                margin-left:0;			
+                margin-right:calc(calc(100% - 540px) / 2);			
+            }
+            @include respond ('phone'){
+                margin-right:0;
+                padding-left:0;
+            }
+            .image-slider__pagination{
+                left:auto;
+                right:0;
+                @include respond ('tab-port'){
+                    left:auto;
+                    right:50px;
+                }
+                @include respond ('phone'){
+                    left: auto;
+                    right: 35px;
+                }
+                .swiper-pagination-progressbar-fill{
+                    transform-origin: right top !important;        
+                }
+            }
+        }
+        .banner-content{
+            padding-right:0;
+            padding-left:100px;
+            @include respond ('wide-desktop'){
+                padding-right:0;
+                padding-left:70px;
+            }
+            @include respond ('tab-port'){
+                padding-right:0;
+                padding-left:30px;
+            }
+            @include respond ('phone'){
+                padding-left: 0;
+                padding-right: 15px;
+            }
+        }
+        .swiper-button{
+            right:auto;
+            left:0;
+            flex-direction:column;
+            .swiper-button-prev,
+            .swiper-button-next{
+                right:auto;
+                left:0;
+            }
+            @include respond ('phone'){
+                flex-direction:row-reverse;
+                right:auto;
+                left:15px;
+                top: auto;
+            }
+        }
+        .media-slider{
+            .popup-youtube{
+                left:auto;
+                right:-50px;
+            }
+        }
+    } 
+}

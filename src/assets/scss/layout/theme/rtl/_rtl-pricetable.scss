@@ -1,0 +1,43 @@
+[dir='rtl']{
+    // PRICING TABLE
+    
+    .no-col-gap .pricingtable-wrapper {
+        margin-left: 0;
+        margin-right: -1px;
+    }
+
+    // pricingtable-toggle
+    .pricingtable-toggle{
+        .custom-control-label{
+            margin: 0 50px 0 35px;
+        }
+    }
+
+
+    // Pricing Table
+    .pricingtable-wrapper{
+        
+        &.style-1{
+            .pricingtable-price{
+                .pricingtable-bx{
+                    .ext{
+                        margin-left: 0;
+                        margin-right: 12px;
+                    }
+                }
+            }
+            .pricingtable-features{
+                text-align: right;
+                li{
+                    padding: 5px 35px 5px 0;
+                    &:after {
+                        left: auto;
+                        right: 0;
+                    }
+                }
+            }
+            
+        }	
+    }
+        
+}

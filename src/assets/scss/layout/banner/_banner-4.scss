@@ -1,0 +1,41 @@
+.dz-bnr-inr{
+	&.style-4{
+		text-align: center;
+		
+		&:after{
+			content:"";
+			height:calc(100% - 160px);
+			width:100%;
+			position:absolute;
+			bottom:0;
+			left:0;
+			background-image:url('../images/pattern1.png');
+			background-position:center;
+			background-repeat:no-repeat;
+			z-index: 0;
+			@include respond ('tab-port'){
+				height:calc(100% - 90px);
+			}
+		}
+		h1{
+			color:#fff;
+		}
+		.breadcrumb-row{
+			position: relative;
+			left: 0;
+			transform: unset;
+			bottom: 0;
+			ul{
+				padding:0;
+				background:transparent;
+				li{
+					font-weight: 500;
+					color:#fff;
+					a{
+						color:#fff;
+					}
+				}
+			}
+		}
+	}
+}

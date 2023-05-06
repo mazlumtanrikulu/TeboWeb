@@ -1,0 +1,42 @@
+.dz-card{
+	&.style-3{
+		.dz-media{
+			img{
+				border-radius:var(--border-radius-base);
+			}
+		}
+		.dz-info{
+			padding: 30px 0 20px;
+		}
+		.dz-meta{
+			position: absolute;
+			bottom: 0;
+			left: 10px;
+			
+			ul li{
+				margin-right: 10px;
+				i {
+					font-size: 16px;
+					margin-right: 5px;
+				}
+			}
+		}
+		.post-date,
+		.post-author a{
+			background-color: var(--primary);
+			color: #fff;
+			font-size: 13px;
+			text-transform: uppercase;
+			font-family: var(--font-family-title);
+			padding: 8px 18px;
+			border-radius: var(--border-radius-base);
+		}
+		&.text-white .dz-title a{
+			color: #fff;
+		}
+		
+		@include respond ('phone'){
+			
+		}
+	}
+}

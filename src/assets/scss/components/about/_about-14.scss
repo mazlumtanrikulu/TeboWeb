@@ -1,0 +1,43 @@
+.about-style14{
+	.dz-media{
+		padding-right:30px;
+		img{
+			border-radius:var(--border-radius-base);
+		}
+		@include respond ('tab-port'){
+			padding-right:0;
+		}
+	}
+	.about-content{
+		margin-left: -140px;
+		position: relative;
+		.section-head{
+			margin-right:155px;
+		}
+		.info{
+			padding-left: 190px;
+			position:relative;
+			&:after{
+				position:absolute;
+				content:"";
+				height:1px;
+				background:var(--primary);
+				width:122px;
+				top:15px;
+				left:50px;
+			}
+		}
+		@include respond ('tab-port'){
+			margin-left:0;
+			.section-head{
+				margin-right:0;
+			}
+			.info{
+				padding-left: 0;
+				&:after{
+					content:none;
+				}
+			}
+		}
+	}
+}

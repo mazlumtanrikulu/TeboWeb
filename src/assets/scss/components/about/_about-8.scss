@@ -1,0 +1,27 @@
+.about-style8{
+	.dz-media{
+		padding-bottom:100px;
+		img{
+			border-radius:var(--border-radius-base);
+		}
+		ul{
+			border-radius:var(--border-radius-base);
+			position: absolute;
+			left: 50px;
+			bottom: 0;
+			background: var(--primary);
+			padding:20px 30px 20px 30px;
+			li{
+				color:#fff;
+				font-family:var(--font-family-base);
+			}
+		}
+		@include respond ('phone'){
+			padding-bottom:0;
+			ul{
+				position:unset;
+				margin-top:30px;
+			}
+		}
+	}
+}

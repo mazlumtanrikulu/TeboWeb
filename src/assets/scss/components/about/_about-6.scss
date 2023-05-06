@@ -1,0 +1,33 @@
+.about-style6{
+	.about-media{
+		border-bottom:55px solid var(--primary);
+		margin-top:-200px;
+		margin-bottom:-120px;
+		.dz-media{
+			.popup-youtube{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+		@include respond ('tab-port'){
+			margin-top:0;
+			margin-bottom:-50px;
+		}
+		@include respond ('phone'){
+			.counter-style-2{
+				.counter-num {
+					margin-bottom:0;
+					small,
+					.counter{
+						font-size:35px;
+					}
+				}
+				.counter-text{
+					font-size:16px;
+				}
+			}
+		}
+	}
+}

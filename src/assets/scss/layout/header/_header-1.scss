@@ -1,0 +1,184 @@
+// site-header
+.site-header{
+	&.style-1{
+		
+		padding-bottom: 8px;
+		@include respond ('tab-port'){
+			.dz-social-icon{
+				ul{
+					justify-content:center;
+					width: 100%;
+				}
+				a{
+					color:#fff;
+				}
+			}
+		}
+		.is-fixed{
+			.main-bar{
+				background:var(--primary);
+			}
+		}
+		
+		&:before,
+		&:after{
+			content: "";
+			height: 100%;
+			position: absolute;
+			top: 0;
+			z-index: 1;
+		}
+		&:before{
+			background-color: var(--primary);
+			width: 100px;
+			left: calc(calc(100% - 1140px) / 2 + 280px);
+			transform: skewX(20deg);
+			@include custommq ($max:1199px){
+				left: calc(calc(100% - 960px) / 2 + 280px);
+			}
+			@include respond ('tab-port'){
+				left: calc(calc(100% - 720px) / 2 + 280px);
+			}
+			@include respond ('phone-land'){
+				left: calc(calc(100% - 540px) / 2 + 280px);
+			}
+			@include respond ('phone'){
+				left: 210px;
+			}
+    	}
+		&:after{
+			background-color: var(--primary);
+			width: calc(calc(100% - 1140px) / 2 + 800px);
+			right: 0;
+			@include custommq ($max:1199px){
+				width: calc(calc(100% - 960px) / 2 + 635px);
+			}
+			@include respond ('tab-port'){
+				width: calc(calc(100% - 720px) / 2 + 420px);
+			}
+			@include respond ('phone-land'){
+				width: calc(calc(100% - 540px) / 2 + 230px);
+			}
+			@include respond ('phone'){
+				width: calc(100% - 230px);
+			}
+		}
+		
+		.main-bar-wraper{
+			&:after{
+				content: "";
+				height: 100%;
+				background-color: #2d384a;
+				width: calc(calc(100% - 1140px) / 2 + 300px);
+				left: -40px;
+				top: 0;
+				position: absolute;
+				transform: skewX(20deg);
+				@include custommq ($max:1199px){
+					width: calc(calc(100% - 960px) / 2 + 300px);
+				}
+				@include respond ('tab-port'){
+					width: calc(calc(100% - 720px) / 2 + 300px);
+				}
+				@include respond ('phone-land'){
+					width: calc(calc(100% - 540px) / 2 + 300px);
+				}
+			}
+		}
+		.top-bar {
+			background-color: transparent;
+			border-bottom: 0;
+			z-index: 2;
+			.dz-topbar-inner{
+				margin-left:calc(calc(100% - 1140px) / 2 + 295px);
+				@include custommq ($max:1199px){
+					margin-left:0;
+				}
+			}
+			p{
+				font-size:15px;
+				margin-bottom:0;
+			}
+			.dz-topbar-right,
+			.dz-topbar-left{
+				li,p{
+					font-weight:700;
+				}
+			}
+		}
+		
+		.main-bar{
+			&:before,
+			&:after{
+				content: "";
+				height: 100%;
+				position: absolute;
+				z-index: 3;
+				top: 0;
+				background-color: $secondary;
+			}
+			&:before{
+				border-left: 3px solid var(--primary);
+				width: 90px;
+				transform: skew(20deg);
+				left: calc(calc(100% - 1140px) / 2 + 220px);
+			}
+			&:after{
+				width: calc(calc(100% - 1140px) / 2 + 870px);
+				right: 0;
+			}
+			@include custommq ($max:1199px){
+				&:before{
+					left: calc(calc(100% - 960px) / 2 + 220px);
+				}
+				&:after{
+					width: calc(calc(100% - 960px) / 2 + 690px);
+				}
+			}
+			@include respond ('tab-port'){
+				&:before{
+					left: calc(calc(100% - 720px) / 2 + 220px);
+				}
+				&:after{
+					width: calc(calc(100% - 720px) / 2 + 470px);
+				}
+			}
+			@include respond ('phone-land'){
+				&:before{
+					left: calc(calc(100% - 540px) / 2 + 220px);
+				}
+				&:after{
+					width: calc(calc(100% - 540px) / 2 + 300px);
+				}
+			}
+			@include respond ('phone'){
+				&:before{
+					left: 175px;
+				}
+				&:after{
+					width: calc(100% - 200px);
+				}
+			}
+		}
+		.navicon{
+			z-index:5;
+		}
+		// Header Nav
+		@include respond ('tab-port-min'){
+			.header-nav {
+				z-index: 4;
+				padding-left: 130px;
+				@include custommq ($max:1199px){
+					padding-left: 60px;
+				}
+			}
+			.nav{
+				&>li {
+					&>a {
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}

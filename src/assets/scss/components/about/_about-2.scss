@@ -1,0 +1,32 @@
+.about-style2{
+	.about-thumb{
+		position: relative;
+		margin-top: -200px;
+		@include custommq ($max:1200px){
+			margin-top:0;
+		}
+		.popup-youtube{
+			position: absolute;
+			bottom: -45px;
+			left: -45px;
+			z-index: 9;
+		}
+	}
+	.section-head {
+		margin-right: -5px;
+	}
+	@include respond('tab-port'){
+		.about-thumb{
+			margin-top: 0;
+			height: 500px;
+			overflow: hidden;
+			
+			.popup-youtube{
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				bottom: auto;
+			}
+		}
+	}
+}

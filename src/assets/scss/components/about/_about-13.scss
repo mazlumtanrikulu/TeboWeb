@@ -1,0 +1,35 @@
+.about-style13{
+	.dz-media{
+		padding-top:100px;
+		padding-left:70px;
+		padding-right:40px;
+		overflow:visible;
+		.main-img{
+			box-shadow: 0px 17px 50px 0px rgba(0, 0, 0, 0.29);
+		}
+		.bg-img{
+			position:absolute;
+			height:calc(100% - 100px);
+			width:calc(100% - 100px);
+			left:0;
+			top:0;
+			z-index:-1;
+			img{
+				object-fit:cover;
+				height:100%;
+				width:100%;
+			}
+		}
+		@include respond ('tab-port'){
+			padding-right:0;
+		}
+		@include respond ('phone'){
+			padding-top:40px;
+			padding-left:40px;
+			.bg-img{
+				height:calc(100% - 40px);
+				width:calc(100% - 40px);
+			}
+		}
+	}
+}

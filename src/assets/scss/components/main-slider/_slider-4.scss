@@ -1,0 +1,113 @@
+.banner-one{
+	height:calc(100vh - 100px);
+	overflow:hidden;
+	min-height: 700px;
+	position:relative;
+	z-index:1;
+	background-size:cover;
+	@include respond ('phone'){
+		height:auto;
+		min-height:auto;
+	}
+	.banner-inner{
+		width: 50%;
+		margin-left: auto;
+		display:flex;
+		height: 100%;
+		align-items: flex-end;
+		@include respond ('phone-land'){
+			width: 60%;			
+		}
+		@include respond ('phone'){
+			width:100%;
+		}
+	}
+	.video-bx{
+		display:flex;
+		align-items:center;
+		.video-text{
+			font-size:20px;
+			text-transform:uppercase;
+			color:#fff;
+			font-family:var(--font-family-title);
+			margin-left:30px;
+			line-height:1.2;
+			font-weight:500;
+			@include respond ('phone'){
+				margin-left:10px;
+			}
+		}
+	}
+	.banner-media{
+		transform: skewX(-10deg);
+		overflow:hidden;
+		position:absolute;
+		height:100%;
+		z-index:-1;
+		right: -200px;
+		width: calc(52vw + 200px);
+		img{
+			transform: skewX(10deg);
+			height: 100%;
+			width: calc(100% + 200px);
+			object-fit: cover;
+			object-position:top;
+			margin-left: -200px;
+		}
+		&:before{
+			z-index:1;
+		}
+		@include respond ('phone-land'){
+			width: calc(64vw + 200px);
+		}
+		@include respond ('phone'){
+			width:100%;
+			transform: skewX(0deg);
+			right:0;
+			img{
+				transform: skewX(0deg);
+				margin-left: 0px;
+				width:100%;
+			}
+		}
+	}
+	.banner-content{
+		padding: 60px 0;
+		padding-right:120px;
+		h1{
+			font-size:78px;
+			line-height:1.1;
+			color:#fff;
+			text-transform:uppercase;
+			@include custommq ($max:1200px){
+				font-size:60px;
+			}
+			@include respond ('tab-port'){
+				font-size:50px;
+			}
+		}
+		@include respond ('laptop'){
+			padding-right:40px;
+		}
+		@include respond ('phone'){
+			padding-left:15px;
+			padding-right:15px;
+			h1{
+				font-size:38px;
+			}
+		}
+	}
+	&:before{
+		z-index: -2;
+	}
+	&:after{
+		content:"";
+		position:absolute;
+		height:60px;
+		background:#fff;
+		width:100%;
+		bottom:0;
+		left:0;
+		z-index: -2;
+	}
+}

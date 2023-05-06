@@ -1,0 +1,52 @@
+.dz-box.style-5{
+	border-radius:var(--border-radius-base);
+	overflow:hidden;
+	.dz-media{
+		display:block;
+		background-size:cover;
+		&.height-md{
+			height:550px;
+			@include respond ('phone'){
+				height:260px;
+			}
+		}
+		&.height-sm{
+			height:260px;
+		}
+	}
+	.overlay-primary{
+		&:before{
+			content:"";
+			position:absolute;
+			background:var(--primary);
+			height:100%;
+			width:100%;
+			top:0;
+			left:0;
+			opacity:0;
+			@include transitionSlow;
+		}
+	}
+	.popup-youtube,
+	.view-btn{
+		height:60px;
+		width:60px;
+		border-radius:60px;
+		line-height:60px;
+		text-align:center;
+		background:var(--secondary);
+		color:#fff;
+		display:inline-block;
+		margin:0 4px;
+		i{
+			background:transparent;
+		}
+	}
+	&:hover{
+		.overlay-primary{
+			&:before{
+				opacity:0.8;
+			}
+		}
+	}
+}

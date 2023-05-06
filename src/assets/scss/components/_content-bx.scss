@@ -1,0 +1,140 @@
+.dz-content-bx{
+	position: relative;
+	overflow: hidden;
+	.content-media{
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	.dz-content-inner{
+		position: relative;
+	}
+	
+	&.style-1{
+		.dz-content-inner{
+			.content-media{
+				width: 50vw;
+				height: calc(100% + 50px);
+				float: right;
+				margin-top: -50px;
+				z-index: 1;
+				padding-bottom: 50px;
+				background: #fff;
+			}
+			.inner-content{
+				padding:50px 0px 50px 50px;
+			}
+			@include respond('tab-port'){
+				.content-media{
+					width: 100%;
+					padding-bottom: 0;
+				}
+				.inner-content{
+					padding: 60px 15px 10px;
+				}
+			}
+			@include respond('phone-land'){
+				.inner-content{
+					padding: 50px 15px 0;
+				}
+			}
+		}
+	}
+	&.style-2{
+		.content-media{
+			width: 50vw;
+			margin: -120px 0 0 0;
+			float: right;
+			height: 100%;
+			&.right{
+				float: left;
+				
+			}
+			img{
+				height:100%;
+				object-fit:cover;
+			}
+			@include respond('tab-port'){
+				margin: 0;
+				padding-top: 40px;
+				float: none;
+				width: 100%;
+			}
+		}
+		.dz-content-inner{
+			margin-top: 80px;
+			@include respond('tab-port'){
+				margin-top: 20px;
+			}
+		}
+	}
+	&.style-3{
+		.dz-content-inner{
+			padding-right: 80px;
+		}
+		.counter-info{
+			background-color: $white;
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1;
+			padding: 80px 80px 50px 80px;
+			
+			.counter{
+			    margin: 0 10px 0 0;
+				writing-mode: tb-rl;
+				border-right: 2px solid #a3cc02;
+				font-size: 50px;
+				line-height: 40px;
+				padding-right: 10px;
+			}
+			.counter-bx{
+				display: flex;
+				align-items: center;
+			}
+		}
+		.video-btn{
+			margin-top: 120px;
+		}
+	}
+	&.style-4{
+		position: relative;
+		.content-media{
+			margin: 100px auto;
+			max-width: 1000px;
+			img{
+				box-shadow: 40px -40px 0 0 var(--primary);				
+				margin: 40px 40px 0 0;
+			}
+			&:after {
+				content: attr(data-name);
+				font-size: 100px;
+				opacity: 0.6;
+				position: absolute;
+				color: transparent;
+				top: 50px;
+				z-index: 1;
+				right: 10px;
+				line-height: 80px;
+				-webkit-text-stroke: 1px #fff;
+				text-transform: uppercase;
+				font-weight: 700;
+				width: 100%;
+				text-align: right;
+				letter-spacing: 10px;
+			}
+		}
+		&:after{
+			content: "";
+			left: 0;
+			bottom: 0;
+			height: 300px;
+			background-color: $white;
+			width: 100%;
+			position: absolute;
+			z-index: -1;
+		}
+	}
+}

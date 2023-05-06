@@ -1,0 +1,90 @@
+[dir='rtl']{
+    .list-circle,
+    .list-angle-double,
+    .list-square,
+    .list-square-check,
+    .list-check-circle,
+    .list-check,
+    .list-plus-circle,
+    .list-arrow-left-circle,
+    .list-arrow-right-circle{
+        li{
+            padding: 5px 30px 5px 5px;
+            &:before{
+                left: auto;
+                right: 0;
+            }
+        }
+    }
+    ul{
+        &.list-circle{
+            li{
+                padding: 5px 22px 5px 5px;
+            }
+        }
+        &.list-arrow-right-circle{
+            li{
+                &:before{
+                    padding-left: 0;
+                    padding-right: 1px;
+                }
+            }
+        }
+        &.list-arrow-left-circle{
+            li{
+                &:before{
+                    padding-right: 0;
+                    padding-left: 1px;
+                }
+            }
+        }
+    }
+    .list-square-check{
+        li{
+            padding: 10px 60px 10px 15px;
+        }
+    }
+
+
+    .list-number-circle{
+        li{
+            padding: 0px 70px 0px 15px;
+            &:after{
+                left:auto;
+                right:0;
+            }
+        }
+    }
+
+    .list-square-box{
+        li{
+            padding: 0px 25px 0px 0;
+            margin-bottom:30px;
+            &:after{
+                left:auto;
+                right:0;
+            }
+        }
+    }
+    .list-check-box{
+        li{
+            padding: 20px 70px 20px 10px;
+            margin-right:0;
+            margin-left:40px;
+            &:after{
+                left:0;
+                right:30px;
+            }
+            &:hover{
+                margin-left:0;
+            }
+            @include respond ('phone'){
+                padding:20px 55px 20px 10px;
+                &:after{
+                    left:auto;
+                    right:20px;
+                }
+            }
+        }
+    } 
+}
