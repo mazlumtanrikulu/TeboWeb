@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -19,42 +19,42 @@ import service3 from './../../assets/images/services/pic3.jpg';
 import { Autoplay, Navigation } from "swiper";
 
 const serviceBlog = [
-    { number:'01', icon: 'flaticon-cogwheel' , image: service1, title:'Construction Machines', },
-    { number:'02', icon: 'flaticon-engineer-1' , image: service2, title:'Best Engineering', },
-    { number:'03', icon: 'flaticon-robot-arm'  , image: service3, title:'Power & Energy Sector', },
+    { number: '01', icon: 'flaticon-cogwheel', image: service1, title: 'Construction Machines', },
+    { number: '02', icon: 'flaticon-engineer-1', image: service2, title: 'Best Engineering', },
+    { number: '03', icon: 'flaticon-robot-arm', image: service3, title: 'Power & Energy Sector', },
 ];
 
 
 function ServiceSlider() {
-	const navigationPrevRef = React.useRef(null)
-	const navigationNextRef = React.useRef(null)
-	return (
-		<>
-			
-            <Swiper className="swiper-container service-slider"						
-                speed= {1500}
-                parallax= {true}
+    const navigationPrevRef = React.useRef(null)
+    const navigationNextRef = React.useRef(null)
+    return (
+        <>
+
+            <Swiper className="swiper-container service-slider"
+                speed={1500}
+                parallax={true}
                 slidesPerView={3}
-                spaceBetween= {30}
+                spaceBetween={30}
                 loop={true}
-                autoplay= {{
+                autoplay={{
                     delay: 2900,
-                }}								
-                    onSwiper={(swiper) => {
+                }}
+                onSwiper={(swiper) => {
                     // Delay execution for the refs to be defined
                     setTimeout(() => {
                         // Override prevEl & nextEl now that refs are defined
-                        swiper.params.navigation.prevEl = navigationPrevRef.current
-                        swiper.params.navigation.nextEl = navigationNextRef.current
+                        // swiper.params.navigation.prevEl = navigationPrevRef.current
+                        // swiper.params.navigation.nextEl = navigationNextRef.current
 
                         // Re-init navigation
-                        swiper.navigation.destroy()
-                        swiper.navigation.init()
-                        swiper.navigation.update()
+                        // swiper.navigation.destroy()
+                        // swiper.navigation.init()
+                        // swiper.navigation.update()
                     })
-                    }}
+                }}
                 modules={[Navigation, Autoplay]}
-                breakpoints = {{
+                breakpoints={{
                     1200: {
                         slidesPerView: 3,
                     },
@@ -67,9 +67,9 @@ function ServiceSlider() {
                     320: {
                         slidesPerView: 1,
                     },
-                }}						
-            >	            
-                {serviceBlog.map((data, index)=>(
+                }}
+            >
+                {serviceBlog.map((data, index) => (
                     <SwiperSlide key={index}>
                         <div className="content-box overlay-shine aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                             <div className="dz-media">
@@ -88,13 +88,13 @@ function ServiceSlider() {
                         </div>
                     </SwiperSlide>
                 ))}
-            </Swiper>	
+            </Swiper>
             <div className="swiper-button" >
                 <div className="btn-prev swiper-button-prev-service" ref={navigationPrevRef}><i className="las la-angle-left"></i></div>
                 <div className="btn-next swiper-button-next-service" ref={navigationNextRef}><i className="las la-angle-right"></i></div>
             </div>
-			
-		</>
-	)
+
+        </>
+    )
 }
 export default ServiceSlider;
