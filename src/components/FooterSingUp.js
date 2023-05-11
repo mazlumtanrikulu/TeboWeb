@@ -1,18 +1,18 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 function FooterSingUp(){
     const form = useRef();
 	const sendEmail = (e) => {
 		e.preventDefault();
-		//emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
-		emailjs.sendForm('gmail', 'YOUR_TEMPLATE_ID', e.target, 'd9b2e0f5fc72cb94792110e8ff2028f3-us16')
-		  .then((result) => {
-			  console.log(result.text);
-		  }, (error) => {
-			  console.log(error.text);
-		  });
-		  e.target.reset()
+		// emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+		// emailjs.sendForm('gmail', 'YOUR_TEMPLATE_ID', e.target, 'd9b2e0f5fc72cb94792110e8ff2028f3-us16')
+		//   .then((result) => {
+		// 	  console.log(result.text);
+		//   }, (error) => {
+		// 	  console.log(error.text);
+		//   });
+		//   e.target.reset()
 	};	
 
     return(
