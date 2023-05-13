@@ -14,7 +14,7 @@ import TestimonialSlider from "./../../components/TestimonialSlider";
 import TrendsSlider from "./../../components/TrendsSlider";
 import ServiceSlider from "./../../components/Index2/ServiceSlider";
 import FooterSingUp from "./../../components/FooterSingUp";
-
+import ModalVideo from "react-modal-video";
 //Images
 import bg1 from "./../../assets/images/background/bg1.png";
 import bg2 from "./../../assets/images/background/bg2.jpg";
@@ -662,7 +662,7 @@ function Home() {
             </div>
           </div>
         </section> */}
-
+<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="_FRZVScwggM" onClose={() => setOpen(false)} />	
       </div>
       <Footer />
     </>

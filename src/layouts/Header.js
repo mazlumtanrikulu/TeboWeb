@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from './../assets/images/logo.png';
-import logowhite from './../assets/images/logo-white.png';
-
+// import logowhite from './../assets/images/logo-white.png';
+import teboLogo from "./../assets/images/tebo-logo.JPG"
 export default function Header() {
     //Sidebar
     const [openToggleBtn, setOpenToggleBtn] = useState(false);
@@ -49,7 +49,7 @@ export default function Header() {
                         <div className="container-fluid clearfix">
                             {/* <!-- Website Logo --> */}
                             <div className="logo-header mostion logo-white">
-                                <Link to={"./"}><img src={logowhite} alt="" /></Link>
+                                <Link to={"./"}><img src={teboLogo} alt="" /></Link>
                             </div>
                             {/* <!-- Nav Toggle Button --> */}
                             <button

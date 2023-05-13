@@ -89,10 +89,10 @@ function ServiceSlider() {
                     </SwiperSlide>
                 ))}
             </Swiper>
-            <div className="swiper-button" >
+            {/* <div className="swiper-button" >
                 <div className="btn-prev swiper-button-prev-service" ref={navigationPrevRef}><i className="las la-angle-left"></i></div>
                 <div className="btn-next swiper-button-next-service" ref={navigationNextRef}><i className="las la-angle-right"></i></div>
-            </div>
+            </div> */}
 
         </>
     )
