@@ -34,7 +34,7 @@ function Footer() {
 										<Link to={"./"}><img src={teboLogo} alt="" /></Link>
 									</div>
 									<p>Our goal is to offer broad capabilities, competitive pricing, exceptional quality and outstanding service to each and every customer.</p>
-									<Link to={"./about-us"} className="btn btn-primary btn-icon m-r10 m-b10" >READ MORE <i className="fas fa-arrow-right"></i></Link>
+									{/* <Link to={"./about-us"} className="btn btn-primary btn-icon m-r10 m-b10" >READ MORE <i className="fas fa-arrow-right"></i></Link> */}
 								</div>
 							</div>
 							<div className="col-xl-3 col-lg-3 col-sm-6 aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">

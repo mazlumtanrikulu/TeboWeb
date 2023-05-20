@@ -15,8 +15,8 @@ const ImageBlog = [
 ];
 
 export default function BlogGridSlider(){
-    const navigationPrevRef = React.useRef(null)
-	const navigationNextRef = React.useRef(null)
+    // const navigationPrevRef = React.useRef(null)
+	// const navigationNextRef = React.useRef(null)
     return(
         <>
             
@@ -30,21 +30,21 @@ export default function BlogGridSlider(){
                         autoplay= {{
                            delay: 2700,
                         }}
-                        navigation={{
-                            prevEl: navigationPrevRef.current,
-                            nextEl: navigationNextRef.current,
-                        }}				
+                        // navigation={{
+                        //     prevEl: navigationPrevRef.current,
+                        //     nextEl: navigationNextRef.current,
+                        // }}				
                         onSwiper={(swiper) => {
                             // Delay execution for the refs to be defined
                             setTimeout(() => {
                             // Override prevEl & nextEl now that refs are defined
-                            swiper.params.navigation.prevEl = navigationPrevRef.current
-                            swiper.params.navigation.nextEl = navigationNextRef.current
+                            // swiper.params.navigation.prevEl = navigationPrevRef.current
+                            // swiper.params.navigation.nextEl = navigationNextRef.current
         
                             // Re-init navigation
-                            swiper.navigation.destroy()
-                            swiper.navigation.init()
-                            swiper.navigation.update()
+                            // swiper.navigation.destroy()
+                            // swiper.navigation.init()
+                            // swiper.navigation.update()
                             })
                         }} 
                         modules={[Navigation , Autoplay]}
@@ -54,9 +54,10 @@ export default function BlogGridSlider(){
                                 <Link to={'./blog-details'} key={index}><img src={data.image} alt="" /></Link>
                             </SwiperSlide>                        
                         ))}
+                      
                         
-                        <div className="prev-post-swiper-btn" ref={navigationPrevRef}><i className="fas fa-chevron-left"></i></div>
-                        <div className="next-post-swiper-btn" ref={navigationNextRef}><i className="fas fa-chevron-right"></i></div>
+                        <div className="prev-post-swiper-btn" ><i className="fas fa-chevron-left"></i></div>
+                        <div className="next-post-swiper-btn" ><i className="fas fa-chevron-right"></i></div>
                     </Swiper>
                 </div>
                 <div className="dz-info">

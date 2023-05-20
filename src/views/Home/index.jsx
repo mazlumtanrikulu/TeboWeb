@@ -138,7 +138,7 @@ function Home() {
                 <span className="video-text">
                   about
                   <br />
-                  Indiro
+                  Tebo
                 </span>
               </div>
             </div>
@@ -207,8 +207,8 @@ function Home() {
                       Established Fact That A Reader Will Be Distracted
                     </p>
                   </div>
-                  <Link to={"./about-us"} className="btn btn-primary btn-icon">
-                    READ MORE <i className="fas fa-arrow-right"></i>
+                  <Link to={'/company-history'} className="btn btn-primary btn-icon">
+                   GO TO DETAILS <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
               </div>
@@ -265,10 +265,10 @@ function Home() {
                     </p>
                   </div>
                   <Link
-                    to={"./about-us"}
+                    to={"#"}
                     className="btn btn-primary btn-border m-r10 m-b10"
                   >
-                    ABOUT US
+                    Go To Studies
                   </Link>
                 </div>
               </div>
@@ -662,7 +662,13 @@ function Home() {
             </div>
           </div>
         </section> */}
-<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="_FRZVScwggM" onClose={() => setOpen(false)} />	
+        <ModalVideo
+          channel="youtube"
+          autoplay
+          isOpen={isOpen}
+          videoId="_FRZVScwggM"
+          onClose={() => setOpen(false)}
+        />
       </div>
       <Footer />
     </>
