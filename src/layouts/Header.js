@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import logo from './../assets/images/logo.png';
 // import logowhite from './../assets/images/logo-white.png';
 import teboLogo from "./../assets/images/tebo-logo.JPG"
+
+
 export default function Header() {
     //Sidebar
     const [openToggleBtn, setOpenToggleBtn] = useState(false);
@@ -63,7 +65,7 @@ export default function Header() {
                             {/* <!-- Extra Nav --> */}
                             <div className="extra-nav">
                                 <div className="extra-cell">
-                                    <div className="search-inhead">
+                                    {/* <div className="search-inhead">
                                         <div className="dz-quik-search On">
                                             <form action="#">
                                                 <input name="search" value="" type="text" className="form-control" placeholder="Search" />
@@ -73,7 +75,7 @@ export default function Header() {
                                         <Link to={"#"} className="search-link" id="quik-search-btn">
                                             <i className="fas fa-search"></i>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                     <Link to={"#"} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">REQUEST A QUOTE</Link>
                                 </div>
                             </div>
