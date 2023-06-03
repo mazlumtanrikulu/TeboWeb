@@ -22,7 +22,7 @@ const serviceData = [
     { image: pic3, title: 'Flexible Manufacturing' },
 ];
 
-function Services() {
+function Cases() {
     return (
         <>
             <Header />
@@ -43,7 +43,7 @@ function Services() {
                                             <img src={data.image} alt="" />
                                         </div>
                                         <div className="dz-bottom">
-                                            <Link to={'/services/detail'} className="btn-link">Services Detail<i className="fas fa-arrow-right"></i></Link>
+                                            <Link to={'/cases/detail'} className="btn-link">Services Detail<i className="fas fa-arrow-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -57,4 +57,4 @@ function Services() {
         </>
     )
 }
-export default Services;
+export default Cases;

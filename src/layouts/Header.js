@@ -51,7 +51,7 @@ export default function Header() {
                         <div className="container-fluid clearfix">
                             {/* <!-- Website Logo --> */}
                             <div className="logo-header mostion logo-white">
-                                <Link to={"./"}><img src={teboLogo} alt="" /></Link>
+                                <Link to={"/"}><img src={teboLogo} alt="" /></Link>
                             </div>
                             {/* <!-- Nav Toggle Button --> */}
                             <button

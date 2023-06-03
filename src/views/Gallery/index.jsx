@@ -37,7 +37,7 @@ const GallerySection = [
   { image: pic3 },
 ];
 
-function CompanyDefinition(props) {
+function Gallery(props) {
   const { openLightbox } = useLightbox();
   const options = {
     settings: {
@@ -80,4 +80,4 @@ function CompanyDefinition(props) {
     </>
   );
 }
-export default CompanyDefinition;
+export default Gallery;

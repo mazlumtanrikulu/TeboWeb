@@ -17,12 +17,12 @@ const aboutSection = [
     { image: media3, title: 'Indiro is Growing' },
 ];
 
-export default function CompanyHistory() {
+export default function CaseDetail() {
     return (
         <>
             <Header />
             <div className="page-content bg-white">
-                <PageTitle title='Company History' parentPage='Home' childPage='Pages' />
+                <PageTitle title='Service Details' parentPage='Home' childPage='Service' />
                 <section className="content-inner">
                     <div className="container">
                         <div className="row m-b30">
@@ -59,7 +59,7 @@ export default function CompanyHistory() {
                             </p>
                         </div>
                         <div className="m-b30">
-                            <Link to={'/company-definition/gallery'} className="btn btn-primary btn-border m-r10 m-b10">Gallery</Link>
+                            {/* <Link to={'/company-definiton'} className="btn btn-primary btn-border m-r10 m-b10">Gallery</Link> */}
                         </div>
                     </div>
                 </section>
