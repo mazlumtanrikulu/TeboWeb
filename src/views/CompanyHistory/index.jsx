@@ -25,7 +25,7 @@ export default function CompanyHistory() {
                 <PageTitle title='Company History' parentPage='Home' childPage='Pages' />
                 <section className="content-inner">
                     <div className="container">
-                        <div className="row m-b30">
+                        {/* <div className="row m-b30">
                             {aboutSection.map((item, ind) => (
                                 <div className="col-md-4 m-b30" key={ind}>
                                     <div className="dz-media-list d-flex align-items-center">
@@ -37,16 +37,18 @@ export default function CompanyHistory() {
                                     </div>
                                 </div>
                             ))}
-                        </div>
+                        </div> */}
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="m-b30 align-self-center">
                                     <div className="about-content">
                                         <div className="section-head style-1">
-                                            <h3 className="title m-b20">Indiro Was Founded</h3>
-                                            <p>Lorem ipsum dolor sit am adipi we help you ensure everyone is in the right jobs sicing elit, sed do consulting firms Et leggings across the nation tempor sed do consulting firms Et leggings across </p>
+                                            <h3 className="title m-b20">Hakkımızda</h3>
+                                            <p>Firmamız 1993 yılında Sevgili babamız Behsat AŞĞIN tarafından İskenderun Organize Sanayi bölgesinde kurulmuştur.
+</p>
                                         </div>
-                                        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+                                        <p>Kurulduğu ilk yıllarda çelik fabrikalarına yedek parça üreten, bunların tamiratı ve bakımını yapan firmamız, bölgemizdeki çelik üretim kapasitesindeki genişlemeye paralel olarak kapasitesini ve yeterliliğini büyüterek ilerlemiştir.
+</p>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +57,7 @@ export default function CompanyHistory() {
                                     <img src={pic4} alt="work" />
                                 </div>
                             </div>
-                            <p className="m-b30">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam 		processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+                            <p className="m-b30"> Halen İskenderun Organize sanayi bölgesinde faaliyet gösteren firmamız 6000m² kapalı alanı olan atölyesinde Çelik konstrüksiyon imalat ve montajı, Çelikhane ve Haddehane makine ve yedek imalatları, Gezer köprülü tavan vinci imalat ve montajı, Hurda damperi imalatları, Endüstriyel boru imalatları, Sülo ve Bunker imalatları vs. alanlarında faaliyet göstermektedir.
                             </p>
                         </div>
                         <div className="m-b30">

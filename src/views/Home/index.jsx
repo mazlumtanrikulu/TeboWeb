@@ -211,7 +211,7 @@ function Home() {
                     </p>
                   </div>
                   <Link to={'/company-definition'} className="btn btn-primary btn-icon">
-                    GO TO DETAILS <i className="fas fa-arrow-right"></i>
+                    Şirketimiz Hakkında <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
               </div>

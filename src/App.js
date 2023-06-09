@@ -10,13 +10,17 @@ import ServiceDetails from "./views/ServiceDetails/index"
 import CertificateOfCompany from "./views/CertificateOfCompany/index"
 import Cases from './views/Cases';
 import CaseDetail from './views/CaseDetail';
-import { Fragment } from 'react';
-
+import { Fragment, useEffect } from 'react';
+import ScrollToTop from "./views/ScrollToTop/scrollToTop";
 
 function App() {
+
+
+
   return (
     <div className='app'>
       <BrowserRouter>
+      
         <div className='page-wraper'>
           <Switch>
             <Route path='/' exact component={Home} />
