@@ -10,6 +10,11 @@ export default function Header() {
     //Sidebar
     const [openToggleBtn, setOpenToggleBtn] = useState(false);
 
+    //Request A Quote scroll to  contact us
+    const ScrollToContactUsHandler = () => {
+        window.scrollTo(0,3400)
+        console.log("bklasdklasd")
+    }
     //Header fixed
     const [headerFix, setheaderFix] = React.useState(false);
     useEffect(() => {
@@ -76,7 +81,7 @@ export default function Header() {
                                             <i className="fas fa-search"></i>
                                         </Link>
                                     </div> */}
-                                    <Link to={"#"} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">REQUEST A QUOTE</Link>
+                                    <Link to={"#"} onClick={ScrollToContactUsHandler} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">REQUEST A QUOTE</Link>
                                 </div>
                             </div>
                             {/* <!-- Extra Nav --> */}
@@ -87,14 +92,7 @@ export default function Header() {
                                     <Link to={"./"}><img src={logo} alt="" /></Link>
                                 </div>
                                 <ul className="nav navbar-nav navbar navbar-left">
-                                    <li className="sub-menu-down"><Link to={"#"}><span>Home</span></Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={"./"}>Home 1</Link></li>
-                                            <li><Link to={"./index-2"}>Home 2</Link></li>
-                                            <li><Link to={"./index-3"}>Home 3</Link></li>
-                                            <li><Link to={"./index-4"}>Home 4</Link></li>
-                                            <li><Link to={"./index-5"}>Home 5</Link></li>
-                                        </ul>
+                                    <li><Link to={"./"}><span>Ana Sayfa</span></Link>
                                     </li>
                                     <li className="has-mega-menu"><Link to={"#"}>Pages</Link>
                                         <ul className="mega-menu">
@@ -146,14 +144,10 @@ export default function Header() {
                                             <li><Link to={'./login'}>Login</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="sub-menu-down"><Link to={"#"}><span>Blog</span></Link>
+                                    <li className="sub-menu-down"><Link to={"/"} onClick={ScrollToContactUsHandler}><span>İletişim</span></Link>
                                         <ul className="sub-menu">
-                                            <li><Link to={'./blog-grid'}>Blog Grid</Link></li>
-                                            <li><Link to={'./blog-large-right-sidebar'}>Blog Right Sidebar</Link></li>
-                                            <li><Link to={'./blog-list-sidebar'}>Blog List Sidebar</Link></li>
-                                            <li><Link to={'./blog-list-left-sidebar'}>Blog List Left Sidebar</Link></li>
-                                            <li><Link to={'./blog-details-post-wide'}>Post Wide View</Link></li>
-                                            <li><Link to={'./blog-details'}>Blog Details</Link></li>
+                                            <li><Link to={'./contact-us'}>Contact Us</Link></li>
+                                            
                                         </ul>
                                     </li>
                                 </ul>

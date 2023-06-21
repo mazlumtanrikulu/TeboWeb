@@ -47,7 +47,7 @@ function BlogListSidebar(){
 	const [isOpen, setOpen] = useState(false)
     return(
         <>
-            <Header />
+          
             <div className="page-content bg-white">
                 <PageTitle  title='Blog List Sidebar' parentPage='Home' childPage='Blog' />
                            
@@ -97,7 +97,7 @@ function BlogListSidebar(){
                 </section>				
 				<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="_FRZVScwggM" onClose={() => setOpen(false)} />
             </div>
-            <Footer />
+         
         </>
     )
 }

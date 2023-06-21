@@ -25,7 +25,7 @@ const serviceData = [
 function Services() {
     return (
         <>
-            <Header />
+          
             <div className="page-content bg-white">
                 <PageTitle title='Our Services' parentPage='Home' childPage='Pages' />
                 {/* <!-- Services --> */}
@@ -52,7 +52,7 @@ function Services() {
                     </div>
                 </section>
             </div>
-            <Footer />
+  
 
         </>
     )

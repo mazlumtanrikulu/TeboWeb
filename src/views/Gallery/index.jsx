@@ -46,7 +46,7 @@ function Gallery(props) {
   };
   return (
     <>
-      <Header />
+     
       <div className="page-content bg-white">
         <PageTitle title="Gallery Grid 4" parentPage="Home" childPage="Pages" />
         <section className="content-inner">
@@ -76,7 +76,7 @@ function Gallery(props) {
           </div>
         </section>
       </div>
-      <Footer />
+
     </>
   );
 }

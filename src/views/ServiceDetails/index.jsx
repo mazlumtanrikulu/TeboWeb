@@ -20,7 +20,7 @@ const aboutSection = [
 export default function CompanyHistory(){
     return(
         <>
-            <Header />
+
             <div className="page-content bg-white">
                 <PageTitle  title='Service Details' parentPage='Home' childPage='Service' />
                 <section className="content-inner">
@@ -64,7 +64,7 @@ export default function CompanyHistory(){
                     </div>
                 </section>
             </div>
-            <Footer />    
+              
         </>
     )
 }

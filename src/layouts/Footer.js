@@ -9,7 +9,7 @@ import bg2 from './../assets/images/background/bg2.png';
 import teboLogo from "./../assets/images/tebo-logo.JPG"
 import about23 from './../assets/images/about/about23.jpg';
 
-function Footer() {
+function Footer({ref}) {
 	const form = useRef();
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -24,7 +24,7 @@ function Footer() {
 	};
 	return (
 		<>
-			<footer className="site-footer style-2" id="footer">
+			<footer ref={ref} className="site-footer style-2" id="footer">
 				<div className="footer-top" style={{ backgroundImage: "url(" + bg2 + ")" }}>
 					<div className="container">
 						<div className="row m-b40 m-md-b10">

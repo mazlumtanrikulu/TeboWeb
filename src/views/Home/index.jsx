@@ -15,6 +15,7 @@ import TrendsSlider from "./../../components/TrendsSlider";
 import ServiceSlider from "./../../components/Index2/ServiceSlider";
 import FooterSingUp from "./../../components/FooterSingUp";
 import ModalVideo from "react-modal-video";
+import ContactUs from "../../components/ContactUs";
 //Images
 import bg1 from "./../../assets/images/background/bg1.png";
 import bg2 from "./../../assets/images/background/bg2.jpg";
@@ -36,6 +37,7 @@ import bnr2 from "./../../assets/images/bnr/bnr2.jpg";
 import pic1 from "./../../assets/images/bnr/pic1.jpg";
 import teboHomePhoto from "./../../assets/images/bnr/4453 (2).png";
 import teboHomePhoto2 from "./../../assets/images/bnr/20180208_095122.jpg"
+
 
 
 //Array
@@ -89,35 +91,13 @@ const infoSection = [
 // export default SocialTrading;
 
 function Home() {
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-    //emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
-    // emailjs
-    //   .sendForm(
-    //     "service_gfykn6i",
-    //     "template_iy1pb0b",
-    //     e.target,
-    //     "HccoOtZS6GHw-N-m6"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
-    e.target.reset();
-    // swal("Good job!", "form successfuly submmited", "success");
-  };
 
   const [isOpen, setOpen] = useState(false);
   const [splitEvent, setsplitEvent] = useState(false);
 
   return (
     <>
-      <Header />
+  
 
       <div className="page-content bg-white">
         <div
@@ -302,120 +282,8 @@ function Home() {
             <ClientsSlider />
           </div>
         </section>
-        <section
-          className="content-inner"
-          style={{ backgroundImage: "url(" + bg7png + ")" }}
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 m-b30">
-                <div
-                  className="contact-area1 m-r20 m-md-r0 aos-item"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="200"
-                >
-                  <div className="section-head style-1">
-                    <h6 className="sub-title text-primary">CONTACT US</h6>
-                    <h3 className="title m-b20">Request A Quote</h3>
-                  </div>
-                  <form className="dz-form dzForm" ref={form} onSubmit={sendEmail}>
-                    <input
-                      type="hidden"
-                      className="form-control"
-                      name="dzToDo"
-                      defaultValue="Contact"
-                    />
-                    <div className="dzFormMsg"></div>
-                    <div className="input-group">
-                      <input
-                        required
-                        type="text"
-                        className="form-control"
-                        name="name"
-                        placeholder="Full Name"
-                      />
-                    </div>
-                    <div className="input-group">
-                      <input
-                        required
-                        type="text"
-                        className="form-control"
-                        name="email"
-                        placeholder="Email Adress"
-                      />
-                    </div>
-                    <div className="input-group">
-                      <input
-                        required
-                        type="text"
-                        className="form-control"
-                        name="dzOther[phone_number]"
-                        placeholder="Phone No."
-                      />
-                    </div>
-                    <div className="input-group">
-                      <textarea
-                        required
-                        name="message"
-                        rows="5"
-                        className="form-control"
-                        defaultValue="Message"
-                      />
-                    </div>
-                    {/* <div className="input-group">
-                                      <div className="g-recaptcha" data-sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                                      <input className="form-control d-none" style={{display:'none'}} data-recaptcha="true" required data-error="Please complete the Captcha" />
-                                  </div> */}
-                    <div>
-                      <button
-                        name="submit"
-                        type="submit"
-                        defaultValue="submit"
-                        className="btn btn-primary"
-                      >
-                        SUBSCRIBE NOW
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div className="col-lg-6 m-b30 align-self-center">
-                <div
-                  className="section-head style-1 aos-item"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="400"
-                >
-                  <h3 className="title m-b20">
-                    We Are Always Best For Industrial Solution
-                  </h3>
-                </div>
-                <ul
-                  className="list-check primary m-b40 aos-item"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="600"
-                >
-                  <li>Think Positive, Think Always</li>
-                  <li>Everyone Loves Got An Incredible</li>
-                  <li>Our Professional Team Works</li>
-                  <li>We Are Laregest Independent</li>
-                </ul>
-                <div className={`split-box ${splitEvent ? "" : "split-active"}`}>
-                  <img
-                    src={about28}
-                    alt=""
-                    className="aos-item w-100"
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="800"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>;
+        <ContactUs splitEvent={splitEvent} />
+
         {/* <section className="content-inner overlay-white-middle" style={{ backgroundImage: "url(" + bg2 + ")" }} >
           <div className="container">
             <div className="row about-style1 align-items-center">
@@ -666,7 +534,7 @@ function Home() {
           onClose={() => setOpen(false)}
         />
       </div>
-      <Footer />
+      
     </>
   );
 }
