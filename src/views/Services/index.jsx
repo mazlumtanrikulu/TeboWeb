@@ -27,7 +27,7 @@ function Services() {
         <>
           
             <div className="page-content bg-white">
-                <PageTitle title='Our Services' parentPage='Home' childPage='Pages' />
+                <PageTitle title='Hizmetlerimiz' parentPage='Home' childPage='Pages' />
                 {/* <!-- Services --> */}
                 <section className="content-inner bg-gray">
                     <div className="container">
@@ -37,13 +37,13 @@ function Services() {
                                     <div className="content-box2 m-b30">
                                         <div className="dz-info">
                                             <h3 className="title">{data.title}</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+                                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p> */}
                                         </div>
                                         <div className="dz-media m-b30">
                                             <img src={data.image} alt="" />
                                         </div>
                                         <div className="dz-bottom">
-                                            <Link to={'/services/detail'} className="btn-link">Services Detail<i className="fas fa-arrow-right"></i></Link>
+                                            <Link to={'/services/detail'} className="btn-link">Daha Detaylı<i className="fas fa-arrow-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>

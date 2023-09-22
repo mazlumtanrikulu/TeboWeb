@@ -11,15 +11,16 @@ import PageTitle from "../../layouts/PageTitle";
 
 //Images
 
-import pic1 from "../../assets/images/gallery/pic1.jpg";
-import pic2 from "../../assets/images/gallery/pic2.jpg";
-import pic3 from "../../assets/images/gallery/pic3.jpg";
-import pic4 from "../../assets/images/gallery/pic4.jpg";
-import pic5 from "../../assets/images/gallery/pic5.jpg";
-import pic6 from "../../assets/images/gallery/pic6.jpg";
-import pic7 from "../../assets/images/gallery/pic7.jpg";
-import pic8 from "../../assets/images/gallery/pic8.jpg";
-import pic9 from "../../assets/images/gallery/pic9.jpg";
+import pic1 from "../../assets/images/gallery/resim1.jpeg";
+import pic2 from "../../assets/images/gallery/resim2.jpeg";
+import pic3 from "../../assets/images/gallery/resim3.jpeg";
+import pic4 from "../../assets/images/gallery/resim4.jpg";
+import pic5 from "../../assets/images/gallery/resim5.jpg";
+import pic6 from "../../assets/images/gallery/pic1.jpg";
+import pic7 from "../../assets/images/gallery/pic2.jpg";
+import pic8 from "../../assets/images/gallery/pic3.jpg";
+import pic9 from "../../assets/images/gallery/pic4.jpg";
+
 
 
 const GallerySection = [
