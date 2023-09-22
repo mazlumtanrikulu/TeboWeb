@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-      <Header />
+        <Header />
         <ScrollToTop />
         <div className="page-wraper">
           <Switch>
@@ -31,10 +31,10 @@ function App() {
                 <Route path="/company-definition" component={CompanyHistory} />
               </Switch>
             </Route>
-            <Route path="/services">
+            <Route path="/services/:service">
               <Switch>
-                <Route path="/services/detail" component={ServiceDetails} />
-                <Route path="/services" component={Services} />
+                <Route path="/services/:service/:detail" component={ServiceDetails} />
+                <Route path="/services/:service" component={Services} />
               </Switch>
             </Route>
             <Route path="/cases">
@@ -47,15 +47,15 @@ function App() {
               path="/certificate-of-company"
               component={CertificateOfCompany}
             />
-              <Route
+            <Route
               path="/contact-us"
               component={ContactUse}
             />
-            
-            
+
+
           </Switch>
         </div>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
   );
