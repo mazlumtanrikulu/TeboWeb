@@ -11,21 +11,23 @@ import PageTitle from '../../layouts/PageTitle';
 import pic1 from '../../assets/images/services/pic1.jpg';
 import pic2 from '../../assets/images/services/pic2.jpg';
 import pic3 from '../../assets/images/services/pic3.jpg';
+import { useParams } from 'react-router-dom/cjs/react-router-dom';
 
 
 const serviceData = [
-    { image: pic1, title: 'Industrial Construction' },
-    { image: pic2, title: 'Mechanical Engineering' },
-    { image: pic3, title: 'Automotive Manufacturing' },
-    { image: pic1, title: 'Chemical Engineering' },
-    { image: pic2, title: 'Information Architecture' },
-    { image: pic3, title: 'Flexible Manufacturing' },
+    { id: 1, image: pic1, title: 'Industrial Construction' },
+    { id: 2, image: pic2, title: 'Mechanical Engineering' },
+    { id: 3, image: pic3, title: 'Automotive Manufacturing' },
+    { id: 4, image: pic1, title: 'Chemical Engineering' },
+    { id: 5, image: pic2, title: 'Information Architecture' },
+    { id: 6, image: pic3, title: 'Flexible Manufacturing' },
 ];
 
 function Services() {
+    const { service } = useParams()
     return (
         <>
-          
+
             <div className="page-content bg-white">
                 <PageTitle title='Hizmetlerimiz' parentPage='Home' childPage='Pages' />
                 {/* <!-- Services --> */}
@@ -43,7 +45,7 @@ function Services() {
                                             <img src={data.image} alt="" />
                                         </div>
                                         <div className="dz-bottom">
-                                            <Link to={'/services/detail'} className="btn-link">Daha Detaylı<i className="fas fa-arrow-right"></i></Link>
+                                            <Link to={`/services/${service}/${data.id}`} className="btn-link">Daha Detaylı<i className="fas fa-arrow-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -52,7 +54,7 @@ function Services() {
                     </div>
                 </section>
             </div>
-  
+
 
         </>
     )
