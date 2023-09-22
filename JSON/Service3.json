@@ -1,0 +1,34 @@
+{
+  "service 1": {
+    "tr": {
+      "title": "Endüstriyel Çelik Yapılar",
+      "image": "../../assets/images/pic4.png",
+      "p1": "Endüstriyel çelik yapılar konusunda lider bir firma olarak, müşterilerimize dayanıklı, güvenilir ve özelleştirilmiş inşaat çözümleri sunuyoruz. Yılların deneyimi ve mühendislik bilgisi ile, endüstriyel tesisler, depo kompleksleri, fabrikalar ve daha fazlası için en son teknoloji ve tasarım prensiplerini bir araya getiriyoruz. Müşterilerimizin ihtiyaçlarına uygun çelik yapılar üretmekten gurur duyuyoruz.",
+      "p2": "Firmamızın endüstriyel çelik yapıları, dayanıklılık, güvenlik ve verimlilik açısından sektör standartlarını aşar. Her bir proje, yerel düzenlemelere ve müşteri beklentilerine uygun olarak tasarlanır ve inşa edilir. Ayrıca, müşterilerimize özelleştirilmiş tasarımlar ve boyutlar sunarak projelerini en iyi şekilde optimize etmelerine yardımcı oluyoruz.",
+      "p3": "Endüstriyel çelik yapılarınızı inşa etmek veya genişletmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+    },
+    "en": {
+      "title": "Industrial Steel Structures",
+      "image": "../../assets/images/pic4.png",
+      "p1": "",
+      "p2": "",
+      "p3": ""
+    }
+  },
+  "service 2": {
+    "tr": {
+      "title": "Çelik Karkaslı Konutlar",
+      "image": "../../assets/images/pic4.png",
+      "p1": "Çelik karkaslı konutlar konusunda uzman olan firmamız, dayanıklı, enerji verimli ve modern konutlar inşa etmek için güçlü bir çözüm sunmaktadır. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize çelik karkaslı konutlarla ilgili kapsamlı bir hizmet yelpazesi sunmaktan gurur duyuyoruz. Çelik karkas teknolojisi, inşaat sürecini hızlandırır ve sonuçta mükemmel kalite ve dayanıklılık sağlar.",
+      "p2": "Firmamızın çelik karkaslı konutları, konforlu yaşam alanları ve estetik tasarımlar ile öne çıkar. Her bir proje, müşteri beklentilerini ve bütçesini dikkate alarak özelleştirilir. Ayrıca, enerji tasarruflu malzemeler ve yeşil inşaat uygulamalarıyla çevre dostu bir yaklaşım benimseriz.",
+      "p3": "Çelik karkaslı konutlarımızla ilgili projelerinizde size yardımcı olmaktan mutluluk duyarız. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, hayalinizdeki konutu inşa etmeniz için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için bizimle iletişime geçin."
+    },
+    "en": {
+      "title": "Steel Framed Houses",
+      "image": "../../assets/images/pic4.png",
+      "p1": "",
+      "p2": "",
+      "p3": ""
+    }
+  }
+}
