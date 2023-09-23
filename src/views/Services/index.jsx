@@ -186,7 +186,7 @@ const findData = (id) => {
 function Services() {
     const { service } = useParams()
     const { t } = useTranslation();
-    const d = findData(service)
+    const d = t(service, { returnObjects: true })
     return (
         <>
             <div className="page-content bg-white">
