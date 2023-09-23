@@ -9,12 +9,6 @@ import teboLogo from "./../assets/images/tebo-logo.JPG"
 export default function Header() {
     //Sidebar
     const [openToggleBtn, setOpenToggleBtn] = useState(false);
-
-    //Request A Quote scroll to  contact us
-    const ScrollToContactUsHandler = () => {
-        window.scrollTo(0, 3400)
-        console.log("bklasdklasd")
-    }
     //Header fixed
     const [headerFix, setheaderFix] = React.useState(false);
     useEffect(() => {
@@ -81,7 +75,7 @@ export default function Header() {
                                             <i className="fas fa-search"></i>
                                         </Link>
                                     </div> */}
-                                    <Link to={"#"} onClick={ScrollToContactUsHandler} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">CONTACT US</Link>
+                                    <Link to={"/contact-us"} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">CONTACT US</Link>
                                 </div>
                             </div>
                             {/* <!-- Extra Nav --> */}

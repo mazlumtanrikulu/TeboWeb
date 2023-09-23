@@ -20,9 +20,9 @@ const aboutSection = [
 export default function CompanyHistory() {
     return (
         <>
-            
+
             <div className="page-content bg-white">
-                <PageTitle title='Company History' parentPage='Home' childPage='Pages' />
+                <PageTitle title='Hakkımızda' parentPage='Ana Sayfa' childPage='Biz kimiz' />
                 <section className="content-inner">
                     <div className="container">
                         {/* <div className="row m-b30">
@@ -45,10 +45,10 @@ export default function CompanyHistory() {
                                         <div className="section-head style-1">
                                             <h3 className="title m-b20">Hakkımızda</h3>
                                             <p>Firmamız 1993 yılında Sevgili babamız Behsat AŞĞIN tarafından İskenderun Organize Sanayi bölgesinde kurulmuştur.
-</p>
+                                            </p>
                                         </div>
                                         <p>Kurulduğu ilk yıllarda çelik fabrikalarına yedek parça üreten, bunların tamiratı ve bakımını yapan firmamız, bölgemizdeki çelik üretim kapasitesindeki genişlemeye paralel olarak kapasitesini ve yeterliliğini büyüterek ilerlemiştir.
-</p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ export default function CompanyHistory() {
                     </div>
                 </section>
             </div>
-          
+
         </>
     )
 }

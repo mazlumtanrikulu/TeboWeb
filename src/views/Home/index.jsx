@@ -38,6 +38,7 @@ import pic1 from "./../../assets/images/bnr/pic1.jpg";
 import teboHomePhoto from "./../../assets/images/bnr/4453 (2).png";
 import teboHomePhoto2 from "./../../assets/images/bnr/20180208_095122.jpg"
 
+import ContactUse from "./../ContactUse";
 
 
 //Array
@@ -282,7 +283,8 @@ function Home() {
             <ClientsSlider />
           </div>
         </section>
-        <ContactUs splitEvent={splitEvent} />
+        {/* <ContactUs splitEvent={splitEvent} /> */}
+        <ContactUse />
         <ModalVideo
           channel="youtube"
           autoplay
