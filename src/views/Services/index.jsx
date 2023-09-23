@@ -11,41 +11,202 @@ import PageTitle from '../../layouts/PageTitle';
 import pic1 from '../../assets/images/services/pic1.jpg';
 import pic2 from '../../assets/images/services/pic2.jpg';
 import pic3 from '../../assets/images/services/pic3.jpg';
+import pic4 from '../../assets/images/pic4.png';
+import resim3 from '../../assets/images/resim3.jpeg'
 import { useParams } from 'react-router-dom/cjs/react-router-dom';
-
+import { useTranslation } from 'react-i18next';
 
 const serviceData = [
-    { id: 1, image: pic1, title: 'Industrial Construction' },
-    { id: 2, image: pic2, title: 'Mechanical Engineering' },
-    { id: 3, image: pic3, title: 'Automotive Manufacturing' },
-    { id: 4, image: pic1, title: 'Chemical Engineering' },
-    { id: 5, image: pic2, title: 'Information Architecture' },
-    { id: 6, image: pic3, title: 'Flexible Manufacturing' },
+    {
+        id: 1,
+        title: 'Çelikhane Makineleri İmalatı ve Montajı',
+        items: [
+            {
+                id: 1, item: {
+                    "title": "Toz Toplama Üniteleri",
+                    "image": pic4,
+                    "p1": "Toz Toplama Üniteleri konusunda uzmanlaşmış firmamız, endüstriyel işletmelerin hava kalitesini ve çalışanların sağlığını korumak için etkili çözümler sunmaktadır. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize çeşitli endüstriyel uygulamalara uygun toz toplama sistemleri sunuyoruz. Toz ve partikül madde kontrolü, işimizin merkezinde yer alır ve çevre dostu çözümler üretmeye odaklanırız.",
+                    "p2": "Firmamızın toz toplama üniteleri, yüksek verimlilik, düşük enerji tüketimi ve bakım kolaylığı gibi avantajlar sunar. Özelleştirilmiş tasarımlarımız, müşterilerin özel ihtiyaçlarına uygun çözümler sunmamıza olanak tanır. Ayrıca, ürünlerimizin kalitesini ve güvenilirliğini sağlamak için sıkı kalite kontrol süreçleri uygularız.",
+                    "p3": "Toz toplama üniteleri ihtiyacınızı karşılamak ve işletmenizin hava kalitesini iyileştirmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, toz ve partikül madde kontrolünde size yardımcı olmaktan memnuniyet duyarız. Daha fazla bilgi almak veya projenizin gereksinimlerini tartışmak için lütfen bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 2, item: {
+                    "title": "Hava soğutma üniteleri",
+                    "image": pic4,
+                    "p1": "Hava Soğutma Üniteleri konusunda lider bir firma olarak, müşterilerimize enerji verimli ve çevre dostu çözümler sunuyoruz. Yılların deneyimi ve teknik uzmanlığımız sayesinde, endüstriyel ve ticari alanlarda hava soğutma ihtiyaçlarına özelleştirilmiş ve güvenilir cevaplar sunuyoruz. İşimizin temelinde, müşterilerimizin konforunu ve üretim verimliliğini artırmak için en son teknolojiyi kullanmak vardır.",
+                    "p2": "Firmamızın hava soğutma üniteleri, yüksek verimlilik, düşük enerji tüketimi ve kolay bakım gibi avantajlar sunar. Özellikle sıcak yaz aylarında, işletmelerin iç mekan sıcaklığını düşürmek ve çalışanların rahatlığını sağlamak için tasarlanmıştır. Ayrıca, her projeye özel çözümler sunarak müşterilerimizin ihtiyaçlarını tam olarak karşılarız.",
+                    "p3": "Hava soğutma üniteleri ihtiyacınızı karşılamak ve enerji tasarrufu sağlamak için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, hava soğutma projelerinizi tasarlama ve uygulama konusunda size yardımcı olmaktan mutluluk duyar. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için bize ulaşmaktan çekinmeyin."
+                },
+            },
+            {
+                id: 3, item: {
+                    "title": "Hurda Sepeti Taban ve Gövesi İmalatı",
+                    "image": resim3,
+                    "p1": "Hurda damperi imalatı konusunda uzman olan firmamız, metal geri dönüşüm ve inşaat sektörlerine yüksek kaliteli ekipmanlar sunmaktadır. Yılların deneyimi ve mühendislik uzmanlığı ile, müşterilerimize dayanıklı, güvenilir ve verimli hurda damparı çözümleri sunuyoruz. İşimizi tutkuyla yapıyor ve her projeyi müşterilerimizin özel ihtiyaçlarına uygun olarak tasarlayarak, üretiyoruz.",
+                    "p2": "Firmamızın hurda damperi ürünleri, dayanıklılık, güvenlik ve performans açısından yüksek standartları karşılamaktadır. Her bir ürünümüz, titiz bir kalite kontrol sürecinden geçer ve en zorlu çalışma koşullarında bile üstün performans gösterir. Ayrıca, müşterilerimize özelleştirilmiş çözümler sunarak işlerini daha verimli hale getirmelerine yardımcı oluyoruz.",
+                    "p3": "Hurda damperi ihtiyacınızı karşılamak ve projelerinizi daha etkili bir şekilde yönetmek için bize güvenebilirsiniz. Kalite, güvenlik ve müşteri memnuniyetini en üst düzeye çıkarmak için çalışıyoruz. Sizin için en iyi hurda damperi çözümünü bulmak için bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 4, item: {
+                    "title": "Su Soğutmalı Paneller",
+                    "image": resim3,
+                    "p1": "Su Soğutmalı Paneller konusunda uzman olan firmamız, endüstriyel ve ticari uygulamalar için özel tasarlanmış yüksek verimli soğutma çözümleri sunmaktadır. Yılların deneyimi ve teknolojiye olan bağlılığımız sayesinde, müşterilerimize enerji tasarrufu, düşük işletme maliyetleri ve çevre dostu çözümler sunmaktan gurur duyuyoruz. Su soğutmalı panellerimiz, iç mekan sıcaklığını istikrarlı bir şekilde kontrol etmek için idealdir ve her türlü uygulama için uygun seçenekler sunar.",
+                    "p2": "Firmamızın ürünleri, yüksek kalite standartlarına ve dayanıklılık prensiplerine uygun olarak üretilmektedir. Su soğutmalı panellerimiz, enerji verimliliği ve güvenilirlik açısından sektör liderlerinin gereksinimlerini karşılamak için tasarlanmıştır. Ayrıca, her müşterinin özel gereksinimlerini karşılamak ve projelerini en iyi şekilde optimize etmek için özelleştirilmiş tasarım ve danışmanlık hizmetleri sunuyoruz.",
+                    "p3": "Su soğutmalı panellerle ilgili ihtiyaçlarınızı karşılamak ve iç mekan sıcaklığınızı istediğiniz gibi yönetmek için firmamızı güvenle tercih edebilirsiniz. Profesyonel ekibimiz, deneyimimiz ve kalite odaklı yaklaşımımızla size en iyi çözümü sunmak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 5, item: {
+                    "title": "Su Soğutmalı Panel Borular ",
+                    "image": resim3,
+                    "p1": "Su soğutmalı panel borular konusunda uzman olan firmamız, endüstriyel ve ticari ihtiyaçları karşılayacak yüksek kaliteli çözümler sunmaktadır. Yılların deneyimi ve mühendislik uzmanlığımızla, iç mekan sıcaklığı kontrolü için etkili bir şekilde çalışan su soğutmalı borular üretiyoruz. Bu borular, enerji verimliliği, düşük işletme maliyetleri ve çevre dostu bir yaklaşım sunar.",
+                    "p2": "Firmamızın su soğutmalı panel boruları, dayanıklılık ve güvenilirlik açısından sektör liderlerinin beklentilerini aşar. Her bir ürünümüz, kalite standartlarına uygun olarak üretilir ve zorlu çalışma koşullarında üstün performans sergiler. Müşterilerimize özelleştirilmiş çözümler sunarak, projelerini daha verimli ve etkili bir şekilde yönetmelerine yardımcı oluruz.",
+                    "p3": "Su soğutmalı panel boruları ihtiyacınızı karşılamak ve iç mekan sıcaklığı kontrolünü optimize etmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, size en iyi çözümü sunmak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 6, item: {
+                    "title": "Doğalgaz Boru Hatları",
+                    "image": resim3,
+                    "p1": "Doğalgaz boru hatları konusunda uzman bir firma olarak, enerji taşıma çözümlerinde öncüyüz. Yılların deneyimi ve mühendislik bilgisi ile, güvenilir ve etkili doğalgaz boru hatları inşa etmek için gereken bilgiye ve kaynağa sahibiz. Müşterilerimize çevre dostu enerji nakli sağlamak için en son teknolojiyi kullanıyoruz.",
+                    "p2": "Firmamızın doğalgaz boru hatları, güvenlik, dayanıklılık ve verimlilik açısından sektör standartlarını karşılar. Her bir proje, yerel düzenlemelere uygun olarak tasarlanır ve inşa edilir. Ayrıca, doğalgaz taşıma gereksinimlerini karşılayacak şekilde özelleştirilmiş çözümler sunarız. Müşterilerimizin enerji ihtiyaçlarını karşılamak ve şehirlerimize güvenilir bir enerji kaynağı sunmak için buradayız.",
+                    "p3": "Doğalgaz boru hatları inşaatı veya bakımı konusunda bir çözüme ihtiyacınız varsa, bize başvurabilirsiniz. Profesyonel ekibimiz, projelerinizi başarıyla tamamlamak için gereken uzmanlığa sahiptir. Daha fazla bilgi almak veya projenizi değerlendirmek için bizimle iletişime geçmekten çekinmeyin."
+                },
+            },
+            {
+                id: 7, item: {
+                    "title": "Silolar",
+                    "image": resim3,
+                    "p1": "Silolar konusunda lider bir firma olarak, endüstriyel depolama ihtiyaçlarınızı karşılamak için güvenilir ve yenilikçi çözümler sunuyoruz. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize özelleştirilmiş silo tasarımları ve yüksek kaliteli ürünler sunmaktan gurur duyuyoruz. Silolarımız, dayanıklılık, güvenlik ve verimlilik açısından sektör liderlerinin beklentilerini karşılayacak şekilde tasarlanır ve üretilir.",
+                    "p2": "Firmamızın silo çözümleri, tarım, gıda, inşaat ve diğer birçok sektör için uygundur. Ürünlerimiz, malzemelerin güvenli ve hijyenik bir şekilde depolanmasını sağlar ve işletmelerin verimliliğini artırır. Ayrıca, her projeyi müşterilerimizin özel gereksinimlerine göre tasarlamak ve uyarlamak için esnek bir yaklaşım benimseriz.",
+                    "p3": "Silolar konusundaki ihtiyaçlarınızı karşılamak ve depolama projelerinizi optimize etmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, deneyimimiz ve müşteri memnuniyetine verdiğimiz önemle, size en iyi çözümü sunmak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 8, item: {
+                    "title": "Potalar",
+                    "image": resim3,
+                    "p1": "Döküm Potaları konusunda sektörün önde gelen firmalarından biri olarak, müşterilerimize yüksek kaliteli ve özelleştirilmiş çözümler sunuyoruz. Yılların deneyimi ve mühendislik uzmanlığımızla, döküm potası ihtiyaçlarına uygun ürünler üretiyoruz. Her bir potamız, dayanıklılık, güvenlik ve performans açısından endüstri standartlarını karşılar ve döküm işlemlerini verimli bir şekilde yönetmek için tasarlanır.",
+                    "p2": "Firmamızın döküm potaları, çeşitli döküm uygulamalarına uygun olarak tasarlanmıştır. Müşterilerimizin özel ihtiyaçlarına cevap vermek için özelleştirilmiş tasarım ve üretim hizmetleri sunuyoruz. Ayrıca, ürünlerimizin kalitesini ve dayanıklılığını sağlamak için sıkı kalite kontrol süreçleri uyguluyoruz.",
+                    "p3": "Döküm potası ihtiyacınızı karşılamak ve döküm projelerinizi en iyi şekilde yönetmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 9, item: {
+                    "title": "Pota Arabaları",
+                    "image": resim3,
+                    "p1": "Pota arabaları konusunda uzman olan firmamız, metalurji ve endüstriyel dökümhaneler için güvenilir taşıma çözümleri sunmaktadır. Yılların deneyimi ve teknik bilgimizle, müşterilerimize özelleştirilebilir ve yüksek dayanıklılığa sahip pota arabaları sunmaktan gurur duyuyoruz. Pota arabalarımız, erimiş metal ve ağır yüklerin güvenli bir şekilde taşınmasını sağlamak için tasarlanmıştır ve endüstri standartlarını karşılar.",
+                    "p2": "Firmamızın ürünleri, kalite ve performans açısından en yüksek standartları karşılar. Her bir pota arabası, yoğun çalışma koşullarında dayanıklılığını korur ve işletmelerin üretkenliğini artırır. Ayrıca, müşterilerimizin özel gereksinimlerini karşılamak için özelleştirilmiş tasarım ve boyut seçenekleri sunarız.",
+                    "p3": "Pota arabaları ihtiyacınızı karşılamak ve dökümhane operasyonlarınızı daha etkili hale getirmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin"
+                },
+            },
+            {
+                id: 10, item: {
+                    "title": "Ocak Gövdeleri",
+                    "image": resim3,
+                    "p1": "Ocak gövdeleri konusunda uzman olan firmamız, mutfaklarda ve endüstriyel tesislerde kullanılmak üzere yüksek kaliteli ocak gövdeleri üretmektedir. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize estetik ve fonksiyonel açıdan mükemmel çözümler sunmaktan gurur duyuyoruz. Ocak gövdelerimiz, dayanıklılık, hijyen ve işlevsellik gibi önemli kriterleri karşılar ve uzun ömürlüdür.",
+                    "p2": "Firmamızın ürünleri, mutfak tasarımcıları ve endüstriyel şefler için ideal bir seçenek sunar. Estetik tasarımlarımız, her türlü mutfak dekoruna uyum sağlar ve işlevselliği ön planda tutar. Ayrıca, özelleştirilmiş ocak gövdeleri ile müşterilerimizin özel ihtiyaçlarını karşılamak için esnek bir yaklaşım benimseriz.",
+                    "p3": "Ocak gövdeleri ihtiyacınızı karşılamak ve mutfağınızı veya endüstriyel tesisinizi optimize etmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 11, item: {
+                    "title": "Pota Kapakları",
+                    "image": resim3,
+                    "p1": "Pota kapakları konusunda uzman olan firmamız, metalurji ve döküm endüstrisi için güvenilir ve yüksek kaliteli kapaklar üretmektedir. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize dayanıklı, güvenli ve özelleştirilmiş kapak çözümleri sunmaktan gurur duyuyoruz. Pota kapaklarımız, erimiş metalin korunması ve döküm işleminin güvenli bir şekilde gerçekleştirilmesi için tasarlanmıştır ve endüstri standartlarını karşılar.",
+                    "p2": "Firmamızın ürünleri, kalite ve performans açısından en yüksek standartları karşılar. Her bir pota kapakları, yüksek sıcaklıklara ve yoğun kullanıma dayanacak şekilde üretilir. Ayrıca, müşterilerimizin özel gereksinimlerini karşılamak için özelleştirilmiş tasarım ve boyut seçenekleri sunuyoruz.",
+                    "p3": "Pota kapakları ihtiyacınızı karşılamak ve döküm işlemlerinizi daha güvenli ve verimli hale getirmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 12, item: {
+                    "title": "Tandiş",
+                    "image": resim3,
+                    "p1": "Tandiş konusunda uzman olan firmamız, özel et pişirme yöntemleri konusunda liderdir. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize mükemmel lezzetli yemekler sunmak için tasarlanmış tandiş ürünleri sunmaktan gurur duyuyoruz. Tandişlerimiz, etin doğal lezzetini ve özünü koruyarak mükemmel sonuçlar elde etmenizi sağlar.",
+                    "p2": "Firmamızın tandişleri, restoranlar, lokantalar ve ev kullanıcıları için idealdir. Mükemmel ızgara tadını deneyimlemek ve eti en iyi şekilde pişirmek isteyen herkes için mükemmel bir seçenektir. Ayrıca, farklı boyutlarda ve kapasitelerde tandişler sunarak müşterilerimizin ihtiyaçlarına cevap veriyoruz.",
+                    "p3": "Tandiş ihtiyacınızı karşılamak ve lezzetli yemekler hazırlamak için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, yemek deneyiminizi daha da özel hale getirmenize yardımcı olmaktan mutluluk duyarız. Daha fazla bilgi almak veya ürünlerimizi keşfetmek için lütfen bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 13, item: {
+                    "title": "Polip ",
+                    "image": resim3,
+                    "p1": "Polip ataşmanı konusunda uzman olan firmamız, inşaat ve malzeme taşıma ihtiyaçlarınız için güvenilir ve etkili çözümler sunmaktadır. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize çok çeşitli uygulamalarda kullanılabilen yüksek kaliteli polip ataşmanları sunmaktan gurur duyuyoruz. Polip ataşmanlarımız, malzeme taşıma işlemini daha verimli hale getirirken güvenlik ve dayanıklılık konularında öne çıkar.",
+                    "p2": "Firmamızın polip ataşmanları, inşaat, demir-çelik, geri dönüşüm ve diğer endüstriyel sektörlerde geniş bir yelpazede kullanılır. Ürünlerimiz, her türlü yükü güvenli bir şekilde kaldırabilir ve taşıyabilir. Ayrıca, müşterilerimizin özel ihtiyaçlarına uyacak şekilde özelleştirilmiş tasarımlar sunuyoruz.",
+                    "p3": "Polip ataşmanı ihtiyacınızı karşılamak ve malzeme taşıma projelerinizi optimize etmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+                },
+            },
+            {
+                id: 14, item: {
+                    "title": "Travers ",
+                    "image": resim3,
+                    "p1": "Travers konusunda uzman olan firmamız, yük taşıma ve malzeme kaldırma ihtiyaçlarınızı karşılamak için güvenilir ve özelleştirilebilir çözümler sunmaktadır. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize ağır yükleri güvenli ve verimli bir şekilde taşımanın yanı sıra depolama ve üretim süreçlerini optimize etme imkanı sunuyoruz. Traverslerimiz, endüstri standartlarını karşılar ve dayanıklılık ile güvenlik açısından üstün performans sergiler.",
+                    "p2": "Firmamızın traversleri, inşaat, üretim, limanlar, depolar ve daha birçok sektörde kullanılabilir. Her bir travers, projenizin gereksinimlerine uygun olarak özelleştirilebilir. Ayrıca, yük taşıma işlemlerini daha verimli ve güvenli hale getirmek için son teknoloji tasarım ve mühendislik çözümleri sunarız.",
+                    "p3": "Travers ihtiyaçlarınızı karşılamak ve malzeme taşıma projelerinizi optimize etmek için firmamızı güvenle tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için bizimle iletişime geçin."
+                }
+            }
+        ],
+    },
+    {
+        id: 2,
+        title: 'Çelik Konstrüksiyon İmalatı ve Montajı',
+        items: [
+            {
+                id: 1, item: {
+                    "title": "Endüstriyel Çelik Yapılar",
+                    "image": pic4,
+                    "p1": "Endüstriyel çelik yapılar konusunda lider bir firma olarak, müşterilerimize dayanıklı, güvenilir ve özelleştirilmiş inşaat çözümleri sunuyoruz. Yılların deneyimi ve mühendislik bilgisi ile, endüstriyel tesisler, depo kompleksleri, fabrikalar ve daha fazlası için en son teknoloji ve tasarım prensiplerini bir araya getiriyoruz. Müşterilerimizin ihtiyaçlarına uygun çelik yapılar üretmekten gurur duyuyoruz.",
+                    "p2": "Firmamızın endüstriyel çelik yapıları, dayanıklılık, güvenlik ve verimlilik açısından sektör standartlarını aşar. Her bir proje, yerel düzenlemelere ve müşteri beklentilerine uygun olarak tasarlanır ve inşa edilir. Ayrıca, müşterilerimize özelleştirilmiş tasarımlar ve boyutlar sunarak projelerini en iyi şekilde optimize etmelerine yardımcı oluyoruz.",
+                    "p3": "Endüstriyel çelik yapılarınızı inşa etmek veya genişletmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+                }
+            },
+            {
+                id: 2, item: {
+                    "title": "Çelik Karkaslı Konutlar",
+                    "image": pic4,
+                    "p1": "Çelik karkaslı konutlar konusunda uzman olan firmamız, dayanıklı, enerji verimli ve modern konutlar inşa etmek için güçlü bir çözüm sunmaktadır. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize çelik karkaslı konutlarla ilgili kapsamlı bir hizmet yelpazesi sunmaktan gurur duyuyoruz. Çelik karkas teknolojisi, inşaat sürecini hızlandırır ve sonuçta mükemmel kalite ve dayanıklılık sağlar.",
+                    "p2": "Firmamızın çelik karkaslı konutları, konforlu yaşam alanları ve estetik tasarımlar ile öne çıkar. Her bir proje, müşteri beklentilerini ve bütçesini dikkate alarak özelleştirilir. Ayrıca, enerji tasarruflu malzemeler ve yeşil inşaat uygulamalarıyla çevre dostu bir yaklaşım benimseriz.",
+                    "p3": "Çelik karkaslı konutlarımızla ilgili projelerinizde size yardımcı olmaktan mutluluk duyarız. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, hayalinizdeki konutu inşa etmeniz için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için bizimle iletişime geçin."
+                }
+            }
+        ]
+    }
 ];
+
+const servicesData = [
+    { id: 1, image: pic1, title: 'Industrial Construction' }
+]
+
+const findData = (id) => {
+    return serviceData.find((d) => d.id.toString() === id)
+}
 
 function Services() {
     const { service } = useParams()
+    const { t } = useTranslation();
+    const d = findData(service)
     return (
         <>
-
             <div className="page-content bg-white">
-                <PageTitle title='Hizmetlerimiz' parentPage='Home' childPage='Pages' />
+                <PageTitle title={d.title} parentPage='Ana Sayfa' childPage='Hizmetlerimiz' />
                 {/* <!-- Services --> */}
                 <section className="content-inner bg-gray">
                     <div className="container">
                         <div className="row">
-                            {serviceData.map((data, ind) => (
-                                <div className="col-lg-4 col-md-6" key={ind}>
+                            {d.items.map((data, ind) => (
+                                <div className="col-lg-3 col-md-6" key={ind}>
                                     <div className="content-box2 m-b30">
                                         <div className="dz-info">
-                                            <h3 className="title">{data.title}</h3>
+                                            <h5 className="title">{data.item.title}</h5>
                                             {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p> */}
                                         </div>
                                         <div className="dz-media m-b30">
-                                            <img src={data.image} alt="" />
+                                            <img src={data.item.image} alt="" />
                                         </div>
                                         <div className="dz-bottom">
-                                            <Link to={`/services/${service}/${data.id}`} className="btn-link">Daha Detaylı<i className="fas fa-arrow-right"></i></Link>
+                                            <Link to={`/services/${service}/${data.id}`} className="btn-link" >Daha Detaylı<i className="fas fa-arrow-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>

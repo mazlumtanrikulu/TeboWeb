@@ -12,7 +12,7 @@ export default function Header() {
 
     //Request A Quote scroll to  contact us
     const ScrollToContactUsHandler = () => {
-        window.scrollTo(0,3400)
+        window.scrollTo(0, 3400)
         console.log("bklasdklasd")
     }
     //Header fixed
@@ -40,7 +40,7 @@ export default function Header() {
         <>
             <header className="site-header mo-left header style-3">
 
-                <div className="top-bar">
+                {/* <div className="top-bar">
                     <div className="container-fluid">
                         <div className="d-flex justify-content-center align-items-center">
                             <div className="dz-topbar-center">
@@ -48,7 +48,7 @@ export default function Header() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* <!-- Main Header --> */}
                 <div className={`sticky-header main-bar-wraper navbar-expand-lg ${headerFix ? "is-fixed" : ""} `}>
@@ -81,7 +81,7 @@ export default function Header() {
                                             <i className="fas fa-search"></i>
                                         </Link>
                                     </div> */}
-                                    <Link to={"#"} onClick={ScrollToContactUsHandler} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">REQUEST A QUOTE</Link>
+                                    <Link to={"#"} onClick={ScrollToContactUsHandler} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">CONTACT US</Link>
                                 </div>
                             </div>
                             {/* <!-- Extra Nav --> */}
@@ -91,7 +91,7 @@ export default function Header() {
                                 <div className="logo-header logo-dark">
                                     <Link to={"./"}><img src={logo} alt="" /></Link>
                                 </div>
-                                <ul className="nav navbar-nav navbar navbar-left">
+                                {/* <ul className="nav navbar-nav navbar navbar-left">
                                     <li><Link to={"./"}><span>Ana Sayfa</span></Link>
                                     </li>
                                     <li className="has-mega-menu"><Link to={"#"}>Pages</Link>
@@ -150,15 +150,15 @@ export default function Header() {
                                             
                                         </ul>
                                     </li>
-                                </ul>
-                                <div className="dz-social-icon">
+                                </ul> */}
+                                {/* <div className="dz-social-icon">
                                     <ul>
                                         <li><a className="fab fa-facebook-f" href="https://www.facebook.com/"></a></li>
                                         <li><a className="fab fa-twitter" href="https://twitter.com/?lang=en"></a></li>
                                         <li><a className="fab fa-linkedin-in" href="https://www.linkedin.com/"></a></li>
                                         <li><a className="fab fa-instagram" href="https://www.instagram.com/?hl=en"></a></li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

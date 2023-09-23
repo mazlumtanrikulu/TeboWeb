@@ -1,12 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import bnr1 from './../assets/images/bnr/bnr1.jpg';
 
-const PageTitle = ({title, parentPage, childPage})=>{
-    return(
+const PageTitle = ({ title, parentPage, childPage }) => {
+    return (
         <>
-            <div className="dz-bnr-inr dz-bnr-inr-sm overlay-black-middle text-center" style={{backgroundImage: 'url('+ bnr1 +')'}}>
+            <div className="dz-bnr-inr dz-bnr-inr-sm overlay-black-middle text-center" style={{ backgroundImage: 'url(' + bnr1 + ')' }}>
                 <div className="container">
                     <div className="dz-bnr-inr-entry">
                         <h1>{title}</h1>
