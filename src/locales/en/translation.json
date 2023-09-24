@@ -1,18 +1,18 @@
 {
   "1": {
-    "title": "Çelikhane Makineleri İmalatı ve Montajı",
+    "title": "Steel Mill Machinery Manufacturing and Assembly",
     "icon": "flaticon-cogwheel",
-    "description": "Firmamız çelik konstrüksiyon imalatı ve montajında uzmandır. Yüksek kalite ve güvenlik standartlarına önem veririz. Müşteri memnuniyeti önceliğimizdir. İşbirliği için bize ulaşın.",
+    "description": "Our company is an expert in steel construction manufacturing and assembly. We attach importance to high quality and safety standards. Customer satisfaction is our priority. Contact us for cooperation.",
     "image": "/images/gallery/12.jpg",
     "items": [
       {
         "id": 1,
         "item": {
-          "title": "Toz Toplama Üniteleri",
+          "title": "Dust Colleciton Units",
           "image": "/images/resim7.jpg",
-          "p1": "Toz Toplama Üniteleri konusunda uzmanlaşmış firmamız, endüstriyel işletmelerin hava kalitesini ve çalışanların sağlığını korumak için etkili çözümler sunmaktadır. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize çeşitli endüstriyel uygulamalara uygun toz toplama sistemleri sunuyoruz. Toz ve partikül madde kontrolü, işimizin merkezinde yer alır ve çevre dostu çözümler üretmeye odaklanırız.",
-          "p2": "Firmamızın toz toplama üniteleri, yüksek verimlilik, düşük enerji tüketimi ve bakım kolaylığı gibi avantajlar sunar. Özelleştirilmiş tasarımlarımız, müşterilerin özel ihtiyaçlarına uygun çözümler sunmamıza olanak tanır. Ayrıca, ürünlerimizin kalitesini ve güvenilirliğini sağlamak için sıkı kalite kontrol süreçleri uygularız.",
-          "p3": "Toz toplama üniteleri ihtiyacınızı karşılamak ve işletmenizin hava kalitesini iyileştirmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, toz ve partikül madde kontrolünde size yardımcı olmaktan memnuniyet duyarız. Daha fazla bilgi almak veya projenizin gereksinimlerini tartışmak için lütfen bizimle iletişime geçin."
+          "p1": "Our company, specialized in Dust Collection Units, offers effective solutions to protect the air quality and health of employees in industrial enterprises. With years of experience and engineering knowledge, we offer our customers dust collection systems suitable for a variety of industrial applications. Dust and particulate matter control is at the heart of our business and we focus on producing environmentally friendly solutions.",
+          "p2": "Our company's dust collection units offer advantages such as high efficiency, low energy consumption and ease of maintenance. Our customized designs allow us to provide solutions tailored to customers' specific needs. Additionally, we implement stringent quality control processes to ensure the quality and reliability of our products.",
+          "p3": "You can choose our company to meet your needs for dust collection units and improve the air quality of your business. With our professional team, expertise and the importance we attach to customer satisfaction, we will be pleased to assist you in dust and particulate matter control. Please contact us for more information or to discuss your project's requirements."
         }
       },
       {
@@ -20,137 +20,137 @@
         "item": {
           "title": "Hava soğutma üniteleri",
           "image": "/images/resim8.jpg",
-          "p1": "Hava Soğutma Üniteleri konusunda lider bir firma olarak, müşterilerimize enerji verimli ve çevre dostu çözümler sunuyoruz. Yılların deneyimi ve teknik uzmanlığımız sayesinde, endüstriyel ve ticari alanlarda hava soğutma ihtiyaçlarına özelleştirilmiş ve güvenilir cevaplar sunuyoruz. İşimizin temelinde, müşterilerimizin konforunu ve üretim verimliliğini artırmak için en son teknolojiyi kullanmak vardır.",
-          "p2": "Firmamızın hava soğutma üniteleri, yüksek verimlilik, düşük enerji tüketimi ve kolay bakım gibi avantajlar sunar. Özellikle sıcak yaz aylarında, işletmelerin iç mekan sıcaklığını düşürmek ve çalışanların rahatlığını sağlamak için tasarlanmıştır. Ayrıca, her projeye özel çözümler sunarak müşterilerimizin ihtiyaçlarını tam olarak karşılarız.",
-          "p3": "Hava soğutma üniteleri ihtiyacınızı karşılamak ve enerji tasarrufu sağlamak için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, hava soğutma projelerinizi tasarlama ve uygulama konusunda size yardımcı olmaktan mutluluk duyar. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için bize ulaşmaktan çekinmeyin."
+          "p1": "As a leading company in Air Cooling Units, we offer energy efficient and environmentally friendly solutions to our customers. Thanks to our years of experience and technical expertise, we offer customized and reliable answers to air cooling needs in industrial and commercial areas. At the core of our business is using the latest technology to increase our customers' comfort and production efficiency.",
+          "p2": "Our company's air cooling units offer advantages such as high efficiency, low energy consumption and easy maintenance. It is designed to reduce the indoor temperature of businesses and ensure the comfort of employees, especially during the hot summer months. In addition, we fully meet our customers' needs by offering customized solutions for each project.",
+          "p3": "You can choose our company to meet your air cooling unit needs and save energy. Our professional team is happy to assist you in designing and implementing your air cooling projects. Feel free to contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 3,
         "item": {
-          "title": "Hurda Sepeti Taban ve Gövesi İmalatı",
+          "title": "Scrap Basket Base and Body Manufacturing",
           "image": "/images/resim3.jpeg",
-          "p1": "Hurda damperi imalatı konusunda uzman olan firmamız, metal geri dönüşüm ve inşaat sektörlerine yüksek kaliteli ekipmanlar sunmaktadır. Yılların deneyimi ve mühendislik uzmanlığı ile, müşterilerimize dayanıklı, güvenilir ve verimli hurda damparı çözümleri sunuyoruz. İşimizi tutkuyla yapıyor ve her projeyi müşterilerimizin özel ihtiyaçlarına uygun olarak tasarlayarak, üretiyoruz.",
-          "p2": "Firmamızın hurda damperi ürünleri, dayanıklılık, güvenlik ve performans açısından yüksek standartları karşılamaktadır. Her bir ürünümüz, titiz bir kalite kontrol sürecinden geçer ve en zorlu çalışma koşullarında bile üstün performans gösterir. Ayrıca, müşterilerimize özelleştirilmiş çözümler sunarak işlerini daha verimli hale getirmelerine yardımcı oluyoruz.",
-          "p3": "Hurda damperi ihtiyacınızı karşılamak ve projelerinizi daha etkili bir şekilde yönetmek için bize güvenebilirsiniz. Kalite, güvenlik ve müşteri memnuniyetini en üst düzeye çıkarmak için çalışıyoruz. Sizin için en iyi hurda damperi çözümünü bulmak için bizimle iletişime geçin."
+          "p1": "Our company, which specializes in scrap dumper manufacturing, offers high quality equipment to the metal recycling and construction sectors. With years of experience and engineering expertise, we offer our customers durable, reliable and efficient scrap dump solutions. We do our job with passion and design and produce each project in accordance with the specific needs of our customers.",
+          "p2": "Our company's scrap dumper products meet high standards in terms of durability, safety and performance. Each of our products goes through a rigorous quality control process and demonstrates superior performance even under the most challenging working conditions. We also help our customers make their businesses more efficient by providing them with customized solutions.",
+          "p3": "You can trust us to meet your scrap dumper needs and manage your projects more effectively. We work to maximize quality, safety and customer satisfaction. Contact us to find the best scrap dumper solution for you."
         }
       },
       {
         "id": 4,
         "item": {
-          "title": "Su Soğutmalı Paneller",
+          "title": "Water Cooled Panels",
           "image": "/images/resim9.jpg",
-          "p1": "Su Soğutmalı Paneller konusunda uzman olan firmamız, endüstriyel ve ticari uygulamalar için özel tasarlanmış yüksek verimli soğutma çözümleri sunmaktadır. Yılların deneyimi ve teknolojiye olan bağlılığımız sayesinde, müşterilerimize enerji tasarrufu, düşük işletme maliyetleri ve çevre dostu çözümler sunmaktan gurur duyuyoruz. Su soğutmalı panellerimiz, iç mekan sıcaklığını istikrarlı bir şekilde kontrol etmek için idealdir ve her türlü uygulama için uygun seçenekler sunar.",
-          "p2": "Firmamızın ürünleri, yüksek kalite standartlarına ve dayanıklılık prensiplerine uygun olarak üretilmektedir. Su soğutmalı panellerimiz, enerji verimliliği ve güvenilirlik açısından sektör liderlerinin gereksinimlerini karşılamak için tasarlanmıştır. Ayrıca, her müşterinin özel gereksinimlerini karşılamak ve projelerini en iyi şekilde optimize etmek için özelleştirilmiş tasarım ve danışmanlık hizmetleri sunuyoruz.",
-          "p3": "Su soğutmalı panellerle ilgili ihtiyaçlarınızı karşılamak ve iç mekan sıcaklığınızı istediğiniz gibi yönetmek için firmamızı güvenle tercih edebilirsiniz. Profesyonel ekibimiz, deneyimimiz ve kalite odaklı yaklaşımımızla size en iyi çözümü sunmak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+          "p1": "Our company, which specializes in Water Cooled Panels, offers specially designed, highly efficient cooling solutions for industrial and commercial applications. Thanks to our years of experience and our commitment to technology, we are proud to offer our customers energy saving, low operating costs and environmentally friendly solutions. Our water-cooled panels are ideal for consistently controlling indoor temperature, offering suitable options for any application.",
+          "p2": "Our company's products are produced in accordance with high quality standards and durability principles. Our water-cooled panels are designed to meet industry leaders' requirements for energy efficiency and reliability. We also offer customized design and consulting services to meet each customer's specific requirements and best optimize their projects.",
+          "p3": "You can safely choose our company to meet your needs regarding water-cooled panels and manage your indoor temperature as you wish. We are here to offer you the best solution with our professional team, experience and quality-oriented approach. Please contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 5,
         "item": {
-          "title": "Su Soğutmalı Panel Borular ",
+          "title": "Water Cooled Panel Pipes ",
           "image": "/images/resim10.jpg",
-          "p1": "Su soğutmalı panel borular konusunda uzman olan firmamız, endüstriyel ve ticari ihtiyaçları karşılayacak yüksek kaliteli çözümler sunmaktadır. Yılların deneyimi ve mühendislik uzmanlığımızla, iç mekan sıcaklığı kontrolü için etkili bir şekilde çalışan su soğutmalı borular üretiyoruz. Bu borular, enerji verimliliği, düşük işletme maliyetleri ve çevre dostu bir yaklaşım sunar.",
-          "p2": "Firmamızın su soğutmalı panel boruları, dayanıklılık ve güvenilirlik açısından sektör liderlerinin beklentilerini aşar. Her bir ürünümüz, kalite standartlarına uygun olarak üretilir ve zorlu çalışma koşullarında üstün performans sergiler. Müşterilerimize özelleştirilmiş çözümler sunarak, projelerini daha verimli ve etkili bir şekilde yönetmelerine yardımcı oluruz.",
-          "p3": "Su soğutmalı panel boruları ihtiyacınızı karşılamak ve iç mekan sıcaklığı kontrolünü optimize etmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, size en iyi çözümü sunmak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+          "p1": "Our company, which specializes in water-cooled panel pipes, offers high-quality solutions to meet industrial and commercial needs. With years of experience and engineering expertise, we produce water-cooled pipes that work effectively for indoor temperature control. These pipes offer energy efficiency, low operating costs and an environmentally friendly approach.",
+          "p2": "Our company's water-cooled panel pipes exceed the expectations of industry leaders in terms of durability and reliability. Each of our products is produced in accordance with quality standards and exhibits superior performance under harsh working conditions. By providing customized solutions to our customers, we help them manage their projects more efficiently and effectively.",
+          "p3": "You can choose our company to meet your water-cooled panel pipes needs and optimize indoor temperature control. We are here to offer you the best solution with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 6,
         "item": {
-          "title": "Doğalgaz Boru Hatları",
+          "title": "Natural Gas Pipelines",
           "image": "/images/resim11.jpg",
-          "p1": "Doğalgaz boru hatları konusunda uzman bir firma olarak, enerji taşıma çözümlerinde öncüyüz. Yılların deneyimi ve mühendislik bilgisi ile, güvenilir ve etkili doğalgaz boru hatları inşa etmek için gereken bilgiye ve kaynağa sahibiz. Müşterilerimize çevre dostu enerji nakli sağlamak için en son teknolojiyi kullanıyoruz.",
-          "p2": "Firmamızın doğalgaz boru hatları, güvenlik, dayanıklılık ve verimlilik açısından sektör standartlarını karşılar. Her bir proje, yerel düzenlemelere uygun olarak tasarlanır ve inşa edilir. Ayrıca, doğalgaz taşıma gereksinimlerini karşılayacak şekilde özelleştirilmiş çözümler sunarız. Müşterilerimizin enerji ihtiyaçlarını karşılamak ve şehirlerimize güvenilir bir enerji kaynağı sunmak için buradayız.",
-          "p3": "Doğalgaz boru hatları inşaatı veya bakımı konusunda bir çözüme ihtiyacınız varsa, bize başvurabilirsiniz. Profesyonel ekibimiz, projelerinizi başarıyla tamamlamak için gereken uzmanlığa sahiptir. Daha fazla bilgi almak veya projenizi değerlendirmek için bizimle iletişime geçmekten çekinmeyin."
+          "p1": "As a company specialized in natural gas pipelines, we are pioneers in energy transportation solutions. With years of experience and engineering knowledge, we have the knowledge and resources needed to build reliable and effective natural gas pipelines. We use the latest technology to provide environmentally friendly energy transportation to our customers.",
+          "p2": "Our company's natural gas pipelines meet industry standards in terms of safety, durability and efficiency. Each project is designed and constructed in accordance with local regulations. We also offer customized solutions to meet natural gas transportation requirements. We are here to meet the energy needs of our customers and provide a reliable energy source to our cities.",
+          "p3": "If you need a solution regarding the construction or maintenance of natural gas pipelines, you can contact us. Our professional team has the expertise needed to successfully complete your projects. Feel free to contact us for more information or to evaluate your project."
         }
       },
       {
         "id": 7,
         "item": {
-          "title": "Silolar",
+          "title": "Silos",
           "image": "/images/resim12.jpg",
-          "p1": "Silolar konusunda lider bir firma olarak, endüstriyel depolama ihtiyaçlarınızı karşılamak için güvenilir ve yenilikçi çözümler sunuyoruz. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize özelleştirilmiş silo tasarımları ve yüksek kaliteli ürünler sunmaktan gurur duyuyoruz. Silolarımız, dayanıklılık, güvenlik ve verimlilik açısından sektör liderlerinin beklentilerini karşılayacak şekilde tasarlanır ve üretilir.",
-          "p2": "Firmamızın silo çözümleri, tarım, gıda, inşaat ve diğer birçok sektör için uygundur. Ürünlerimiz, malzemelerin güvenli ve hijyenik bir şekilde depolanmasını sağlar ve işletmelerin verimliliğini artırır. Ayrıca, her projeyi müşterilerimizin özel gereksinimlerine göre tasarlamak ve uyarlamak için esnek bir yaklaşım benimseriz.",
-          "p3": "Silolar konusundaki ihtiyaçlarınızı karşılamak ve depolama projelerinizi optimize etmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, deneyimimiz ve müşteri memnuniyetine verdiğimiz önemle, size en iyi çözümü sunmak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+          "p1": "As a leading company in silos, we offer reliable and innovative solutions to meet your industrial storage needs. With years of experience and engineering knowledge, we are proud to offer our customers customized silo designs and high quality products. Our silos are designed and manufactured to meet the expectations of industry leaders in terms of durability, safety and efficiency.",
+          "p2": "Our company's silo solutions are suitable for agriculture, food, construction and many other sectors. Our products ensure safe and hygienic storage of materials and increase the efficiency of businesses. We also take a flexible approach to design and adapt each project to our customers' specific requirements.",
+          "p3": "You can choose our company to meet your needs regarding silos and optimize your storage projects. We are here to offer you the best solution with our professional team, experience and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 8,
         "item": {
-          "title": "Potalar",
+          "title": "Melting Crucibles",
           "image": "/images/resim13.jpeg",
-          "p1": "Döküm Potaları konusunda sektörün önde gelen firmalarından biri olarak, müşterilerimize yüksek kaliteli ve özelleştirilmiş çözümler sunuyoruz. Yılların deneyimi ve mühendislik uzmanlığımızla, döküm potası ihtiyaçlarına uygun ürünler üretiyoruz. Her bir potamız, dayanıklılık, güvenlik ve performans açısından endüstri standartlarını karşılar ve döküm işlemlerini verimli bir şekilde yönetmek için tasarlanır.",
-          "p2": "Firmamızın döküm potaları, çeşitli döküm uygulamalarına uygun olarak tasarlanmıştır. Müşterilerimizin özel ihtiyaçlarına cevap vermek için özelleştirilmiş tasarım ve üretim hizmetleri sunuyoruz. Ayrıca, ürünlerimizin kalitesini ve dayanıklılığını sağlamak için sıkı kalite kontrol süreçleri uyguluyoruz.",
-          "p3": "Döküm potası ihtiyacınızı karşılamak ve döküm projelerinizi en iyi şekilde yönetmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+          "p1": "As one of the industry's leading companies in Casting Crucibles, we offer high quality and customized solutions to our customers. With our years of experience and engineering expertise, we produce products suitable for casting ladle needs. Each of our crucibles meets industry standards for durability, safety and performance and is designed to manage casting operations efficiently.",
+          "p2": "Our company's casting crucibles are designed to suit various casting applications. We offer customized design and production services to respond to our customers' specific needs. Additionally, we implement stringent quality control processes to ensure the quality and durability of our products.",
+          "p3": "You can choose our company to meet your casting ladle needs and manage your casting projects in the best way. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 9,
         "item": {
-          "title": "Pota Arabaları",
+          "title": "Casting Crucible Carts",
           "image": "/images/resim13.jpeg",
-          "p1": "Pota arabaları konusunda uzman olan firmamız, metalurji ve endüstriyel dökümhaneler için güvenilir taşıma çözümleri sunmaktadır. Yılların deneyimi ve teknik bilgimizle, müşterilerimize özelleştirilebilir ve yüksek dayanıklılığa sahip pota arabaları sunmaktan gurur duyuyoruz. Pota arabalarımız, erimiş metal ve ağır yüklerin güvenli bir şekilde taşınmasını sağlamak için tasarlanmıştır ve endüstri standartlarını karşılar.",
-          "p2": "Firmamızın ürünleri, kalite ve performans açısından en yüksek standartları karşılar. Her bir pota arabası, yoğun çalışma koşullarında dayanıklılığını korur ve işletmelerin üretkenliğini artırır. Ayrıca, müşterilerimizin özel gereksinimlerini karşılamak için özelleştirilmiş tasarım ve boyut seçenekleri sunarız.",
-          "p3": "Pota arabaları ihtiyacınızı karşılamak ve dökümhane operasyonlarınızı daha etkili hale getirmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin"
+          "p1": "Our company, which specializes in Casting Ladle trolleys, offers reliable transportation solutions for metallurgy and industrial foundries. With our years of experience and know-how, we are proud to offer our customers customizable and highly durable ladle carts. Our ladle trolleys are designed to ensure the safe transportation of molten metal and heavy loads and meet industry standards.",
+          "p2": "Our company's products meet the highest standards in terms of quality and performance. Each ladle trolley maintains its durability under intense working conditions and increases the productivity of businesses. We also offer customized design and size options to meet our customers' specific requirements.",
+          "p3": "You can choose our company to meet your ladle trolley needs and make your foundry operations more effective. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. For more information or to evaluate your project's needs, please contact us"
         }
       },
       {
         "id": 10,
         "item": {
-          "title": "Ocak Gövdeleri",
+          "title": "Stove Bodies",
           "image": "/images/resim14.jpg",
-          "p1": "Ocak gövdeleri konusunda uzman olan firmamız, mutfaklarda ve endüstriyel tesislerde kullanılmak üzere yüksek kaliteli ocak gövdeleri üretmektedir. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize estetik ve fonksiyonel açıdan mükemmel çözümler sunmaktan gurur duyuyoruz. Ocak gövdelerimiz, dayanıklılık, hijyen ve işlevsellik gibi önemli kriterleri karşılar ve uzun ömürlüdür.",
-          "p2": "Firmamızın ürünleri, mutfak tasarımcıları ve endüstriyel şefler için ideal bir seçenek sunar. Estetik tasarımlarımız, her türlü mutfak dekoruna uyum sağlar ve işlevselliği ön planda tutar. Ayrıca, özelleştirilmiş ocak gövdeleri ile müşterilerimizin özel ihtiyaçlarını karşılamak için esnek bir yaklaşım benimseriz.",
-          "p3": "Ocak gövdeleri ihtiyacınızı karşılamak ve mutfağınızı veya endüstriyel tesisinizi optimize etmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+          "p1": "Our company, which is an expert in stove bodies, produces high quality stove bodies for use in kitchens and industrial facilities. With years of experience and engineering knowledge, we are proud to offer our customers excellent solutions in terms of aesthetics and functionality. Our stove bodies meet important criteria such as durability, hygiene and functionality and are long-lasting.",
+          "p2": "Our company's products offer an ideal option for kitchen designers and industrial chefs. Our aesthetic designs fit into any kitchen decor and prioritize functionality. We also take a flexible approach to meet our customers' specific needs with customized hob bodies.",
+          "p3": "You can choose our company to meet your stove body needs and optimize your kitchen or industrial facility. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 11,
         "item": {
-          "title": "Pota Kapakları",
+          "title": "Crucible Lids",
           "image": "/images/resim15.jpg",
-          "p1": "Pota kapakları konusunda uzman olan firmamız, metalurji ve döküm endüstrisi için güvenilir ve yüksek kaliteli kapaklar üretmektedir. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize dayanıklı, güvenli ve özelleştirilmiş kapak çözümleri sunmaktan gurur duyuyoruz. Pota kapaklarımız, erimiş metalin korunması ve döküm işleminin güvenli bir şekilde gerçekleştirilmesi için tasarlanmıştır ve endüstri standartlarını karşılar.",
-          "p2": "Firmamızın ürünleri, kalite ve performans açısından en yüksek standartları karşılar. Her bir pota kapakları, yüksek sıcaklıklara ve yoğun kullanıma dayanacak şekilde üretilir. Ayrıca, müşterilerimizin özel gereksinimlerini karşılamak için özelleştirilmiş tasarım ve boyut seçenekleri sunuyoruz.",
-          "p3": "Pota kapakları ihtiyacınızı karşılamak ve döküm işlemlerinizi daha güvenli ve verimli hale getirmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+          "p1": "Our company, which specializes in crucible lids, produces reliable and high-quality lids for the metallurgy and casting industry. With years of experience and engineering knowledge, we are proud to provide our customers with durable, safe and customized cover solutions. Our crucible lids are designed to protect molten metal and perform the casting process safely and meet industry standards.",
+          "p2": "Our company's products meet the highest standards in terms of quality and performance. Each crucible lid is manufactured to withstand high temperatures and heavy use. We also offer customized design and size options to meet our customers' specific requirements.",
+          "p3": "You can choose our company to meet your ladle lid needs and make your casting operations safer and more efficient. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 12,
         "item": {
-          "title": "Tandiş",
+          "title": "Tundish",
           "image": "/images/resim16.jpg",
-          "p1": "Tandiş konusunda uzman olan firmamız, özel et pişirme yöntemleri konusunda liderdir. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize mükemmel lezzetli yemekler sunmak için tasarlanmış tandiş ürünleri sunmaktan gurur duyuyoruz. Tandişlerimiz, etin doğal lezzetini ve özünü koruyarak mükemmel sonuçlar elde etmenizi sağlar.",
-          "p2": "Firmamızın tandişleri, restoranlar, lokantalar ve ev kullanıcıları için idealdir. Mükemmel ızgara tadını deneyimlemek ve eti en iyi şekilde pişirmek isteyen herkes için mükemmel bir seçenektir. Ayrıca, farklı boyutlarda ve kapasitelerde tandişler sunarak müşterilerimizin ihtiyaçlarına cevap veriyoruz.",
-          "p3": "Tandiş ihtiyacınızı karşılamak ve lezzetli yemekler hazırlamak için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, yemek deneyiminizi daha da özel hale getirmenize yardımcı olmaktan mutluluk duyarız. Daha fazla bilgi almak veya ürünlerimizi keşfetmek için lütfen bizimle iletişime geçin."
+          "p1": "Our company, which is an expert in tundish, offers high quality and durable products for foundries. With years of experience and engineering knowledge, we are proud to offer our customers tundishes designed for the safe storage and pouring of molten metal into molds. Our tundishes are distinguished by their robust construction and thermal resistance that meet industry standards.",
+          "p2": "Our company's tundishes make casting processes more efficient and safe. Each tundish is optimized for holding and transporting molten metal. We also offer tundishes in various sizes and capacities to meet our customers' specific requirements.",
+          "p3": "You can choose our company's tundish solutions to make your casting operations safer and more efficient. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 13,
         "item": {
-          "title": "Polip ",
+          "title": "Polyp Grabs ",
           "image": "/images/resim17.png",
-          "p1": "Polip ataşmanı konusunda uzman olan firmamız, inşaat ve malzeme taşıma ihtiyaçlarınız için güvenilir ve etkili çözümler sunmaktadır. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize çok çeşitli uygulamalarda kullanılabilen yüksek kaliteli polip ataşmanları sunmaktan gurur duyuyoruz. Polip ataşmanlarımız, malzeme taşıma işlemini daha verimli hale getirirken güvenlik ve dayanıklılık konularında öne çıkar.",
-          "p2": "Firmamızın polip ataşmanları, inşaat, demir-çelik, geri dönüşüm ve diğer endüstriyel sektörlerde geniş bir yelpazede kullanılır. Ürünlerimiz, her türlü yükü güvenli bir şekilde kaldırabilir ve taşıyabilir. Ayrıca, müşterilerimizin özel ihtiyaçlarına uyacak şekilde özelleştirilmiş tasarımlar sunuyoruz.",
-          "p3": "Polip ataşmanı ihtiyacınızı karşılamak ve malzeme taşıma projelerinizi optimize etmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+          "p1": "Our company, which specializes in polyp attachments, offers reliable and effective solutions for your construction and material handling needs. With years of experience and engineering knowledge, we are proud to offer our customers high quality polyp attachments that can be used in a wide variety of applications. Our polyp attachments stand out in terms of safety and durability while making material handling more efficient.",
+          "p2": "Our company's polyp attachments are used in a wide range of construction, iron and steel, recycling and other industrial sectors. Our products can lift and transport all types of loads safely. We also offer customized designs to suit our customers' specific needs.",
+          "p3": "You can choose our company to meet your polyp attachment needs and optimize your material handling projects. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 14,
         "item": {
-          "title": "Travers ",
+          "title": "Traverse ",
           "image": "/images/resim18.jpg",
-          "p1": "Travers konusunda uzman olan firmamız, yük taşıma ve malzeme kaldırma ihtiyaçlarınızı karşılamak için güvenilir ve özelleştirilebilir çözümler sunmaktadır. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize ağır yükleri güvenli ve verimli bir şekilde taşımanın yanı sıra depolama ve üretim süreçlerini optimize etme imkanı sunuyoruz. Traverslerimiz, endüstri standartlarını karşılar ve dayanıklılık ile güvenlik açısından üstün performans sergiler.",
-          "p2": "Firmamızın traversleri, inşaat, üretim, limanlar, depolar ve daha birçok sektörde kullanılabilir. Her bir travers, projenizin gereksinimlerine uygun olarak özelleştirilebilir. Ayrıca, yük taşıma işlemlerini daha verimli ve güvenli hale getirmek için son teknoloji tasarım ve mühendislik çözümleri sunarız.",
-          "p3": "Travers ihtiyaçlarınızı karşılamak ve malzeme taşıma projelerinizi optimize etmek için firmamızı güvenle tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için bizimle iletişime geçin."
+          "p1": "Our company, which specializes in crossbars, offers reliable and customizable solutions to meet your load carrying and material lifting needs. With years of experience and engineering knowledge, we offer our customers the opportunity to transport heavy loads safely and efficiently, as well as optimize storage and production processes. Our sleepers meet industry standards and excel in durability and safety.",
+          "p2": "Our company's sleepers can be used in construction, production, ports, warehouses and many other sectors. Each crossbar can be customized to suit the needs of your project. We also provide cutting-edge design and engineering solutions to make freight transportation more efficient and safe.",
+          "p3": "You can safely choose our company to meet your sleeper needs and optimize your material handling projects. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Contact us for more information or to evaluate your project's needs."
         }
       }
     ]
   },
   "2": {
-    "title": "Çelik Konstrüksiyon İmalatı ve Montajı",
+    "title": "Steel Construction Manufacturing and Assembly",
     "icon": "flaticon-engineer-1",
-    "description": "Firmamız, özel çelikhane ve haddehane makineleri üretiyor. Kalite, özelleştirme, hızlı teslimat ve müşteri memnuniyeti bizim önceliğimizdir. İletişime geçin, ihtiyaçlarınıza çözüm sunalım.",
+    "description": "Our company produces special steel mill and rolling mill machines. Quality, customization, fast delivery and customer satisfaction are our priority. Contact us and let us provide solutions to your needs.",
     "image": "/images/gallery/22.jpg",
     "items": [
       {
@@ -158,55 +158,55 @@
         "item": {
           "title": "Endüstriyel Çelik Yapılar",
           "image": "/images/resim19.jpg",
-          "p1": "Endüstriyel çelik yapılar konusunda lider bir firma olarak, müşterilerimize dayanıklı, güvenilir ve özelleştirilmiş inşaat çözümleri sunuyoruz. Yılların deneyimi ve mühendislik bilgisi ile, endüstriyel tesisler, depo kompleksleri, fabrikalar ve daha fazlası için en son teknoloji ve tasarım prensiplerini bir araya getiriyoruz. Müşterilerimizin ihtiyaçlarına uygun çelik yapılar üretmekten gurur duyuyoruz.",
-          "p2": "Firmamızın endüstriyel çelik yapıları, dayanıklılık, güvenlik ve verimlilik açısından sektör standartlarını aşar. Her bir proje, yerel düzenlemelere ve müşteri beklentilerine uygun olarak tasarlanır ve inşa edilir. Ayrıca, müşterilerimize özelleştirilmiş tasarımlar ve boyutlar sunarak projelerini en iyi şekilde optimize etmelerine yardımcı oluyoruz.",
-          "p3": "Endüstriyel çelik yapılarınızı inşa etmek veya genişletmek için firmamızı tercih edebilirsiniz. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, projelerinizi başarıyla tamamlamak için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için lütfen bizimle iletişime geçin."
+          "p1": "As a leading company in industrial steel structures, we offer our customers durable, reliable and customized construction solutions. With years of experience and engineering knowledge, we bring together the latest technology and design principles for industrial facilities, warehouse complexes, factories and more. We are proud to produce steel structures to suit our customers' needs.",
+          "p2": "Our company's industrial steel structures exceed industry standards for durability, safety and efficiency. Each project is designed and constructed in accordance with local regulations and customer expectations. We also help our customers optimize their projects by offering customized designs and sizes.",
+          "p3": "You can choose our company to build or expand your industrial steel structures. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
         }
       },
       {
         "id": 2,
         "item": {
-          "title": "Çelik Karkaslı Konutlar",
+          "title": "Steel Framed Houses",
           "image": "/images/resim20.jpg",
-          "p1": "Çelik karkaslı konutlar konusunda uzman olan firmamız, dayanıklı, enerji verimli ve modern konutlar inşa etmek için güçlü bir çözüm sunmaktadır. Yılların deneyimi ve mühendislik bilgisi ile, müşterilerimize çelik karkaslı konutlarla ilgili kapsamlı bir hizmet yelpazesi sunmaktan gurur duyuyoruz. Çelik karkas teknolojisi, inşaat sürecini hızlandırır ve sonuçta mükemmel kalite ve dayanıklılık sağlar.",
-          "p2": "Firmamızın çelik karkaslı konutları, konforlu yaşam alanları ve estetik tasarımlar ile öne çıkar. Her bir proje, müşteri beklentilerini ve bütçesini dikkate alarak özelleştirilir. Ayrıca, enerji tasarruflu malzemeler ve yeşil inşaat uygulamalarıyla çevre dostu bir yaklaşım benimseriz.",
-          "p3": "Çelik karkaslı konutlarımızla ilgili projelerinizde size yardımcı olmaktan mutluluk duyarız. Profesyonel ekibimiz, uzmanlığımız ve müşteri memnuniyetine verdiğimiz önemle, hayalinizdeki konutu inşa etmeniz için buradayız. Daha fazla bilgi almak veya projenizin gereksinimlerini değerlendirmek için bizimle iletişime geçin."
+          "p1": "Our company, which specializes in steel-framed residences, offers a powerful solution for building durable, energy-efficient and modern residences. With years of experience and engineering knowledge, we are proud to offer our customers a comprehensive range of services related to steel framed housing. Steel frame technology speeds up the construction process and ultimately ensures excellent quality and durability.",
+          "p2": "Our company's steel-framed residences stand out with their comfortable living spaces and aesthetic designs. Each project is customized taking into account customer expectations and budget. We also take an environmentally friendly approach with energy-efficient materials and green construction practices.",
+          "p3": "We would be happy to assist you in your projects related to our steel framed residences. We are here to help you build the house of your dreams with our professional team, expertise and the importance we attach to customer satisfaction. Contact us for more information or to evaluate your project's needs."
         }
       }
     ]
   },
   "3": {
-    "title": "Gezer Köprülü Tavan Vinci İmalatı ve Montajı",
+    "title": "Manufacturing and Installation of Overhead Overhead Crane",
     "icon": "flaticon-robot-arm",
-    "description": "Firmamız, Gezer köprülü tavan vincinin imalatı ve montajında uzmandır. Kaliteli, güvenilir ve özelleştirilmiş çözümler sunarız. Güvenlik ve maliyet etkinlik önceliğimizdir. İhtiyacınız varsa bizimle iletişime geçin.",
+    "description": "Our company specializes in the manufacturing and installation of overhead overhead cranes. We offer quality, reliable and customized solutions. Safety and cost effectiveness are our priority. Contact us if you need.",
     "image": "/images/gallery/25.jpg",
     "items": [
       {
         "id": 1,
         "item": {
-          "title": "Gezer Köprülü Tavan Vinci İmalat ve Montajı",
+          "title": "Overhead Overhead Crane Manufacturing and Installation",
           "image": "/images/resim2.jpeg",
-          "p1": "Gezer köprülü tavan vincinin imalatı ve montajı konusunda uzman olan firmamız, inşaat ve endüstri sektörlerindeki ihtiyaçları karşılamak için kapsamlı bir hizmet sunmaktadır. Yılların deneyimini ve teknik bilgiyi bir araya getirerek, müşterilerimize güvenilir ve özelleştirilmiş çözümler sunmayı hedefliyoruz. Gezer köprülü tavan vincimiz, yüksek kalite standartlarına uygun olarak imal edilir ve müşterilerimizin beklentilerini aşan bir performans sunar.",
-          "p2": "Firmamız, her projede güvenliği ön planda tutar ve montaj süreçlerini titizlikle yönetir. Gezer köprülü tavan vincinin tasarımından başlayarak, montajın tamamlanmasına kadar her aşamada müşterilerimizin memnuniyetini sağlamak için çalışırız. Ayrıca, proje süresince maliyet etkin çözümler sunarak bütçenizi korumanıza yardımcı oluruz.",
-          "p3": "Gezer köprülü tavan vincinin imalatı ve montajı konusunda güvenilir bir iş ortağı arıyorsanız, firmamız sizin için ideal bir seçenektir. Profesyonel ekibimiz ve kalite odaklı yaklaşımımızla, projelerinizi sorunsuz bir şekilde tamamlamak için buradayız. İhtiyaçlarınızı karşılamak ve daha fazla bilgi almak için bizimle iletişime geçmekten çekinmeyin."
+          "p1": "Our company, which specializes in the manufacturing and installation of overhead traveling cranes, offers a comprehensive service to meet the needs in the construction and industrial sectors. By combining years of experience and technical knowledge, we aim to provide reliable and customized solutions to our customers. Our overhead traveling crane is manufactured in accordance with high quality standards and delivers performance that exceeds our customers' expectations.",
+          "p2": "Our company prioritizes safety in every project and manages the assembly processes meticulously. We work to ensure the satisfaction of our customers at every stage, starting from the design of the overhead traveling crane to the completion of the installation. We also help you protect your budget by providing cost-effective solutions throughout the project.",
+          "p3": "If you are looking for a reliable business partner in the manufacturing and installation of overhead overhead cranes, our company is the ideal option for you. With our professional team and quality-oriented approach, we are here to complete your projects smoothly. Feel free to contact us to meet your needs and get more information."
         }
       }
     ]
   },
   "4": {
-    "title": "Damper İmalatı ve Montajı",
+    "title": "Damper Manufacturing and Assembly",
     "icon": "flaticon-robot-arm",
-    "description": "Firmamız, hurda damperi üretiminde uzman. Özel ihtiyaçlara yönelik güvenilir ve yüksek kaliteli ekipmanlar sunuyoruz. Müşteri memnuniyeti ve kalite odaklıyız. İhtiyacınıza uygun çözümler için bize güvenebilirsiniz.",
+    "description": "Our company is specialized in the production of scrap dumpers. We offer reliable and high-quality equipment for specific needs. We are focused on customer satisfaction and quality. You can trust us for solutions that suit your needs.",
     "image": "/images/gallery/10.jpg",
     "items": [
       {
         "id": 1,
         "item": {
-          "title": "Damper İmalatı ve Montajı",
+          "title": "Damper Manufacturing and Assembly",
           "image": "/images/resim3.jpeg",
-          "p1": "Hurda damperi imalatı konusunda uzman olan firmamız, metal geri dönüşüm ve inşaat sektörlerine yüksek kaliteli ekipmanlar sunmaktadır. Yılların deneyimi ve mühendislik uzmanlığı ile, müşterilerimize dayanıklı, güvenilir ve verimli hurda damparı çözümleri sunuyoruz. İşimizi tutkuyla yapıyor ve her projeyi müşterilerimizin özel ihtiyaçlarına uygun olarak tasarlayarak, üretiyoruz.",
-          "p2": "Firmamızın hurda damperi ürünleri, dayanıklılık, güvenlik ve performans açısından yüksek standartları karşılamaktadır. Her bir ürünümüz, titiz bir kalite kontrol sürecinden geçer ve en zorlu çalışma koşullarında bile üstün performans gösterir. Ayrıca, müşterilerimize özelleştirilmiş çözümler sunarak işlerini daha verimli hale getirmelerine yardımcı oluyoruz.",
-          "p3": "Hurda damperi ihtiyacınızı karşılamak ve projelerinizi daha etkili bir şekilde yönetmek için bize güvenebilirsiniz. Kalite, güvenlik ve müşteri memnuniyetini en üst düzeye çıkarmak için çalışıyoruz. Sizin için en iyi hurda damperi çözümünü bulmak için bizimle iletişime geçin."
+          "p1": "Our company, which specializes in scrap dumper manufacturing, offers high quality equipment to the metal recycling and construction sectors. With years of experience and engineering expertise, we offer our customers durable, reliable and efficient scrap dump solutions. We do our job with passion and design and produce each project in accordance with the specific needs of our customers.",
+          "p2": "Our company's scrap dumper products meet high standards in terms of durability, safety and performance. Each of our products goes through a rigorous quality control process and demonstrates superior performance even under the most challenging working conditions. We also help our customers make their businesses more efficient by providing them with customized solutions.",
+          "p3": "You can trust us to meet your scrap dumper needs and manage your projects more effectively. We work to maximize quality, safety and customer satisfaction. Contact us to find the best scrap dumper solution for you."
         }
       }
     ]
@@ -248,23 +248,23 @@
       "year": "Years of Experience",
       "list": {
         "p1": "Endüstriyel Çelik Kontrüksiyon",
-        "p2": "Makine ve Ağır Sanayi İmalatları",
-        "p3": "Gezer Köprülü Tavan Vinçleri",
-        "p4": "Hurda Nakliye Damperleri"
+        "p2": "Machinery and Heavy Industry Manufacturing",
+        "p3": "Overhead Cranes",
+        "p4": "Scrap Transport Dumps"
       },
-      "title": "AĞIR SANAYİ MAKİNE VE ÇELİK İMALATLARI",
-      "content": "Türkiye vizyonunda yeni sanayi ve ticaret üssü olan İskenderunda, dört büyük limanı içerisinde bulunan İskenderun organize sanayideki fabrikamızda Ağırsanayi makineleri ve Çelik imalat yapıyoruz",
-      "btn": "Şirketimiz Hakkında"
+      "title": "HEAVY INDUSTRIAL MACHINERY AND STEEL MANUFACTURING",
+      "content": "We manufacture heavy industrial machinery and steel in our factory in the organized industry of Iskenderun, located within the four major ports of Iskenderun, which is the new industrial and commercial base in Turkiye's vision.",
+      "btn": "About Our Company"
     },
     "services": {
-      "title": "HIZMETLERIMIZ",
-      "content": "Birçok Sektöre Yönelik Yüksek Performanslı Hizmetler!"
+      "title": "OUR SERVICES",
+      "content": "High Performance Services for Many Sectors!"
     },
     "studies": {
-      "title": "SON ÇALIŞMALARIMIZ",
-      "subTitle": "Tam Kapsamlı Yüksek Hizmet Çözümleri",
+      "title": "OUR LATEST STUDIES",
+      "subTitle": "Full Range High Service Solutions",
       "content": "We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the We develop",
-      "btn": "Referanslar",
+      "btn": "References",
       "list": {
         "p1": "p1",
         "p2": "p2",
@@ -281,122 +281,122 @@
   "referances": {
     "1": {
       "title": "Çelikhane Makinaları İmalatı ve Montajı",
-      "description": "Firmamız çelik konstrüksiyon imalatı ve montajında uzmandır. Yüksek kalite ve güvenlik standartlarına önem veririz. Müşteri memnuniyeti önceliğimizdir. İşbirliği için bize ulaşın.",
+      "description": "Our company is an expert in steel construction manufacturing and assembly. We attach importance to high quality and safety standards. Customer satisfaction is our priority. Contact us for cooperation.",
       "image": "/images/gallery/12.jpg",
       "items": [
         {
           "title": "Tosyalı Demir Çelik",
           "contents": [
-            "Muhtelif çelikhane yedek imalatları"
+            "Various steel mill spare manufacturing"
           ],
           "image": "/images/references/colored/12.png"
         },
         {
           "title": "Ekinciler Demir Çelik",
           "contents": [
-            "Toz toplama ünitesi imalat ve montajı",
-            "Muhtelif çelikhane yedek imalatları"
+            "Dust collection unit manufacturing and installation",
+             "Various steel mill spare manufacturing"
           ],
           "image": "/images/references/colored/2.png"
         },
         {
           "title": "Yazıcı Demir Çelik",
           "contents": [
-            "Muhtelif çelikhane yedek imalatları"
+            "Various steel mill spare manufacturing"
           ],
           "image": "/images/references/colored/13.png"
         },
         {
           "title": "İskenderun Demir Çelik",
           "contents": [
-            "Sürekli döküm ünitesi mekanik montajı"
+            "Continuous casting unit mechanical assembly"
           ],
           "image": "/images/references/colored/4.png"
         },
         {
           "title": "Tosyalı Algerie",
           "contents": [
-            "Doğalgaz hattı boruları imalatı"
+            "Natural gas line pipe manufacturing"
           ],
           "image": "/images/references/colored/11.png"
         },
         {
           "title": "MMK A.Ş.",
           "contents": [
-            "Muhtelif çelikhane ydek imalatları"
+            "Various steel mill spare manufacturing"
           ],
           "image": "/images/references/colored/7.png"
         },
         {
           "title": "Danieli",
           "contents": [
-            "Karışım ünitesi (Kuveyt)",
-            "Su soğutmalı toz toplama boruları (Rusya)"
+            "Mixing unit (Kuwait)",
+            "Water-cooled dust collection pipes (Russia)"
           ],
           "image": "/images/references/colored/1.png"
         },
         {
           "title": "Siemens",
           "contents": [
-            "Benzol filtresi (İskenderun Demir Çelik)"
+            "Benzole filter  (İskenderun Demir Çelik)"
           ],
           "image": "/images/references/colored/9.png"
         },
         {
           "title": "Nursan Demir Çelik",
           "contents": [
-            "Toz toplama ünitesi imalat ve montajı",
-            "Karışım ünitesi imalat ve montajı",
-            "Hava soğutma ünitesi imalat ve montajı"
+            "Dust collection unit manufacturing and installation",
+             "Mixing unit manufacturing and installation",
+             "Air cooling unit manufacturing and installation"
           ],
           "image": "/images/references/colored/8.png"
         },
         {
           "title": "İlhan A.Ş.",
           "contents": [
-            "Toz toplama ünitesi imalat ve montajı",
-            "Döküm potası imalatı"
+            "Dust collection unit manufacturing and installation",
+             "Casting crucible manufacturing"
           ],
           "image": "/images/references/colored/3.png"
         },
         {
           "title": "METOKS A.Ş.",
           "contents": [
-            "Çinko fırını imalat ve montajı",
-            "Muhtelif ebatlarda tank imalatı"
+            "Zinc furnace manufacturing and installation",
+             "Manufacturing tanks of various sizes"
           ],
           "image": ""
         }
       ]
     },
     "2": {
-      "title": "Çelik Konstrüksiyon İmalatı ve Montajı",
-      "description": "Firmamız, özel çelikhane ve haddehane makineleri üretiyor. Kalite, özelleştirme, hızlı teslimat ve müşteri memnuniyeti bizim önceliğimizdir. İletişime geçin, ihtiyaçlarınıza çözüm sunalım.",
+      "title": "Steel Construction Manufacturing and Assembly",
+      "description": "Our company produces special steel mill and rolling mill machines. Quality, customization, fast delivery and customer satisfaction are our priority. Contact us and let us provide solutions to your needs.",
       "image": "/images/gallery/22.jpg",
       "items": [
         {
           "title": "Tosyalı Demir Çelik",
           "contents": [
-            "İskenderun 2. OSB Sıcak Haddehane Ünitesi",
-            "İskenderun 2. OSB Kangal Haddehanesi",
-            "İskenderun 2. OSB ürün holü"
+            "İskenderun 2. OSB Hot Rolling Mill Unit",
+            "İskenderun 2. OSB Kangal Rolling Mill",
+            "İskenderun 2. OSB product hall"
           ],
           "image": "/images/references/colored/12.png"
         },
         {
           "title": "Yücel Boru Profil A.Ş.",
           "contents": [
-            "Dörtyol boru fabrikası",
-            "Yeşil boru fabrikası",
-            "İskenderun 2. OSB ürün holü"
+            "Dörtyol pipe factory",
+            "Yeşil pipe factory",
+            "İskenderun 2. OSB product hall"
           ],
           "image": "/images/references/colored/14.png"
         },
         {
           "title": "MMK A.Ş.",
           "contents": [
-            "Sıcak haddehane ünitesi",
-            "Hurda holü",
+            "Hot Rolling Mill Unit",
+            "Scrap Hall",
             "Hava ayrıştırma ünitesi"
           ],
           "image": "/images/references/colored/7.png"
@@ -404,86 +404,86 @@
         {
           "title": "İlhan A.Ş.",
           "contents": [
-            "Osmaniye çelik fabrikası",
-            "Dörtyol boru profil fabrikası"
+            "Osmaniye steel mill",
+            "Dörtyol pipe profile factory"
           ],
           "image": "/images/references/colored/3.png"
         },
         {
           "title": "Nursan A.Ş.",
           "contents": [
-            "Davlumbaz imalatı ve montajı"
+            "Hood manufacturing and installation"
           ],
           "image": "/images/references/colored/8.png"
         },
         {
           "title": "Kırıkkale Demir Çelik",
           "contents": [
-            "Kırıkkale fabrikası"
+            "Kırıkkale factory"
           ],
           "image": "/images/references/colored/6.png"
         },
         {
           "title": "Jordan Steel Plant",
           "contents": [
-            "Ürdün fabrikası stok holü"
+            "Jordan factory stock hall"
           ],
           "image": "/images/references/colored/5.png"
         },
         {
           "title": "Suleymaniyah Steel Plant",
           "contents": [
-            "Stok holü"
+            "Stock hall"
           ],
           "image": "/images/references/colored/10.png"
         }
       ]
     },
     "3": {
-      "title": "Gezer Köprülü Tavan Vinci İmalatı ve Montajı",
-      "description": "Firmamız, Gezer köprülü tavan vincinin imalatı ve montajında uzmandır. Kaliteli, güvenilir ve özelleştirilmiş çözümler sunarız. Güvenlik ve maliyet etkinlik önceliğimizdir. İhtiyacınız varsa bizimle iletişime geçin.",
+      "title": "Manufacturing and Installation of Overhead Crane",
+      "description": "Our company specializes in the manufacturing and installation of overhead overhead cranes. We offer quality, reliable and customized solutions. Safety and cost effectiveness are our priority. Contact us if you need.",
       "image": "/images/gallery/25.jpg",
       "items": [
         {
           "title": "Kırıkkale Demir Çelik",
           "contents": [
-            "Kırıkkale fabrikası tüm gezer köprülü vinçler"
+            "Kırıkkale factory all overhead cranes"
           ],
           "image": "/images/references/colored/6.png"
         },
         {
           "title": "İlhan A.Ş.",
           "contents": [
-            "Osmaniye çelik fabrikası tüm gezer köprülü vinçler",
-            "Dörtyol boru fabrikası tüm gezer köprülü vinçler"
+            "Osmaniye steel factory all overhead cranes",
+            "Dörtyol pipe factory all overhead cranes"
           ],
           "image": "/images/references/colored/3.png"
         },
         {
           "title": "Suleymaniyah Steel Plant",
           "contents": [
-            "3 Takım gezer köprülü vinç (Demonte olarak konteyner içerisinde ihraç edilmiştir)"
+            "3 Sets of overhead cranes (Exported disassembled in a container)"
           ],
           "image": "/images/references/colored/10.png"
         }
       ]
     },
     "4": {
-      "title": "Damper İmalatı ve Montajı",
-      "description": "Firmamız, hurda damperi üretiminde uzman. Özel ihtiyaçlara yönelik güvenilir ve yüksek kaliteli ekipmanlar sunuyoruz. Müşteri memnuniyeti ve kalite odaklıyız. İhtiyacınıza uygun çözümler için bize güvenebilirsiniz.",
+      "title": "Damper Manufacturing and Assembly",
+      "description": "Our company is specialized in the production of scrap dumpers. We offer reliable and high-quality equipment for specific needs. We are focused on customer satisfaction and quality. You can trust us for solutions that suit your needs.",
       "image": "/images/gallery/10.jpg",
       "items": [
         {
           "title": "Yazıcı Demir Çelik",
           "contents": [
-            "4 adet hurda taşıam damperi ve şasesi"
+            "4 scrap transport dumpers and chassis"
           ],
           "image": "/images/references/colored/13.png"
         },
         {
           "title": "Tosyalı Demir Çelik",
           "contents": [
-            "45 adet hurda taşıam damperi ve şasesi"
+            "45 scrap transport dumpers and chassis"
           ],
           "image": "/images/references/colored/12.png"
         }
@@ -491,6 +491,6 @@
     }
   },
   "referance": {
-    "title": "Referances"
+    "title": "References"
   }
 }
