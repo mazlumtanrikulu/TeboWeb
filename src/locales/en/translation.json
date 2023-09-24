@@ -241,8 +241,8 @@
     },
     "slider": {
       "head": "YOUR PARTNER FOR FUTURE INNOVATION",
-      "about1": "ABOUT",
-      "about2": "TEBO"
+      "about1": "VISIT OUR",
+      "about2": "FACTORY"
     },
     "about": {
       "year": "Years of Experience",
@@ -263,14 +263,14 @@
     "studies": {
       "title": "OUR LATEST STUDIES",
       "subTitle": "Full Range High Service Solutions",
-      "content": "We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the We develop",
+      "content": "We make tomorrow easier for you with the services and solutions we offer.",
       "btn": "References",
       "list": {
-        "p1": "p1",
-        "p2": "p2",
-        "p3": "p3",
-        "p4": "p4",
-        "p5": "p5"
+        "p1": "Reliable",
+        "p2": "Innovative",
+        "p3": "Efficient",
+        "p4": "Professional",
+        "p5": "Competitive"
       }
     }
   },
