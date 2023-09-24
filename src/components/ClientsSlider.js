@@ -6,12 +6,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 //Images
-import logo1 from "./../assets/images/logo/logo1.jpg";
-import logo2 from "./../assets/images/logo/logo2.jpg";
-import logo3 from "./../assets/images/logo/logo3.jpg";
-import logo4 from "./../assets/images/logo/logo4.jpg";
-import logo5 from "./../assets/images/logo/logo5.jpg";
-import logo6 from "./../assets/images/logo/logo6.jpg";
+import logo1 from "./../assets/images/references/bw/1.png";
+import logo2 from "./../assets/images/references/bw/2.png";
+import logo3 from "./../assets/images/references/bw/3.png";
+import logo4 from "./../assets/images/references/bw/4.png";
+import logo5 from "./../assets/images/references/bw/5.png";
+import logo6 from "./../assets/images/references/bw/6.png";
+import logo7 from "./../assets/images/references/bw/7.png";
+import logo8 from "./../assets/images/references/bw/8.png";
+import logo9 from "./../assets/images/references/bw/9.png";
+import logo10 from "./../assets/images/references/bw/10.png";
+import logo11 from "./../assets/images/references/bw/11.png";
+import logo12 from "./../assets/images/references/bw/12.png";
+import logo13 from "./../assets/images/references/bw/13.png";
+import logo14 from "./../assets/images/references/bw/14.png";
 
 // import Swiper core and required modules
 import { Autoplay } from "swiper";
@@ -26,6 +34,14 @@ const clientData = [
   { image: logo4 },
   { image: logo5 },
   { image: logo6 },
+  { image: logo7 },
+  { image: logo8 },
+  { image: logo9 },
+  { image: logo10 },
+  { image: logo11 },
+  { image: logo12 },
+  { image: logo13 },
+  { image: logo14 },
 ];
 
 export default function ClientsSlider() {
@@ -62,11 +78,9 @@ export default function ClientsSlider() {
       >
         {clientData.map((d, i) => (
           <SwiperSlide key={i}>
-			<Link to={'/certificate-of-company'}>
             <div className="clients-logo aos-item">
               <img className="logo-main" src={d.image} alt="" />
             </div>
-			</Link>
           </SwiperSlide>
         ))}
       </Swiper>

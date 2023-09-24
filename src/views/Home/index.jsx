@@ -37,6 +37,8 @@ import bnr2 from "./../../assets/images/bnr/bnr2.jpg";
 import pic1 from "./../../assets/images/bnr/pic1.jpg";
 import teboHomePhoto from "./../../assets/images/bnr/4453 (2).png";
 import teboHomePhoto2 from "./../../assets/images/bnr/20180208_095122.jpg"
+import main1 from './../../assets/images/main1.jpg'
+import main2 from './../../assets/images/main2.jpg'
 
 import ContactUse from "./../ContactUse";
 
@@ -143,7 +145,7 @@ function Home() {
                       }
                     >
                       <div>
-                        <img className="m-b30" src={about1} alt="" />
+                        <img className="m-b30" src={main1} alt="" />
                       </div>
                     </div>
                   </div>
@@ -154,15 +156,15 @@ function Home() {
                       }
                     >
                       <div>
-                        <img className="m-b20 aos-item" src={about2} alt="" />
+                        <img className="m-b20 aos-item" src={main2} alt="" />
                       </div>
                     </div>
-                    <div className="exp-bx aos-item ">
-                      <div className="exp-head">
+                    <div className="exp-bx aos-item" style={{ marginLeft: '-250px', width: '529px' }}>
+                      <div className="exp-head" style={{ width: '200px' }}>
                         <div className="counter-num">
                           <h2 className="counter">
                             {" "}
-                            <CountUp end={50} />
+                            <CountUp end={35} />
                           </h2>
                           <small>+</small>
                         </div>
@@ -170,10 +172,10 @@ function Home() {
                       </div>
                       <div className="exp-info">
                         <ul className="list-check primary">
-                          <li>Oil & Gas Engineering</li>
-                          <li>Chemical Engineering</li>
-                          <li>Information architecture</li>
-                          <li>Chemical Engineering</li>
+                          <li>Endüstriyel Çelik Kontrüksiyon</li>
+                          <li>Makine ve Ağır Sanayi İmalatları</li>
+                          <li>Gezer Köprülü Tavan Vinçleri</li>
+                          <li>Hurda Nakliye Damperleri</li>
                         </ul>
                       </div>
                     </div>
@@ -183,12 +185,9 @@ function Home() {
               <div className="col-lg-6 m-b30 ">
                 <div className="about-content">
                   <div className="section-head style-1">
-                    <h2 className="title">Industry United In Seeking Rate </h2>
+                    <h2 className="title">AĞIR SANAYİ MAKİNE VE ÇELİK İMALATLARI</h2>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration which
-                      don’t look even slightly believable. It Is A Long
-                      Established Fact That A Reader Will Be Distracted
+                      Türkiye vizyonunda yeni sanayi ve ticaret üssü olan İskenderunda, dört büyük limanı içerisinde bulunan İskenderun organize sanayideki fabrikamızda Ağırsanayi makineleri ve Çelik imalat yapıyoruz
                     </p>
                   </div>
                   <Link to={'/company-definition'} className="btn btn-primary btn-icon">
@@ -213,9 +212,9 @@ function Home() {
               data-aos-duration="800"
               data-aos-delay="200"
             >
-              <h6 className="sub-title text-primary">Our Services</h6>
+              <h6 className="sub-title text-primary">Hizmetlerimiz</h6>
               <h2 className="title m-b20 text-white">
-                High Performance Services For Multiple Industries!
+                Birçok Sektöre Yönelik Yüksek Performanslı Hizmetler!
               </h2>
             </div>
             <div className="btn-center-lr">
@@ -235,10 +234,10 @@ function Home() {
                 <div className="about-content">
                   <div className="section-head style-1">
                     <h5 className="sub-title text-primary">
-                      Latest Case Studies
+                      Son Çalışmalarımız
                     </h5>
                     <h3 className="title m-b20">
-                      Providing Full Range Of High Services Solution
+                      Tam Kapsamlı Yüksek Hizmet Çözümleri
                     </h3>
                     <p>
                       We develop the relationships that underpin the next phase
@@ -286,10 +285,10 @@ function Home() {
         {/* <ContactUs splitEvent={splitEvent} /> */}
         <ContactUse />
         <ModalVideo
-          channel="youtube"
+          channel="custom"
           autoplay
           isOpen={isOpen}
-          videoId="_FRZVScwggM"
+          url="/landing.mp4"
           onClose={() => setOpen(false)}
         />
       </div>

@@ -111,7 +111,7 @@ export default function ContactUs() {
                                             </div>
                                             <div className="icon-content">
                                                 <h4 className=" dz-tilte text-white">Our Address</h4>
-                                                <p className="font-18">Sarıseki, Şehit Osman Dikbaş Cad. No:5, 31218 İskenderun/Hatay</p>
+                                                <p className="font-18">Iskenderun 1. Organize Sanayi Bölgesi Orham Ekinci Bulvarı No13 Sarıseki İskenderun Hatay</p>
                                             </div>
                                         </li>
                                         <li className="icon-bx-wraper text-white left m-b30">

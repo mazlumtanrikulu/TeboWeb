@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 import logo from './../assets/images/logo.png';
 // import logowhite from './../assets/images/logo-white.png';
-import teboLogo from "./../assets/images/tebo-logo.JPG"
+// import teboLogo from "./../assets/images/tebo-logo.JPG"
+import TeboLogo from './../assets/images/TeboLogo.png'
 
 
 export default function Header() {
@@ -49,8 +50,8 @@ export default function Header() {
                     <div className="main-bar clearfix ">
                         <div className="container-fluid clearfix">
                             {/* <!-- Website Logo --> */}
-                            <div className="logo-header mostion logo-white">
-                                <Link to={"/"}><img src={teboLogo} alt="" /></Link>
+                            <div className="logo-header mostion logo-white" style={{ backgroundColor: 'white' }}>
+                                <Link to={"/"}><img src={TeboLogo} alt="" /></Link>
                             </div>
                             {/* <!-- Nav Toggle Button --> */}
                             <button
@@ -83,7 +84,7 @@ export default function Header() {
                             <div className={`header-nav navbar-collapse justify-content-start ${openToggleBtn ? ' collapse show' : ' collapse'}`}
                             >
                                 <div className="logo-header logo-dark">
-                                    <Link to={"./"}><img src={logo} alt="" /></Link>
+                                    <Link to={"./"}><img src={TeboLogo} alt="" /></Link>
                                 </div>
                                 {/* <ul className="nav navbar-nav navbar navbar-left">
                                     <li><Link to={"./"}><span>Ana Sayfa</span></Link>

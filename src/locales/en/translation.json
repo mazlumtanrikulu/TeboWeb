@@ -168,5 +168,66 @@
         }
       }
     ]
+  },
+  "home": {
+    "contact_us": {
+      "form": {
+        "title": "CONTACT US",
+        "subTitle": "Get In Touch With Us",
+        "fullName": "Full Name",
+        "email": "Email Adress",
+        "phone": "Phone No.",
+        "msg": "Message"
+      },
+      "info": {
+        "title": "Get In Touch",
+        "subTitle": "If you are interested in working with us, please get in touch.",
+        "address": {
+          "title": "Our Address",
+          "content": "Iskenderun 1. Organize Sanayi Bölgesi Orham Ekinci Bulvarı No13 Sarıseki İskenderun Hatay"
+        },
+        "phone": {
+          "title": "Our Phones",
+          "content": "+90 326 656 31 06/07/08"
+        },
+        "email": {
+          "title": "Our Email",
+          "content": "tebo_makine@tebo.com.tr"
+        }
+      }
+    },
+    "slider": {
+      "head": "YOUR PARTNER FOR FUTURE INNOVATION",
+      "about": "ABOUT TEBO"
+    },
+    "about": {
+      "year": "Years of Experience",
+      "list": {
+        "p1": "Endüstriyel Çelik Kontrüksiyon",
+        "p2": "Makine ve Ağır Sanayi İmalatları",
+        "p3": "Gezer Köprülü Tavan Vinçleri",
+        "p4": "Hurda Nakliye Damperleri"
+      },
+      "title": "AĞIR SANAYİ MAKİNE VE ÇELİK İMALATLARI",
+      "content": "Türkiye vizyonunda yeni sanayi ve ticaret üssü olan İskenderunda, dört büyük limanı içerisinde bulunan İskenderun organize sanayideki fabrikamızda Ağırsanayi makineleri ve Çelik imalat yapıyoruz",
+      "btn": "Şirketimiz Hakkında"
+    },
+    "services": {
+      "title": "HIZMETLERIMIZ",
+      "content": "Birçok Sektöre Yönelik Yüksek Performanslı Hizmetler!"
+    },
+    "studies": {
+      "title": "SON ÇALIŞMALARIMIZ",
+      "subTitle": "Tam Kapsamlı Yüksek Hizmet Çözümleri",
+      "content": "We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the We develop",
+      "btn": "Referanslar",
+      "list": {
+        "p1": "p1",
+        "p2": "p2",
+        "p3": "p3",
+        "p4": "p4",
+        "p5": "p5"
+      }
+    }
   }
 }

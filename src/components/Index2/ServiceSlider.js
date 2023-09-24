@@ -12,6 +12,11 @@ import service1 from './../../assets/images/services/pic1.jpg';
 import service2 from './../../assets/images/services/pic2.jpg';
 import service3 from './../../assets/images/services/pic3.jpg';
 
+import pic1 from './../../assets/images/gallery/12.jpg'
+import pic2 from './../../assets/images/gallery/2.jpg'
+import pic3 from './../../assets/images/gallery/25.jpg'
+import pic4 from './../../assets/images/gallery/10.jpg'
+
 
 
 
@@ -19,10 +24,10 @@ import service3 from './../../assets/images/services/pic3.jpg';
 import { Autoplay, Navigation } from "swiper";
 
 const serviceBlog = [
-    { id: 1, icon: 'flaticon-cogwheel', image: service1, title: 'Çelikhane Makineleri İmalatı ve Montajı', description: 'Firmamız çelik konstrüksiyon imalatı ve montajında uzmandır. Yüksek kalite ve güvenlik standartlarına önem veririz. Müşteri memnuniyeti önceliğimizdir. İşbirliği için bize ulaşın.' },
-    { id: 2, icon: 'flaticon-engineer-1', image: service2, title: 'Çelik Konstrüksiyon İmalatı ve Montajı', description: 'Firmamız, özel çelikhane ve haddehane makineleri üretiyor. Kalite, özelleştirme, hızlı teslimat ve müşteri memnuniyeti bizim önceliğimizdir. İletişime geçin, ihtiyaçlarınıza çözüm sunalım.' },
-    { id: 3, icon: 'flaticon-robot-arm', image: service3, title: 'Gezer Köprülü Tavan Vinci İmalatı ve Montajı', description: 'Firmamız, Gezer köprülü tavan vincinin imalatı ve montajında uzmandır. Kaliteli, güvenilir ve özelleştirilmiş çözümler sunarız. Güvenlik ve maliyet etkinlik önceliğimizdir. İhtiyacınız varsa bizimle iletişime geçin.' },
-    { id: 4, icon: 'flaticon-robot-arm', image: service3, title: 'Damper İmalatı ve Montajı', description: 'Firmamız, hurda damperi üretiminde uzman. Özel ihtiyaçlara yönelik güvenilir ve yüksek kaliteli ekipmanlar sunuyoruz. Müşteri memnuniyeti ve kalite odaklıyız. İhtiyacınıza uygun çözümler için bize güvenebilirsiniz.' }
+    { id: 1, icon: 'flaticon-cogwheel', image: pic1, title: 'Çelikhane Makineleri İmalatı ve Montajı', description: 'Firmamız çelik konstrüksiyon imalatı ve montajında uzmandır. Yüksek kalite ve güvenlik standartlarına önem veririz. Müşteri memnuniyeti önceliğimizdir. İşbirliği için bize ulaşın.' },
+    { id: 2, icon: 'flaticon-engineer-1', image: pic2, title: 'Çelik Konstrüksiyon İmalatı ve Montajı', description: 'Firmamız, özel çelikhane ve haddehane makineleri üretiyor. Kalite, özelleştirme, hızlı teslimat ve müşteri memnuniyeti bizim önceliğimizdir. İletişime geçin, ihtiyaçlarınıza çözüm sunalım.' },
+    { id: 3, icon: 'flaticon-robot-arm', image: pic3, title: 'Gezer Köprülü Tavan Vinci İmalatı ve Montajı', description: 'Firmamız, Gezer köprülü tavan vincinin imalatı ve montajında uzmandır. Kaliteli, güvenilir ve özelleştirilmiş çözümler sunarız. Güvenlik ve maliyet etkinlik önceliğimizdir. İhtiyacınız varsa bizimle iletişime geçin.' },
+    { id: 4, icon: 'flaticon-robot-arm', image: pic4, title: 'Damper İmalatı ve Montajı', description: 'Firmamız, hurda damperi üretiminde uzman. Özel ihtiyaçlara yönelik güvenilir ve yüksek kaliteli ekipmanlar sunuyoruz. Müşteri memnuniyeti ve kalite odaklıyız. İhtiyacınıza uygun çözümler için bize güvenebilirsiniz.' }
 ];
 
 
@@ -65,7 +70,7 @@ function ServiceSlider() {
                 {serviceBlog.map((data, index) => (
                     <SwiperSlide key={index} >
                         <div className="content-box overlay-shine aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-                            <div className="dz-media">
+                            <div className="dz-media" style={{ height: '180px' }}>
                                 <img src={data.image} alt="" />
                             </div>
                             <div className="dz-info" data-num={data.id}>
