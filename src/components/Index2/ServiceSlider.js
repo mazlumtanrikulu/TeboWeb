@@ -16,6 +16,7 @@ import pic1 from './../../assets/images/gallery/12.jpg'
 import pic2 from './../../assets/images/gallery/2.jpg'
 import pic3 from './../../assets/images/gallery/25.jpg'
 import pic4 from './../../assets/images/gallery/10.jpg'
+import { useTranslation } from 'react-i18next';
 
 
 
@@ -23,17 +24,17 @@ import pic4 from './../../assets/images/gallery/10.jpg'
 // import Swiper core and required modules
 import { Autoplay, Navigation } from "swiper";
 
-const serviceBlog = [
-    { id: 1, icon: 'flaticon-cogwheel', image: pic1, title: 'Çelikhane Makineleri İmalatı ve Montajı', description: 'Firmamız çelik konstrüksiyon imalatı ve montajında uzmandır. Yüksek kalite ve güvenlik standartlarına önem veririz. Müşteri memnuniyeti önceliğimizdir. İşbirliği için bize ulaşın.' },
-    { id: 2, icon: 'flaticon-engineer-1', image: pic2, title: 'Çelik Konstrüksiyon İmalatı ve Montajı', description: 'Firmamız, özel çelikhane ve haddehane makineleri üretiyor. Kalite, özelleştirme, hızlı teslimat ve müşteri memnuniyeti bizim önceliğimizdir. İletişime geçin, ihtiyaçlarınıza çözüm sunalım.' },
-    { id: 3, icon: 'flaticon-robot-arm', image: pic3, title: 'Gezer Köprülü Tavan Vinci İmalatı ve Montajı', description: 'Firmamız, Gezer köprülü tavan vincinin imalatı ve montajında uzmandır. Kaliteli, güvenilir ve özelleştirilmiş çözümler sunarız. Güvenlik ve maliyet etkinlik önceliğimizdir. İhtiyacınız varsa bizimle iletişime geçin.' },
-    { id: 4, icon: 'flaticon-robot-arm', image: pic4, title: 'Damper İmalatı ve Montajı', description: 'Firmamız, hurda damperi üretiminde uzman. Özel ihtiyaçlara yönelik güvenilir ve yüksek kaliteli ekipmanlar sunuyoruz. Müşteri memnuniyeti ve kalite odaklıyız. İhtiyacınıza uygun çözümler için bize güvenebilirsiniz.' }
-];
+// const serviceBlog = [
+//     { id: 1, icon: 'flaticon-cogwheel', image: pic1, title: 'Çelikhane Makineleri İmalatı ve Montajı', description: 'Firmamız çelik konstrüksiyon imalatı ve montajında uzmandır. Yüksek kalite ve güvenlik standartlarına önem veririz. Müşteri memnuniyeti önceliğimizdir. İşbirliği için bize ulaşın.' },
+//     { id: 2, icon: 'flaticon-engineer-1', image: pic2, title: 'Çelik Konstrüksiyon İmalatı ve Montajı', description: 'Firmamız, özel çelikhane ve haddehane makineleri üretiyor. Kalite, özelleştirme, hızlı teslimat ve müşteri memnuniyeti bizim önceliğimizdir. İletişime geçin, ihtiyaçlarınıza çözüm sunalım.' },
+//     { id: 3, icon: 'flaticon-robot-arm', image: pic3, title: 'Gezer Köprülü Tavan Vinci İmalatı ve Montajı', description: 'Firmamız, Gezer köprülü tavan vincinin imalatı ve montajında uzmandır. Kaliteli, güvenilir ve özelleştirilmiş çözümler sunarız. Güvenlik ve maliyet etkinlik önceliğimizdir. İhtiyacınız varsa bizimle iletişime geçin.' },
+//     { id: 4, icon: 'flaticon-robot-arm', image: pic4, title: 'Damper İmalatı ve Montajı', description: 'Firmamız, hurda damperi üretiminde uzman. Özel ihtiyaçlara yönelik güvenilir ve yüksek kaliteli ekipmanlar sunuyoruz. Müşteri memnuniyeti ve kalite odaklıyız. İhtiyacınıza uygun çözümler için bize güvenebilirsiniz.' }
+// ];
 
 
 function ServiceSlider() {
-    const navigationPrevRef = React.useRef(null)
-    const navigationNextRef = React.useRef(null)
+    const { t } = useTranslation();
+    const serviceBlog = [t('1', { returnObjects: true }), t('2', { returnObjects: true }), t('3', { returnObjects: true }), t('4', { returnObjects: true })]
     const [swiper, setSwiper] = React.useState(null)
     return (
         <>
@@ -73,7 +74,7 @@ function ServiceSlider() {
                             <div className="dz-media" style={{ height: '180px' }}>
                                 <img src={data.image} alt="" />
                             </div>
-                            <div className="dz-info" data-num={data.id}>
+                            <div className="dz-info" data-num={index + 1}>
                                 <div className="icon-lg m-b20 text-primary">
                                     <i className={data.icon}></i>
                                 </div>
@@ -81,7 +82,7 @@ function ServiceSlider() {
                                 <p className="m-b0" style={{ height: '200px' }}>{data.description}</p>
                             </div>
                             <div className="dz-bottom">
-                                <Link to={`./services/${data.id}`} className="btn btn-primary d-block" >READ MORE</Link>
+                                <Link to={`./services/${index + 1}`} className="btn btn-primary d-block" >READ MORE</Link>
                             </div>
                         </div>
                     </SwiperSlide>

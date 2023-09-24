@@ -2,13 +2,15 @@ import React, { useRef, useState } from 'react';
 import bg18 from '../../assets/images/background/bg18.jpg';
 import Swal from "sweetalert2";
 import { Link } from 'react-router-dom/cjs/react-router-dom';
-export default function ContactUs() {
+import { useTranslation } from 'react-i18next';
 
+export default function ContactUs() {
+    const { t } = useTranslation();
     const form = useRef();
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("")
-    const [message, setMessage] = useState("Mesajınızı Giriniz")
+    const [message, setMessage] = useState("");
     const onChangeNameHandler = (e) => {
         setName(e.target.value);
 
@@ -57,7 +59,7 @@ export default function ContactUs() {
         setName("");
         setEmail("");
         setPhone("");
-        setMessage("Mesajınızı Giriniz")
+        setMessage("")
         // emailjs.sendForm(
         //   "YOUR_SERVICE_ID",
         //   "YOUR_TEMPLATE_ID",
@@ -99,8 +101,8 @@ export default function ContactUs() {
                             <div className="col-lg-5">
                                 <div className="contact-info">
                                     <div className="section-head text-white style-1">
-                                        <h3 className="title text-white">Get In Touch</h3>
-                                        <p>If you are interested in working with us, please get in touch.</p>
+                                        <h3 className="title text-white">{t('home.contact_us.info.title')}</h3>
+                                        <p>{t('home.contact_us.info.subTitle')}</p>
                                     </div>
                                     <ul className="no-margin">
                                         <li className="icon-bx-wraper text-white left m-b30">
@@ -110,8 +112,8 @@ export default function ContactUs() {
                                                 </span>
                                             </div>
                                             <div className="icon-content">
-                                                <h4 className=" dz-tilte text-white">Our Address</h4>
-                                                <p className="font-18">Iskenderun 1. Organize Sanayi Bölgesi Orham Ekinci Bulvarı No13 Sarıseki İskenderun Hatay</p>
+                                                <h4 className=" dz-tilte text-white">{t('home.contact_us.info.address.title')}</h4>
+                                                <p className="font-18">{t('home.contact_us.info.address.content')}</p>
                                             </div>
                                         </li>
                                         <li className="icon-bx-wraper text-white left m-b30">
@@ -121,8 +123,8 @@ export default function ContactUs() {
                                                 </span>
                                             </div>
                                             <div className="icon-content">
-                                                <h4 className="dz-tilte text-white">Our Phones</h4>
-                                                <p className="font-18">+90 326 656 31 06/07/08</p>
+                                                <h4 className="dz-tilte text-white">{t('home.contact_us.info.phone.title')}</h4>
+                                                <p className="font-18">{t('home.contact_us.info.phone.content')}</p>
                                             </div>
                                         </li>
                                         <li className="icon-bx-wraper text-white left m-b30">
@@ -132,8 +134,8 @@ export default function ContactUs() {
                                                 </span>
                                             </div>
                                             <div className="icon-content">
-                                                <h4 className="dz-tilte text-white">Our Email</h4>
-                                                <p className="font-18">tebo_makine@tebo.com.tr</p>
+                                                <h4 className="dz-tilte text-white">{t('home.contact_us.info.email.title')}</h4>
+                                                <p className="font-18">{t('home.contact_us.info.email.content')}</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -142,8 +144,8 @@ export default function ContactUs() {
                             <div className="col-lg-7 m-b40">
                                 <div className="contact-area1 m-r20 m-md-r0">
                                     <div className="section-head style-1">
-                                        <h6 className="sub-title text-primary">CONTACT US</h6>
-                                        <h3 className="title m-b20">Get In Touch With Us</h3>
+                                        <h6 className="sub-title text-primary">{t('home.contact_us.form.title')}</h6>
+                                        <h3 className="title m-b20">{t('home.contact_us.form.subTitle')}</h3>
                                     </div>
                                     <form className="dz-form dzForm" ref={form} onSubmit={sendEmail}>
                                         <input
@@ -161,7 +163,7 @@ export default function ContactUs() {
                                                 value={name}
                                                 onChange={onChangeNameHandler}
                                                 name="name"
-                                                placeholder="Full Name"
+                                                placeholder={t('home.contact_us.form.fullName')}
                                             />
                                         </div>
                                         <div className="input-group">
@@ -172,7 +174,7 @@ export default function ContactUs() {
                                                 name="email"
                                                 value={email}
                                                 onChange={onChangeEmailHandler}
-                                                placeholder="Email Adress"
+                                                placeholder={t('home.contact_us.form.email')}
                                             />
                                         </div>
                                         <div className="input-group">
@@ -183,7 +185,7 @@ export default function ContactUs() {
                                                 value={phone}
                                                 onChange={onChangePhoneHandler}
                                                 name="dzOther[phone_number]"
-                                                placeholder="Phone No."
+                                                placeholder={t('home.contact_us.form.phone')}
                                             />
                                         </div>
                                         <div className="input-group">
@@ -194,7 +196,7 @@ export default function ContactUs() {
                                                 onChange={onChangeMessageHandler}
                                                 rows="5"
                                                 className="form-control"
-                                                defaultValue="Message"
+                                                defaultValue={t('home.contact_us.form.msg')}
                                             />
                                         </div>
                                         {/* <div className="input-group">
@@ -215,7 +217,7 @@ export default function ContactUs() {
                                                 to={"/contact-us"}
                                                 className="btn btn-primary"
                                             >
-                                                Contact Us
+                                                {t('home.contact_us.form.title')}
                                             </Link>
                                         </div>
                                     </form>

@@ -1,6 +1,9 @@
 {
   "1": {
     "title": "Çelikhane Makineleri İmalatı ve Montajı",
+    "icon": "flaticon-cogwheel",
+    "description": "Firmamız çelik konstrüksiyon imalatı ve montajında uzmandır. Yüksek kalite ve güvenlik standartlarına önem veririz. Müşteri memnuniyeti önceliğimizdir. İşbirliği için bize ulaşın.",
+    "image": "/images/gallery/12.jpg",
     "items": [
       {
         "id": 1,
@@ -146,6 +149,9 @@
   },
   "2": {
     "title": "Çelik Konstrüksiyon İmalatı ve Montajı",
+    "icon": "flaticon-engineer-1",
+    "description": "Firmamız, özel çelikhane ve haddehane makineleri üretiyor. Kalite, özelleştirme, hızlı teslimat ve müşteri memnuniyeti bizim önceliğimizdir. İletişime geçin, ihtiyaçlarınıza çözüm sunalım.",
+    "image": "/images/gallery/22.jpg",
     "items": [
       {
         "id": 1,
@@ -168,6 +174,20 @@
         }
       }
     ]
+  },
+  "3": {
+    "title": "Gezer Köprülü Tavan Vinci İmalatı ve Montajı",
+    "icon": "flaticon-robot-arm",
+    "description": "Firmamız, Gezer köprülü tavan vincinin imalatı ve montajında uzmandır. Kaliteli, güvenilir ve özelleştirilmiş çözümler sunarız. Güvenlik ve maliyet etkinlik önceliğimizdir. İhtiyacınız varsa bizimle iletişime geçin.",
+    "image": "/images/gallery/25.jpg",
+    "items": []
+  },
+  "4": {
+    "title": "Damper İmalatı ve Montajı",
+    "icon": "flaticon-robot-arm",
+    "description": "Firmamız, hurda damperi üretiminde uzman. Özel ihtiyaçlara yönelik güvenilir ve yüksek kaliteli ekipmanlar sunuyoruz. Müşteri memnuniyeti ve kalite odaklıyız. İhtiyacınıza uygun çözümler için bize güvenebilirsiniz.",
+    "image": "/images/gallery/10.jpg",
+    "items": []
   },
   "home": {
     "contact_us": {
@@ -198,7 +218,8 @@
     },
     "slider": {
       "head": "YOUR PARTNER FOR FUTURE INNOVATION",
-      "about": "ABOUT TEBO"
+      "about1": "ABOUT",
+      "about2": "TEBO"
     },
     "about": {
       "year": "Years of Experience",
@@ -229,5 +250,9 @@
         "p5": "p5"
       }
     }
+  },
+  "footer": {
+    "content": "Our goal is to offer broad capabilities, competitive pricing, exceptional quality and outstanding service to each and every customer.",
+    "title": "Quick Contact"
   }
 }

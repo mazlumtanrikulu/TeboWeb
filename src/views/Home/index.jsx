@@ -41,63 +41,14 @@ import main1 from './../../assets/images/main1.jpg'
 import main2 from './../../assets/images/main2.jpg'
 
 import ContactUse from "./../ContactUse";
+import { useTranslation } from 'react-i18next';
 
-
-//Array
-
-const counterBlog = [
-  { title: "Delivered Goods", countnum: "528" },
-  { title: "Clients Worldwide", countnum: "444" },
-  { title: "Tons of Goods", countnum: "641" },
-];
-
-const infoSection = [
-  {
-    iconClass: "far fa-envelope",
-    title: "Email Address",
-    subtitle: (
-      <h5 className="m-b0">
-        info@webmail.com
-        <br />
-        info@webmail.com
-      </h5>
-    ),
-  },
-  {
-    iconClass: "fas fa-phone",
-    title: "Phone Number",
-    subtitle: (
-      <h5 className="m-b0 text-nowrap">
-        +123 456 789 89
-        <br />
-        +123 456 789 89
-      </h5>
-    ),
-  },
-  {
-    iconClass: "fas fa-map-marker-alt",
-    title: "Office Address",
-    subtitle: <h5 className="m-b0">Envato Pty Ltd 13/2 Permanent St</h5>,
-  },
-];
-
-// class SocialTrading extends Component {
-//   componentDidMount() {
-//     new WOW.WOW().init();
-//   }
-//   render() {
-//     return (
-//       <Index1 />
-//     )
-//   }
-// }
-// export default SocialTrading;
 
 function Home() {
 
   const [isOpen, setOpen] = useState(false);
   const [splitEvent, setsplitEvent] = useState(false);
-
+  const { t } = useTranslation();
   return (
     <>
 
@@ -112,7 +63,7 @@ function Home() {
               <img src={teboHomePhoto} alt="" />
             </div>
             <div className="banner-content">
-              <h1 className="m-b20">Your Partner for Future Innovation</h1>
+              <h1 className="m-b20">{t('home.slider.head')}</h1>
               <div className="video-bx">
                 <Link
                   to={"#"}
@@ -122,9 +73,9 @@ function Home() {
                   <i className="fa fa-play"></i>
                 </Link>
                 <span className="video-text">
-                  about
+                  {t('home.slider.about1')}
                   <br />
-                  Tebo
+                  {t('home.slider.about2')}
                 </span>
               </div>
             </div>
@@ -168,14 +119,14 @@ function Home() {
                           </h2>
                           <small>+</small>
                         </div>
-                        <h6 className="title">Years of Experience</h6>
+                        <h6 className="title">{t('home.about.year')}</h6>
                       </div>
                       <div className="exp-info">
                         <ul className="list-check primary">
-                          <li>Endüstriyel Çelik Kontrüksiyon</li>
-                          <li>Makine ve Ağır Sanayi İmalatları</li>
-                          <li>Gezer Köprülü Tavan Vinçleri</li>
-                          <li>Hurda Nakliye Damperleri</li>
+                          <li>{t('home.about.list.p1')}</li>
+                          <li>{t('home.about.list.p2')}</li>
+                          <li>{t('home.about.list.p3')}</li>
+                          <li>{t('home.about.list.p4')}</li>
                         </ul>
                       </div>
                     </div>
@@ -185,13 +136,13 @@ function Home() {
               <div className="col-lg-6 m-b30 ">
                 <div className="about-content">
                   <div className="section-head style-1">
-                    <h2 className="title">AĞIR SANAYİ MAKİNE VE ÇELİK İMALATLARI</h2>
+                    <h2 className="title">{t('home.about.title')}</h2>
                     <p>
-                      Türkiye vizyonunda yeni sanayi ve ticaret üssü olan İskenderunda, dört büyük limanı içerisinde bulunan İskenderun organize sanayideki fabrikamızda Ağırsanayi makineleri ve Çelik imalat yapıyoruz
+                      {t('home.about.content')}
                     </p>
                   </div>
                   <Link to={'/company-definition'} className="btn btn-primary btn-icon">
-                    Şirketimiz Hakkında <i className="fas fa-arrow-right"></i>
+                    {t('home.about.btn')} <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
               </div>
@@ -212,9 +163,9 @@ function Home() {
               data-aos-duration="800"
               data-aos-delay="200"
             >
-              <h6 className="sub-title text-primary">Hizmetlerimiz</h6>
+              <h6 className="sub-title text-primary">{t('home.services.title')}</h6>
               <h2 className="title m-b20 text-white">
-                Birçok Sektöre Yönelik Yüksek Performanslı Hizmetler!
+                {t('home.services.content')}
               </h2>
             </div>
             <div className="btn-center-lr">
@@ -234,24 +185,20 @@ function Home() {
                 <div className="about-content">
                   <div className="section-head style-1">
                     <h5 className="sub-title text-primary">
-                      Son Çalışmalarımız
+                      {t('home.studies.title')}
                     </h5>
                     <h3 className="title m-b20">
-                      Tam Kapsamlı Yüksek Hizmet Çözümleri
+                      {t('home.studies.subTitle')}
                     </h3>
                     <p>
-                      We develop the relationships that underpin the next phase
-                      in your organisation’s growth. We do this by discerning
-                      the We develop the relationships that underpin the next
-                      phase in your organisation’s growth. We do this by
-                      discerning the We develop{" "}
+                      {t('home.studies.content')}{" "}
                     </p>
                   </div>
                   <Link
                     to={"/cases"}
                     className="btn btn-primary btn-border m-r10 m-b10"
                   >
-                    Go To Studies
+                    {t('home.studies.btn')}
                   </Link>
                 </div>
               </div>
@@ -266,11 +213,11 @@ function Home() {
                     data-aos-duration="800"
                     data-aos-delay="1000"
                   >
-                    <li>Quality Control System</li>
-                    <li>Environmental Sensitivity</li>
-                    <li>Personalised Solutions</li>
-                    <li>100% Satisfaction Guarantee</li>
-                    <li>Insdustries And Technologies!</li>
+                    <li>{t('home.studies.list.p1')}</li>
+                    <li>{t('home.studies.list.p2')}</li>
+                    <li>{t('home.studies.list.p3')}</li>
+                    <li>{t('home.studies.list.p4')}</li>
+                    <li>{t('home.studies.list.p5')}</li>
                   </ul>
                 </div>
               </div>
