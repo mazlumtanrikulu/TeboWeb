@@ -31,7 +31,7 @@ function Cases() {
         <>
 
             <div className="page-content bg-white">
-                <PageTitle title='Our Services' parentPage='Home' childPage='Pages' />
+                <PageTitle title={t('referance.title')} parentPage={t('home.title')} />
                 {/* <!-- Services --> */}
                 <section className="content-inner bg-gray">
                     <div className="container">

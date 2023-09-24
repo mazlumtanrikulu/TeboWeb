@@ -18,7 +18,7 @@ function Services() {
     return (
         <>
             <div className="page-content bg-white">
-                <PageTitle title={d.title} parentPage='Ana Sayfa' childPage='Hizmetlerimiz' />
+                <PageTitle title={d.title} parentPage={t('home.title')} childPage={t('home.services.title')} />
                 {/* <!-- Services --> */}
                 <section className="content-inner bg-gray">
                     <div className="container">

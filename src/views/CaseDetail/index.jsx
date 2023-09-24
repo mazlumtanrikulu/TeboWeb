@@ -22,7 +22,7 @@ export default function CaseDetail() {
         <>
 
             <div className="page-content bg-white">
-                <PageTitle title='Service Details' parentPage='Home' childPage='Service' />
+                <PageTitle title={referance.title} parentPage={t('home.title')} childPage={t('referance.title')} />
                 <section className="content-inner">
                     <div className="container">
                         <div className="row">

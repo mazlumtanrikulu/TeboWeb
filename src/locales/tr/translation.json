@@ -212,7 +212,7 @@
     ]
   },
   "home": {
-    "title": "Ana Sayfa",
+    "title": "Home",
     "contact_us": {
       "form": {
         "title": "CONTACT US",
@@ -289,7 +289,7 @@
           "contents": [
             "Muhtelif çelikhane yedek imalatları"
           ],
-          "image": "/images/references/bw/12.png"
+          "image": "/images/references/colored/12.png"
         },
         {
           "title": "Ekinciler Demir Çelik",
@@ -297,35 +297,35 @@
             "Toz toplama ünitesi imalat ve montajı",
             "Muhtelif çelikhane yedek imalatları"
           ],
-          "image": "/images/references/bw/2.png"
+          "image": "/images/references/colored/2.png"
         },
         {
           "title": "Yazıcı Demir Çelik",
           "contents": [
             "Muhtelif çelikhane yedek imalatları"
           ],
-          "image": "/images/references/bw/13.png"
+          "image": "/images/references/colored/13.png"
         },
         {
           "title": "İskenderun Demir Çelik",
           "contents": [
             "Sürekli döküm ünitesi mekanik montajı"
           ],
-          "image": "/images/references/bw/4.png"
+          "image": "/images/references/colored/4.png"
         },
         {
           "title": "Tosyalı Algerie",
           "contents": [
             "Doğalgaz hattı boruları imalatı"
           ],
-          "image": "/images/references/bw/11.png"
+          "image": "/images/references/colored/11.png"
         },
         {
           "title": "MMK A.Ş.",
           "contents": [
             "Muhtelif çelikhane ydek imalatları"
           ],
-          "image": "/images/references/bw/7.png"
+          "image": "/images/references/colored/7.png"
         },
         {
           "title": "Danieli",
@@ -333,14 +333,14 @@
             "Karışım ünitesi (Kuveyt)",
             "Su soğutmalı toz toplama boruları (Rusya)"
           ],
-          "image": "/images/references/bw/1.png"
+          "image": "/images/references/colored/1.png"
         },
         {
           "title": "Siemens",
           "contents": [
             "Benzol filtresi (İskenderun Demir Çelik)"
           ],
-          "image": "/images/references/bw/9.png"
+          "image": "/images/references/colored/9.png"
         },
         {
           "title": "Nursan Demir Çelik",
@@ -349,7 +349,7 @@
             "Karışım ünitesi imalat ve montajı",
             "Hava soğutma ünitesi imalat ve montajı"
           ],
-          "image": "/images/references/bw/8.png"
+          "image": "/images/references/colored/8.png"
         },
         {
           "title": "İlhan A.Ş.",
@@ -357,7 +357,7 @@
             "Toz toplama ünitesi imalat ve montajı",
             "Döküm potası imalatı"
           ],
-          "image": "/images/references/bw/3.png"
+          "image": "/images/references/colored/3.png"
         },
         {
           "title": "METOKS A.Ş.",
@@ -381,7 +381,7 @@
             "İskenderun 2. OSB Kangal Haddehanesi",
             "İskenderun 2. OSB ürün holü"
           ],
-          "image": "/images/references/bw/12.png"
+          "image": "/images/references/colored/12.png"
         },
         {
           "title": "Yücel Boru Profil A.Ş.",
@@ -390,7 +390,7 @@
             "Yeşil boru fabrikası",
             "İskenderun 2. OSB ürün holü"
           ],
-          "image": "/images/references/bw/14.png"
+          "image": "/images/references/colored/14.png"
         },
         {
           "title": "MMK A.Ş.",
@@ -399,7 +399,7 @@
             "Hurda holü",
             "Hava ayrıştırma ünitesi"
           ],
-          "image": "/images/references/bw/7.png"
+          "image": "/images/references/colored/7.png"
         },
         {
           "title": "İlhan A.Ş.",
@@ -407,35 +407,35 @@
             "Osmaniye çelik fabrikası",
             "Dörtyol boru profil fabrikası"
           ],
-          "image": "/images/references/bw/3.png"
+          "image": "/images/references/colored/3.png"
         },
         {
           "title": "Nursan A.Ş.",
           "contents": [
             "Davlumbaz imalatı ve montajı"
           ],
-          "image": "/images/references/bw/8.png"
+          "image": "/images/references/colored/8.png"
         },
         {
           "title": "Kırıkkale Demir Çelik",
           "contents": [
             "Kırıkkale fabrikası"
           ],
-          "image": "/images/references/bw/6.png"
+          "image": "/images/references/colored/6.png"
         },
         {
           "title": "Jordan Steel Plant",
           "contents": [
             "Ürdün fabrikası stok holü"
           ],
-          "image": "/images/references/bw/5.png"
+          "image": "/images/references/colored/5.png"
         },
         {
           "title": "Suleymaniyah Steel Plant",
           "contents": [
             "Stok holü"
           ],
-          "image": "/images/references/bw/10.png"
+          "image": "/images/references/colored/10.png"
         }
       ]
     },
@@ -449,7 +449,7 @@
           "contents": [
             "Kırıkkale fabrikası tüm gezer köprülü vinçler"
           ],
-          "image": "/images/references/bw/6.png"
+          "image": "/images/references/colored/6.png"
         },
         {
           "title": "İlhan A.Ş.",
@@ -457,14 +457,14 @@
             "Osmaniye çelik fabrikası tüm gezer köprülü vinçler",
             "Dörtyol boru fabrikası tüm gezer köprülü vinçler"
           ],
-          "image": "/images/references/bw/3.png"
+          "image": "/images/references/colored/3.png"
         },
         {
           "title": "Suleymaniyah Steel Plant",
           "contents": [
             "3 Takım gezer köprülü vinç (Demonte olarak konteyner içerisinde ihraç edilmiştir)"
           ],
-          "image": "/images/references/bw/10.png"
+          "image": "/images/references/colored/10.png"
         }
       ]
     },
@@ -478,19 +478,19 @@
           "contents": [
             "4 adet hurda taşıam damperi ve şasesi"
           ],
-          "image": "/images/references/bw/13.png"
+          "image": "/images/references/colored/13.png"
         },
         {
           "title": "Tosyalı Demir Çelik",
           "contents": [
             "45 adet hurda taşıam damperi ve şasesi"
           ],
-          "image": "/images/references/bw/12  .png"
+          "image": "/images/references/colored/12.png"
         }
       ]
     }
   },
   "referance": {
-    "title": "Referanslar"
+    "title": "Referances"
   }
 }

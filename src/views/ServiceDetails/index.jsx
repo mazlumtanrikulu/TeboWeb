@@ -15,7 +15,7 @@ export default function CompanyHistory() {
       <div className="page-content bg-white">
         <PageTitle
           title={item.title}
-          parentPage="Hizmetlerimiz"
+          parentPage={t('home.services.title')}
           childPage={data.title}
         />
         <section className="content-inner">

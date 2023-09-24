@@ -13,7 +13,7 @@ const PageTitle = ({ title, parentPage, childPage }) => {
                         <nav aria-label="breadcrumb" className="breadcrumb-row">
                             <ul className="breadcrumb">
                                 <li className="breadcrumb-item"><Link to={"/"}>{parentPage}</Link></li>
-                                <li className="breadcrumb-item">{parentPage !== 'Ana Sayfa' ? <Link to={"./"}>{childPage}</Link> : childPage}</li>
+                                {childPage !== undefined && <li className="breadcrumb-item">{parentPage !== 'Ana Sayfa' ? <Link to={"./"}>{childPage}</Link> : childPage}</li>}
                                 <li className="breadcrumb-item active" aria-current="page">{title}</li>
                             </ul>
                         </nav>
