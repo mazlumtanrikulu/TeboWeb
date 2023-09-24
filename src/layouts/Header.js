@@ -5,10 +5,13 @@ import logo from './../assets/images/logo.png';
 // import logowhite from './../assets/images/logo-white.png';
 // import teboLogo from "./../assets/images/tebo-logo.JPG"
 import TeboLogo from './../assets/images/TeboLogo.png'
+import { useTranslation } from 'react-i18next';
 
 
 export default function Header() {
     //Sidebar
+    const { t } = useTranslation();
+
     const [openToggleBtn, setOpenToggleBtn] = useState(false);
     //Header fixed
     const [headerFix, setheaderFix] = React.useState(false);
@@ -76,7 +79,7 @@ export default function Header() {
                                             <i className="fas fa-search"></i>
                                         </Link>
                                     </div> */}
-                                    <Link to={"/contact-us"} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">CONTACT US</Link>
+                                    <Link to={"/contact-us"} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">{t('home.contact_us.form.title')}</Link>
                                 </div>
                             </div>
                             {/* <!-- Extra Nav --> */}
