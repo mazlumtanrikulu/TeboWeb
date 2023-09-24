@@ -190,6 +190,7 @@
     "items": []
   },
   "home": {
+    "title": "Home",
     "contact_us": {
       "form": {
         "title": "CONTACT US",

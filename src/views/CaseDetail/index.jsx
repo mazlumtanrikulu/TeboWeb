@@ -48,7 +48,7 @@ export default function CaseDetail() {
                             </div>
                             <div className="col-md-6 m-b30">
                                 <div className="worker">
-                                    <img src={pic4} alt="work" />
+                                    <img src={referance.image} alt="work" />
                                 </div>
                             </div>
                         </div>
