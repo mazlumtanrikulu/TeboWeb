@@ -18,7 +18,7 @@
       {
         "id": 2,
         "item": {
-          "title": "Hava soğutma üniteleri",
+          "title": "Air Cooling Units",
           "image": "/images/resim8.jpg",
           "p1": "As a leading company in Air Cooling Units, we offer energy efficient and environmentally friendly solutions to our customers. Thanks to our years of experience and technical expertise, we offer customized and reliable answers to air cooling needs in industrial and commercial areas. At the core of our business is using the latest technology to increase our customers' comfort and production efficiency.",
           "p2": "Our company's air cooling units offer advantages such as high efficiency, low energy consumption and easy maintenance. It is designed to reduce the indoor temperature of businesses and ensure the comfort of employees, especially during the hot summer months. In addition, we fully meet our customers' needs by offering customized solutions for each project.",
@@ -156,7 +156,7 @@
       {
         "id": 1,
         "item": {
-          "title": "Endüstriyel Çelik Yapılar",
+          "title": "Industrial Steel Structures",
           "image": "/images/resim19.jpg",
           "p1": "As a leading company in industrial steel structures, we offer our customers durable, reliable and customized construction solutions. With years of experience and engineering knowledge, we bring together the latest technology and design principles for industrial facilities, warehouse complexes, factories and more. We are proud to produce steel structures to suit our customers' needs.",
           "p2": "Our company's industrial steel structures exceed industry standards for durability, safety and efficiency. Each project is designed and constructed in accordance with local regulations and customer expectations. We also help our customers optimize their projects by offering customized designs and sizes.",
@@ -176,7 +176,7 @@
     ]
   },
   "3": {
-    "title": "Manufacturing and Installation of Overhead Overhead Crane",
+    "title": "Manufacturing and Installation of Overhead Crane",
     "icon": "flaticon-robot-arm",
     "description": "Our company specializes in the manufacturing and installation of overhead overhead cranes. We offer quality, reliable and customized solutions. Safety and cost effectiveness are our priority. Contact us if you need.",
     "image": "/images/gallery/25.jpg",
@@ -184,7 +184,7 @@
       {
         "id": 1,
         "item": {
-          "title": "Overhead Overhead Crane Manufacturing and Installation",
+          "title": "Manufacturing And Installation Of Overhead Crane",
           "image": "/images/resim2.jpeg",
           "p1": "Our company, which specializes in the manufacturing and installation of overhead traveling cranes, offers a comprehensive service to meet the needs in the construction and industrial sectors. By combining years of experience and technical knowledge, we aim to provide reliable and customized solutions to our customers. Our overhead traveling crane is manufactured in accordance with high quality standards and delivers performance that exceeds our customers' expectations.",
           "p2": "Our company prioritizes safety in every project and manages the assembly processes meticulously. We work to ensure the satisfaction of our customers at every stage, starting from the design of the overhead traveling crane to the completion of the installation. We also help you protect your budget by providing cost-effective solutions throughout the project.",
@@ -247,7 +247,7 @@
     "about": {
       "year": "Years of Experience",
       "list": {
-        "p1": "Endüstriyel Çelik Kontrüksiyon",
+        "p1": "Industrial Steel Construction",
         "p2": "Machinery and Heavy Industry Manufacturing",
         "p3": "Overhead Cranes",
         "p4": "Scrap Transport Dumps"
@@ -295,7 +295,7 @@
           "title": "Ekinciler Demir Çelik",
           "contents": [
             "Dust collection unit manufacturing and installation",
-             "Various steel mill spare manufacturing"
+            "Various steel mill spare manufacturing"
           ],
           "image": "/images/references/colored/2.png"
         },
@@ -346,8 +346,8 @@
           "title": "Nursan Demir Çelik",
           "contents": [
             "Dust collection unit manufacturing and installation",
-             "Mixing unit manufacturing and installation",
-             "Air cooling unit manufacturing and installation"
+            "Mixing unit manufacturing and installation",
+            "Air cooling unit manufacturing and installation"
           ],
           "image": "/images/references/colored/8.png"
         },
@@ -355,7 +355,7 @@
           "title": "İlhan A.Ş.",
           "contents": [
             "Dust collection unit manufacturing and installation",
-             "Casting crucible manufacturing"
+            "Casting crucible manufacturing"
           ],
           "image": "/images/references/colored/3.png"
         },
@@ -363,7 +363,7 @@
           "title": "METOKS A.Ş.",
           "contents": [
             "Zinc furnace manufacturing and installation",
-             "Manufacturing tanks of various sizes"
+            "Manufacturing tanks of various sizes"
           ],
           "image": ""
         }

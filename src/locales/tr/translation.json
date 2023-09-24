@@ -212,7 +212,7 @@
     ]
   },
   "home": {
-    "title": "Home",
+    "title": "Ana Sayfa",
     "contact_us": {
       "form": {
         "title": "CONTACT US",
@@ -245,7 +245,7 @@
       "about2": "TEBO"
     },
     "about": {
-      "year": "Years of Experience",
+      "year": "Yıllık Deneyim",
       "list": {
         "p1": "Endüstriyel Çelik Kontrüksiyon",
         "p2": "Makine ve Ağır Sanayi İmalatları",
@@ -276,7 +276,7 @@
   },
   "footer": {
     "content": "Our goal is to offer broad capabilities, competitive pricing, exceptional quality and outstanding service to each and every customer.",
-    "title": "Quick Contact"
+    "title": "İletişime Geçin"
   },
   "referances": {
     "1": {
@@ -491,6 +491,6 @@
     }
   },
   "referance": {
-    "title": "Referances"
+    "title": "Referanslar"
   }
 }
