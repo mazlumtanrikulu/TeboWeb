@@ -10,8 +10,14 @@ import media1 from '../../assets/images/media/media1.png';
 import media2 from '../../assets/images/media/media2.png';
 import media3 from '../../assets/images/media/media3.png';
 import pic4 from '../../assets/images/pic4.png';
+import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom/cjs/react-router-dom';
 
 export default function CaseDetail() {
+    const { t } = useTranslation();
+    const { service } = useParams()
+    const referance = t(`referances.${service}`, { returnObjects: true })
+    console.log(referance);
     return (
         <>
 
@@ -24,44 +30,19 @@ export default function CaseDetail() {
                                 <div className="m-b30 align-self-center">
                                     <div className="about-content">
                                         <div className="section-head style-1">
-                                            <h3 className="title m-b20">Indiro Was Founded</h3>
+                                            <h3 className="title m-b20">{referance.title}</h3>
                                         </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'self-start', marginBottom: '20px' }}>
-                                            <img src={pic4} alt="work" width={150} />
-                                            <div>
-                                                <h6>Title some title some title etc.</h6>
-                                                <p>content content content</p>
-                                                <p>content content content</p>
-                                                <p>content content content</p>
+                                        {referance.items.map((item) => (
+                                            <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'self-start', marginBottom: '20px', borderBottom: '1px solid gray' }}>
+                                                <img src={item.image} alt="work" width={150} />
+                                                <div>
+                                                    <h6>{item.title}</h6>
+                                                    {item.contents.map((content) => (
+                                                        <p>{content}</p>
+                                                    ))}
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'self-start', marginBottom: '20px' }}>
-                                            <img src={pic4} alt="work" width={150} />
-                                            <div>
-                                                <h6>Title some title some title etc.</h6>
-                                                <p>content content content</p>
-                                                <p>content content content</p>
-                                                <p>content content content</p>
-                                            </div>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'self-start', marginBottom: '20px' }}>
-                                            <img src={pic4} alt="work" width={150} />
-                                            <div>
-                                                <h6>Title some title some title etc.</h6>
-                                                <p>content content content</p>
-                                                <p>content content content</p>
-                                                <p>content content content</p>
-                                            </div>
-                                        </div>
-                                        <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'self-start', marginBottom: '20px' }}>
-                                            <img src={pic4} alt="work" width={150} />
-                                            <div>
-                                                <h6>Title some title some title etc.</h6>
-                                                <p>content content content</p>
-                                                <p>content content content</p>
-                                                <p>content content content</p>
-                                            </div>
-                                        </div>
+                                        ))}
                                     </div>
                                 </div>
                             </div>

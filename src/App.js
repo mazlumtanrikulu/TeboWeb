@@ -39,7 +39,7 @@ function App() {
             </Route>
             <Route path="/cases">
               <Switch>
-                <Route path="/cases/detail" component={CaseDetail} />
+                <Route path="/cases/:service" component={CaseDetail} />
                 <Route path="/cases" component={Cases} />
               </Switch>
             </Route>
