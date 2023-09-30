@@ -215,34 +215,34 @@
     "title": "Ana Sayfa",
     "contact_us": {
       "form": {
-        "title": "CONTACT US",
-        "subTitle": "Get In Touch With Us",
-        "fullName": "Full Name",
-        "email": "Email Adress",
-        "phone": "Phone No.",
-        "msg": "Message"
+        "title": "BİZE ULAŞIN",
+        "subTitle": "İletişime Geçin",
+        "fullName": "Adınız",
+        "email": "E-mail Adresiniz",
+        "phone": "Telefon Numaranız",
+        "msg": "Mesajınız"
       },
       "info": {
-        "title": "Get In Touch",
-        "subTitle": "If you are interested in working with us, please get in touch.",
+        "title": "Bize Ulaşın",
+        "subTitle": "Bizimle çalışmak ilginizi çekiyorsa lütfen iletişime geçin.",
         "address": {
-          "title": "Our Address",
-          "content": "Iskenderun 1. Organize Sanayi Bölgesi Orham Ekinci Bulvarı No13 Sarıseki İskenderun Hatay"
+          "title": "Adresimiz",
+          "content": "İskenderun 1. Organize Sanayi Bölgesi Orham Ekinci Bulvarı No13 Sarıseki İskenderun Hatay"
         },
         "phone": {
-          "title": "Our Phones",
+          "title": "Telefon Numaramız",
           "content": "+90 326 656 31 06/07/08"
         },
         "email": {
-          "title": "Our Email",
+          "title": "E-mail Adresimiz",
           "content": "tebo_makine@tebo.com.tr"
         }
       }
     },
     "slider": {
-      "head": "YOUR PARTNER FOR FUTURE INNOVATION",
-      "about1": "ABOUT",
-      "about2": "TEBO"
+      "head": "İNOVASYON İÇİN ORTAĞINIZ",
+      "about1": "FABRİKAMIZI",
+      "about2": "ZİYARET EDİN"
     },
     "about": {
       "year": "Yıllık Deneyim",
@@ -257,20 +257,20 @@
       "btn": "Şirketimiz Hakkında"
     },
     "services": {
-      "title": "HIZMETLERIMIZ",
+      "title": "HİZMETLERİMİZ",
       "content": "Birçok Sektöre Yönelik Yüksek Performanslı Hizmetler!"
     },
     "studies": {
       "title": "SON ÇALIŞMALARIMIZ",
       "subTitle": "Tam Kapsamlı Yüksek Hizmet Çözümleri",
-      "content": "We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the We develop",
+      "content": "Sunduğumuz hizmet ve çözümlerle yarınları sizin için kolaylaştırıyoruz",
       "btn": "Referanslar",
       "list": {
-        "p1": "p1",
-        "p2": "p2",
-        "p3": "p3",
-        "p4": "p4",
-        "p5": "p5"
+        "p1": "Güvenilir",
+        "p2": "İnovatif",
+        "p3": "Verimli",
+        "p4": "Profesyonel",
+        "p5": "Rekabetçi"
       }
     }
   },
