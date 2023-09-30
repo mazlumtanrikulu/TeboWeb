@@ -89,10 +89,11 @@ export default function Header() {
                                 <div className="logo-header logo-dark">
                                     <Link to={"./"}><img src={TeboLogo} alt="" /></Link>
                                 </div>
-                                {/* <ul className="nav navbar-nav navbar navbar-left">
-                                    <li><Link to={"./"}><span>Ana Sayfa</span></Link>
-                                    </li>
-                                    <li className="has-mega-menu"><Link to={"#"}>Pages</Link>
+                                <ul className="nav navbar-nav navbar navbar-left">
+                                    <li><Link to={"./"}><span>Hakkımızda</span></Link></li>
+                                    <li><Link to={"./"}><span>Hizmetlerimiz</span></Link></li>
+                                    <li><Link to={"./"}><span>Referanslar</span></Link></li>
+                                    {/* <li className="has-mega-menu"><Link to={"#"}>Pages</Link>
                                         <ul className="mega-menu">
                                             <li><Link to={"#"}>Pages</Link>
                                                 <ul>
@@ -124,8 +125,8 @@ export default function Header() {
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>
-                                    <li className="sub-menu-down"><Link to={"#"}><span>Portfolio</span></Link>
+                                    </li> */}
+                                    {/* <li className="sub-menu-down"><Link to={"#"}><span>Portfolio</span></Link>
                                         <ul className="sub-menu">
                                             <li><Link to={'./portfolio'}>Portfolio 1</Link></li>
                                             <li><Link to={'./portfolio-collage'}>Portfolio Collage</Link></li>
@@ -141,14 +142,14 @@ export default function Header() {
                                             <li><Link to={'./shop-cart'}>Cart</Link></li>
                                             <li><Link to={'./login'}>Login</Link></li>
                                         </ul>
-                                    </li>
-                                    <li className="sub-menu-down"><Link to={"/"} onClick={ScrollToContactUsHandler}><span>İletişim</span></Link>
+                                    </li> */}
+                                    {/* <li className="sub-menu-down"><Link to={"/"} onClick={ScrollToContactUsHandler}><span>İletişim</span></Link>
                                         <ul className="sub-menu">
                                             <li><Link to={'./contact-us'}>Contact Us</Link></li>
-                                            
+
                                         </ul>
-                                    </li>
-                                </ul> */}
+                                    </li> */}
+                                </ul>
                                 {/* <div className="dz-social-icon">
                                     <ul>
                                         <li><a className="fab fa-facebook-f" href="https://www.facebook.com/"></a></li>
