@@ -18,6 +18,23 @@ const resources = {
   }
 }
 
+const getLang = () => {
+  const lang = localStorage.getItem('lang')
+  switch (lang) {
+    case 'TR':
+      return 'tr'
+    case 'US':
+      return 'en'
+    case 'AE':
+      return 'en'
+    case 'RU':
+      return 'en'
+
+    default:
+      return 'en'
+  }
+}
+
 i18n
   // load translation using http -> see /public/locales (i.e. https://github.com/i18next/react-i18next/tree/master/example/react/public/locales)
   // learn more: https://github.com/i18next/i18next-http-backend
@@ -33,6 +50,7 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
+    lng: getLang(),
     debug: true,
 
     interpolation: {

@@ -22518,9 +22518,10 @@ pre {
   position: relative;
   z-index: 9999; }
   .site-header .main-bar {
-    background: #fff;
+    background: #3333336b;
+    backdrop-filter: blur(9px);
     width: 100%;
-    position: relative;
+    position: absolute;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05); }
   .site-header .container {
     position: relative; }
@@ -22530,7 +22531,7 @@ pre {
     align-items: center;
     position: relative;
     z-index: 9;
-    height: 100px;
+    height: 144.2px;
     padding-left: 30px; }
     @media only screen and (max-width: 991px) {
       .site-header .extra-nav {
@@ -22729,7 +22730,7 @@ pre {
           background: #333; } }
       .header-nav .nav > li > a {
         color: #071c35;
-        font-size: 18px;
+        font-size: 22px;
         padding: 42px 15px;
         font-family: var(--font-family-title);
         cursor: pointer;
@@ -23635,13 +23636,14 @@ pre {
     transform: rotate(-45deg); }
 
 .site-header.style-3 .logo-header {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   padding: 0px 40px 0 40px;
   margin-right: 60px; }
   .site-header.style-3 .logo-header img {
     max-width: 150px; }
   @media only screen and (max-width: 1400px) {
     .site-header.style-3 .logo-header {
+      height: 144.2px;
       margin-right: 40px; } }
   @media only screen and (max-width: 575px) {
     .site-header.style-3 .logo-header {
@@ -23683,7 +23685,7 @@ pre {
   .site-header.style-3 .header-nav .nav > li:hover > a:before, .site-header.style-3 .header-nav .nav > li.active > a:before {
     width: 100%; }
   .site-header.style-3 .header-nav .nav > li > a {
-    padding: 40px 15px; }
+    padding: 60px 30px; }
     .site-header.style-3 .header-nav .nav > li > a:before {
       content: "";
       position: absolute;
@@ -23698,7 +23700,7 @@ pre {
       left: 50%; } }
   @media only screen and (min-width: 991px) and (max-width: 1400px) {
     .site-header.style-3 .header-nav .nav > li > a {
-      padding: 40px 10px; } }
+      padding: 60px 30px; } }
 
 .site-header.style-3 .top-bar .help-text {
   font-size: 14px;
@@ -30184,5 +30186,7 @@ footer {
       height: 35px;
       line-height: 35px;
       width: 35px; } }
-
+.menu-flags-button {
+  background-color: white;
+}
 /*# sourceMappingURL=style.css.map */

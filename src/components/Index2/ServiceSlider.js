@@ -41,21 +41,21 @@ function ServiceSlider() {
 
             <Swiper className="swiper-container service-slider w-100"
                 onSwiper={(s) => {
-                    console.log("initialize swiper", s);
+                    // console.log("initialize swiper", s);
                     setSwiper(s);
                 }}
                 speed={1500}
                 parallax={true}
-                slidesPerView={4}
-                spaceBetween={10}
+                slidesPerView={2}
+                spaceBetween={20}
                 loop={true}
                 autoplay={{
-                    delay: 2900,
+                    delay: 1000,
                 }}
                 modules={[Navigation, Autoplay]}
                 breakpoints={{
                     1200: {
-                        slidesPerView: 4,
+                        slidesPerView: 2,
                     },
                     992: {
                         slidesPerView: 2,
@@ -71,15 +71,15 @@ function ServiceSlider() {
                 {serviceBlog.map((data, index) => (
                     <SwiperSlide key={index} >
                         <div className="content-box overlay-shine aos-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-                            <div className="dz-media" style={{ height: '180px' }}>
+                            <div className="dz-media" style={{ height: '380px' }}>
                                 <img src={data.image} alt="" />
                             </div>
-                            <div className="dz-info" data-num={index + 1}>
-                                <div className="icon-lg m-b20 text-primary">
+                            <div className="dz-info">
+                                {/* <div className="icon-lg m-b20 text-primary">
                                     <i className={data.icon}></i>
-                                </div>
+                                </div> */}
                                 <h3 className="dz-title" style={{ height: '150px' }}><Link to={"./services"}>{data.title}</Link></h3>
-                                <p className="m-b0" style={{ height: '200px' }}>{data.description}</p>
+                                {/* <p className="m-b0" style={{ height: '200px' }}>{data.description}</p> */}
                             </div>
                             <div className="dz-bottom">
                                 <Link to={`./services/${index + 1}`} className="btn btn-primary d-block" >READ MORE</Link>

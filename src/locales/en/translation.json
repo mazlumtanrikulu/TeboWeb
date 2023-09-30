@@ -3,13 +3,16 @@
     "title": "Steel Mill Machinery Manufacturing and Assembly",
     "icon": "flaticon-cogwheel",
     "description": "Our company is an expert in steel construction manufacturing and assembly. We attach importance to high quality and safety standards. Customer satisfaction is our priority. Contact us for cooperation.",
-    "image": "/images/gallery/12.jpg",
+    "image": "/images/gallery/30.jpg",
     "items": [
       {
         "id": 1,
         "item": {
           "title": "Dust Colleciton Units",
           "image": "/images/resim7.jpg",
+          "gallery": [
+            "/images/resim7.jpg"
+          ],
           "p1": "Our company, specialized in Dust Collection Units, offers effective solutions to protect the air quality and health of employees in industrial enterprises. With years of experience and engineering knowledge, we offer our customers dust collection systems suitable for a variety of industrial applications. Dust and particulate matter control is at the heart of our business and we focus on producing environmentally friendly solutions.",
           "p2": "Our company's dust collection units offer advantages such as high efficiency, low energy consumption and ease of maintenance. Our customized designs allow us to provide solutions tailored to customers' specific needs. Additionally, we implement stringent quality control processes to ensure the quality and reliability of our products.",
           "p3": "You can choose our company to meet your needs for dust collection units and improve the air quality of your business. With our professional team, expertise and the importance we attach to customer satisfaction, we will be pleased to assist you in dust and particulate matter control. Please contact us for more information or to discuss your project's requirements."
@@ -20,6 +23,9 @@
         "item": {
           "title": "Air Cooling Units",
           "image": "/images/resim8.jpg",
+          "gallery": [
+            "/images/resim8.jpg"
+          ],
           "p1": "As a leading company in Air Cooling Units, we offer energy efficient and environmentally friendly solutions to our customers. Thanks to our years of experience and technical expertise, we offer customized and reliable answers to air cooling needs in industrial and commercial areas. At the core of our business is using the latest technology to increase our customers' comfort and production efficiency.",
           "p2": "Our company's air cooling units offer advantages such as high efficiency, low energy consumption and easy maintenance. It is designed to reduce the indoor temperature of businesses and ensure the comfort of employees, especially during the hot summer months. In addition, we fully meet our customers' needs by offering customized solutions for each project.",
           "p3": "You can choose our company to meet your air cooling unit needs and save energy. Our professional team is happy to assist you in designing and implementing your air cooling projects. Feel free to contact us for more information or to evaluate your project's needs."
@@ -30,6 +36,9 @@
         "item": {
           "title": "Scrap Basket Base and Body Manufacturing",
           "image": "/images/resim3.jpeg",
+          "gallery": [
+            "/images/resim3.jpeg"
+          ],
           "p1": "Our company, which specializes in scrap dumper manufacturing, offers high quality equipment to the metal recycling and construction sectors. With years of experience and engineering expertise, we offer our customers durable, reliable and efficient scrap dump solutions. We do our job with passion and design and produce each project in accordance with the specific needs of our customers.",
           "p2": "Our company's scrap dumper products meet high standards in terms of durability, safety and performance. Each of our products goes through a rigorous quality control process and demonstrates superior performance even under the most challenging working conditions. We also help our customers make their businesses more efficient by providing them with customized solutions.",
           "p3": "You can trust us to meet your scrap dumper needs and manage your projects more effectively. We work to maximize quality, safety and customer satisfaction. Contact us to find the best scrap dumper solution for you."
@@ -40,6 +49,9 @@
         "item": {
           "title": "Water Cooled Panels",
           "image": "/images/resim9.jpg",
+          "gallery": [
+            "/images/resim9.jpg"
+          ],
           "p1": "Our company, which specializes in Water Cooled Panels, offers specially designed, highly efficient cooling solutions for industrial and commercial applications. Thanks to our years of experience and our commitment to technology, we are proud to offer our customers energy saving, low operating costs and environmentally friendly solutions. Our water-cooled panels are ideal for consistently controlling indoor temperature, offering suitable options for any application.",
           "p2": "Our company's products are produced in accordance with high quality standards and durability principles. Our water-cooled panels are designed to meet industry leaders' requirements for energy efficiency and reliability. We also offer customized design and consulting services to meet each customer's specific requirements and best optimize their projects.",
           "p3": "You can safely choose our company to meet your needs regarding water-cooled panels and manage your indoor temperature as you wish. We are here to offer you the best solution with our professional team, experience and quality-oriented approach. Please contact us for more information or to evaluate your project's needs."
@@ -50,6 +62,9 @@
         "item": {
           "title": "Water Cooled Panel Pipes ",
           "image": "/images/resim10.jpg",
+          "gallery": [
+            "/images/resim10.jpg"
+          ],
           "p1": "Our company, which specializes in water-cooled panel pipes, offers high-quality solutions to meet industrial and commercial needs. With years of experience and engineering expertise, we produce water-cooled pipes that work effectively for indoor temperature control. These pipes offer energy efficiency, low operating costs and an environmentally friendly approach.",
           "p2": "Our company's water-cooled panel pipes exceed the expectations of industry leaders in terms of durability and reliability. Each of our products is produced in accordance with quality standards and exhibits superior performance under harsh working conditions. By providing customized solutions to our customers, we help them manage their projects more efficiently and effectively.",
           "p3": "You can choose our company to meet your water-cooled panel pipes needs and optimize indoor temperature control. We are here to offer you the best solution with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
@@ -60,6 +75,9 @@
         "item": {
           "title": "Natural Gas Pipelines",
           "image": "/images/resim11.jpg",
+          "gallery": [
+            "/images/resim11.jpg"
+          ],
           "p1": "As a company specialized in natural gas pipelines, we are pioneers in energy transportation solutions. With years of experience and engineering knowledge, we have the knowledge and resources needed to build reliable and effective natural gas pipelines. We use the latest technology to provide environmentally friendly energy transportation to our customers.",
           "p2": "Our company's natural gas pipelines meet industry standards in terms of safety, durability and efficiency. Each project is designed and constructed in accordance with local regulations. We also offer customized solutions to meet natural gas transportation requirements. We are here to meet the energy needs of our customers and provide a reliable energy source to our cities.",
           "p3": "If you need a solution regarding the construction or maintenance of natural gas pipelines, you can contact us. Our professional team has the expertise needed to successfully complete your projects. Feel free to contact us for more information or to evaluate your project."
@@ -70,6 +88,9 @@
         "item": {
           "title": "Silos",
           "image": "/images/resim12.jpg",
+          "gallery": [
+            "/images/resim12.jpg"
+          ],
           "p1": "As a leading company in silos, we offer reliable and innovative solutions to meet your industrial storage needs. With years of experience and engineering knowledge, we are proud to offer our customers customized silo designs and high quality products. Our silos are designed and manufactured to meet the expectations of industry leaders in terms of durability, safety and efficiency.",
           "p2": "Our company's silo solutions are suitable for agriculture, food, construction and many other sectors. Our products ensure safe and hygienic storage of materials and increase the efficiency of businesses. We also take a flexible approach to design and adapt each project to our customers' specific requirements.",
           "p3": "You can choose our company to meet your needs regarding silos and optimize your storage projects. We are here to offer you the best solution with our professional team, experience and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
@@ -80,6 +101,9 @@
         "item": {
           "title": "Melting Crucibles",
           "image": "/images/resim13.jpeg",
+          "gallery": [
+            "/images/resim13.jpeg"
+          ],
           "p1": "As one of the industry's leading companies in Casting Crucibles, we offer high quality and customized solutions to our customers. With our years of experience and engineering expertise, we produce products suitable for casting ladle needs. Each of our crucibles meets industry standards for durability, safety and performance and is designed to manage casting operations efficiently.",
           "p2": "Our company's casting crucibles are designed to suit various casting applications. We offer customized design and production services to respond to our customers' specific needs. Additionally, we implement stringent quality control processes to ensure the quality and durability of our products.",
           "p3": "You can choose our company to meet your casting ladle needs and manage your casting projects in the best way. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
@@ -90,6 +114,9 @@
         "item": {
           "title": "Casting Crucible Carts",
           "image": "/images/resim13.jpeg",
+          "gallery": [
+            "/images/resim13.jpeg"
+          ],
           "p1": "Our company, which specializes in Casting Ladle trolleys, offers reliable transportation solutions for metallurgy and industrial foundries. With our years of experience and know-how, we are proud to offer our customers customizable and highly durable ladle carts. Our ladle trolleys are designed to ensure the safe transportation of molten metal and heavy loads and meet industry standards.",
           "p2": "Our company's products meet the highest standards in terms of quality and performance. Each ladle trolley maintains its durability under intense working conditions and increases the productivity of businesses. We also offer customized design and size options to meet our customers' specific requirements.",
           "p3": "You can choose our company to meet your ladle trolley needs and make your foundry operations more effective. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. For more information or to evaluate your project's needs, please contact us"
@@ -100,6 +127,9 @@
         "item": {
           "title": "Stove Bodies",
           "image": "/images/resim14.jpg",
+          "gallery": [
+            "/images/resim14.jpg"
+          ],
           "p1": "Our company, which is an expert in stove bodies, produces high quality stove bodies for use in kitchens and industrial facilities. With years of experience and engineering knowledge, we are proud to offer our customers excellent solutions in terms of aesthetics and functionality. Our stove bodies meet important criteria such as durability, hygiene and functionality and are long-lasting.",
           "p2": "Our company's products offer an ideal option for kitchen designers and industrial chefs. Our aesthetic designs fit into any kitchen decor and prioritize functionality. We also take a flexible approach to meet our customers' specific needs with customized hob bodies.",
           "p3": "You can choose our company to meet your stove body needs and optimize your kitchen or industrial facility. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
@@ -110,6 +140,9 @@
         "item": {
           "title": "Crucible Lids",
           "image": "/images/resim15.jpg",
+          "gallery": [
+            "/images/resim15.jpg"
+          ],
           "p1": "Our company, which specializes in crucible lids, produces reliable and high-quality lids for the metallurgy and casting industry. With years of experience and engineering knowledge, we are proud to provide our customers with durable, safe and customized cover solutions. Our crucible lids are designed to protect molten metal and perform the casting process safely and meet industry standards.",
           "p2": "Our company's products meet the highest standards in terms of quality and performance. Each crucible lid is manufactured to withstand high temperatures and heavy use. We also offer customized design and size options to meet our customers' specific requirements.",
           "p3": "You can choose our company to meet your ladle lid needs and make your casting operations safer and more efficient. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
@@ -120,6 +153,9 @@
         "item": {
           "title": "Tundish",
           "image": "/images/resim16.jpg",
+          "gallery": [
+            "/images/resim16.jpg"
+          ],
           "p1": "Our company, which is an expert in tundish, offers high quality and durable products for foundries. With years of experience and engineering knowledge, we are proud to offer our customers tundishes designed for the safe storage and pouring of molten metal into molds. Our tundishes are distinguished by their robust construction and thermal resistance that meet industry standards.",
           "p2": "Our company's tundishes make casting processes more efficient and safe. Each tundish is optimized for holding and transporting molten metal. We also offer tundishes in various sizes and capacities to meet our customers' specific requirements.",
           "p3": "You can choose our company's tundish solutions to make your casting operations safer and more efficient. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
@@ -130,6 +166,9 @@
         "item": {
           "title": "Polyp Grabs ",
           "image": "/images/resim17.png",
+          "gallery": [
+            "/images/resim17.png"
+          ],
           "p1": "Our company, which specializes in polyp attachments, offers reliable and effective solutions for your construction and material handling needs. With years of experience and engineering knowledge, we are proud to offer our customers high quality polyp attachments that can be used in a wide variety of applications. Our polyp attachments stand out in terms of safety and durability while making material handling more efficient.",
           "p2": "Our company's polyp attachments are used in a wide range of construction, iron and steel, recycling and other industrial sectors. Our products can lift and transport all types of loads safely. We also offer customized designs to suit our customers' specific needs.",
           "p3": "You can choose our company to meet your polyp attachment needs and optimize your material handling projects. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
@@ -140,6 +179,9 @@
         "item": {
           "title": "Traverse ",
           "image": "/images/resim18.jpg",
+          "gallery": [
+            "/images/resim18.jpg"
+          ],
           "p1": "Our company, which specializes in crossbars, offers reliable and customizable solutions to meet your load carrying and material lifting needs. With years of experience and engineering knowledge, we offer our customers the opportunity to transport heavy loads safely and efficiently, as well as optimize storage and production processes. Our sleepers meet industry standards and excel in durability and safety.",
           "p2": "Our company's sleepers can be used in construction, production, ports, warehouses and many other sectors. Each crossbar can be customized to suit the needs of your project. We also provide cutting-edge design and engineering solutions to make freight transportation more efficient and safe.",
           "p3": "You can safely choose our company to meet your sleeper needs and optimize your material handling projects. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Contact us for more information or to evaluate your project's needs."
@@ -151,13 +193,16 @@
     "title": "Steel Construction Manufacturing and Assembly",
     "icon": "flaticon-engineer-1",
     "description": "Our company produces special steel mill and rolling mill machines. Quality, customization, fast delivery and customer satisfaction are our priority. Contact us and let us provide solutions to your needs.",
-    "image": "/images/gallery/22.jpg",
+    "image": "/images/gallery/31.png",
     "items": [
       {
         "id": 1,
         "item": {
           "title": "Industrial Steel Structures",
           "image": "/images/resim19.jpg",
+          "gallery": [
+            "/images/resim19.jpg"
+          ],
           "p1": "As a leading company in industrial steel structures, we offer our customers durable, reliable and customized construction solutions. With years of experience and engineering knowledge, we bring together the latest technology and design principles for industrial facilities, warehouse complexes, factories and more. We are proud to produce steel structures to suit our customers' needs.",
           "p2": "Our company's industrial steel structures exceed industry standards for durability, safety and efficiency. Each project is designed and constructed in accordance with local regulations and customer expectations. We also help our customers optimize their projects by offering customized designs and sizes.",
           "p3": "You can choose our company to build or expand your industrial steel structures. We are here to successfully complete your projects with our professional team, expertise and the importance we attach to customer satisfaction. Please contact us for more information or to evaluate your project's needs."
@@ -168,6 +213,9 @@
         "item": {
           "title": "Steel Framed Houses",
           "image": "/images/resim20.jpg",
+          "gallery": [
+            "/images/resim20.jpg"
+          ],
           "p1": "Our company, which specializes in steel-framed residences, offers a powerful solution for building durable, energy-efficient and modern residences. With years of experience and engineering knowledge, we are proud to offer our customers a comprehensive range of services related to steel framed housing. Steel frame technology speeds up the construction process and ultimately ensures excellent quality and durability.",
           "p2": "Our company's steel-framed residences stand out with their comfortable living spaces and aesthetic designs. Each project is customized taking into account customer expectations and budget. We also take an environmentally friendly approach with energy-efficient materials and green construction practices.",
           "p3": "We would be happy to assist you in your projects related to our steel framed residences. We are here to help you build the house of your dreams with our professional team, expertise and the importance we attach to customer satisfaction. Contact us for more information or to evaluate your project's needs."
@@ -179,13 +227,16 @@
     "title": "Manufacturing and Installation of Overhead Crane",
     "icon": "flaticon-robot-arm",
     "description": "Our company specializes in the manufacturing and installation of overhead overhead cranes. We offer quality, reliable and customized solutions. Safety and cost effectiveness are our priority. Contact us if you need.",
-    "image": "/images/gallery/25.jpg",
+    "image": "/images/gallery/32.jpg",
     "items": [
       {
         "id": 1,
         "item": {
           "title": "Manufacturing And Installation Of Overhead Crane",
           "image": "/images/resim2.jpeg",
+          "gallery": [
+            "/images/resim2.jpeg"
+          ],
           "p1": "Our company, which specializes in the manufacturing and installation of overhead traveling cranes, offers a comprehensive service to meet the needs in the construction and industrial sectors. By combining years of experience and technical knowledge, we aim to provide reliable and customized solutions to our customers. Our overhead traveling crane is manufactured in accordance with high quality standards and delivers performance that exceeds our customers' expectations.",
           "p2": "Our company prioritizes safety in every project and manages the assembly processes meticulously. We work to ensure the satisfaction of our customers at every stage, starting from the design of the overhead traveling crane to the completion of the installation. We also help you protect your budget by providing cost-effective solutions throughout the project.",
           "p3": "If you are looking for a reliable business partner in the manufacturing and installation of overhead overhead cranes, our company is the ideal option for you. With our professional team and quality-oriented approach, we are here to complete your projects smoothly. Feel free to contact us to meet your needs and get more information."
@@ -197,13 +248,16 @@
     "title": "Damper Manufacturing and Assembly",
     "icon": "flaticon-robot-arm",
     "description": "Our company is specialized in the production of scrap dumpers. We offer reliable and high-quality equipment for specific needs. We are focused on customer satisfaction and quality. You can trust us for solutions that suit your needs.",
-    "image": "/images/gallery/10.jpg",
+    "image": "/images/gallery/33.png",
     "items": [
       {
         "id": 1,
         "item": {
           "title": "Damper Manufacturing and Assembly",
           "image": "/images/resim3.jpeg",
+          "gallery": [
+            "/images/resim3.jpeg"
+          ],
           "p1": "Our company, which specializes in scrap dumper manufacturing, offers high quality equipment to the metal recycling and construction sectors. With years of experience and engineering expertise, we offer our customers durable, reliable and efficient scrap dump solutions. We do our job with passion and design and produce each project in accordance with the specific needs of our customers.",
           "p2": "Our company's scrap dumper products meet high standards in terms of durability, safety and performance. Each of our products goes through a rigorous quality control process and demonstrates superior performance even under the most challenging working conditions. We also help our customers make their businesses more efficient by providing them with customized solutions.",
           "p3": "You can trust us to meet your scrap dumper needs and manage your projects more effectively. We work to maximize quality, safety and customer satisfaction. Contact us to find the best scrap dumper solution for you."

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import bg18 from '../../assets/images/background/bg18.jpg';
+import bg24 from '../../assets/images/background/bg24.jpg';
 import Swal from "sweetalert2";
 import { Link } from 'react-router-dom/cjs/react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -88,14 +88,14 @@ export default function ContactUs() {
     return (
         <>
 
-            <div className="page-content bg-white">
+            <div className="page-content bg-white" id='contactus'>
 
                 <section className="content-inner-2 pt-0">
                     <div className="map-iframe">
                         <iframe title="contact" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3199.2138365644596!2d36.207738075833404!3d36.693399072277806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDQxJzM2LjIiTiAzNsKwMTInMzcuMSJF!5e0!3m2!1sen!2str!4v1695477191703!5m2!1sen!2str" style={{ border: '0', width: '100%', minHeight: '100%', marginBottom: '-8px' }} allowFullScreen></iframe>
                     </div>
                 </section>
-                <section className="contact-wraper1" style={{ backgroundImage: 'url(' + bg18 + ')' }}>
+                <section className="contact-wraper1" >
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5">

@@ -56,15 +56,15 @@ function Home() {
       <div className="page-content bg-white">
         <div
           className="banner-one overlay-black-light"
-          style={{ backgroundImage: "url(" + teboHomePhoto2 + ")" }}
+          style={{ backgroundImage: "url(" + main1 + ")", height: '110vh' }}
         >
-          <div className="banner-inner">
-            <div className="banner-media overlay-black-middle">
-              <img src={teboHomePhoto} alt="" />
-            </div>
+          <div style={{ width: '100vw', height: '100vh', display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', alignItems: 'flex-end' }}>
+            {/* <div className="banner-media ">
+              <img src={main2} alt="" />
+            </div> */}
             <div className="banner-content">
-              <h1 className="m-b20">{t('home.slider.head')}</h1>
-              <div className="video-bx">
+              {/* <h1 className="m-b20">{t('home.slider.head')}</h1> */}
+              <div className="video-bx" style={{ marginBottom: '40px' }}>
                 <Link
                   to={"#"}
                   className="popup-youtube play-btn5"
@@ -84,6 +84,7 @@ function Home() {
         <section
           className="content-inner overlay-white-middle"
           style={{ backgroundImage: "url(" + bg2 + ")" }}
+          id="about"
         >
           <div className="container">
             <div className="row about-style1 align-items-center">
@@ -96,7 +97,7 @@ function Home() {
                       }
                     >
                       <div>
-                        <img className="m-b30" src={main1} alt="" />
+                        <img className="m-b30" src={teboHomePhoto2} alt="" />
                       </div>
                     </div>
                   </div>
@@ -107,7 +108,7 @@ function Home() {
                       }
                     >
                       <div>
-                        <img className="m-b20 aos-item" src={main2} alt="" />
+                        <img className="m-b20 aos-item" src={teboHomePhoto} alt="" />
                       </div>
                     </div>
                     <div className="exp-bx aos-item" style={{ marginLeft: '-250px', width: '529px' }}>
@@ -155,6 +156,7 @@ function Home() {
             backgroundImage: "url(" + bg7 + ")",
             backgroundSize: "cover",
           }}
+          id="services"
         >
           <div className="container">
             <div
@@ -173,7 +175,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className="content-inner bg-gray">
+        <section className="content-inner bg-gray" id="references">
           <div className="container">
             <div className="row about-style8">
               <div
@@ -224,11 +226,11 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className="content-inner-6">
+        {/* <section className="content-inner-6">
           <div className="container">
             <ClientsSlider />
           </div>
-        </section>
+        </section> */}
         {/* <ContactUs splitEvent={splitEvent} /> */}
         <ContactUse />
         <ModalVideo

@@ -15,6 +15,7 @@ import ScrollToTop from "./views/ScrollToTop/scrollToTop";
 import ContactUse from "./views/ContactUse";
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
+import ServiceGallery from "./views/ServiceGallery";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
             </Route>
             <Route path="/services/:service">
               <Switch>
-                <Route path="/services/:service/:detail" component={ServiceDetails} />
+                <Route path="/services/:service/:detail" component={ServiceGallery} />
                 <Route path="/services/:service" component={Services} />
               </Switch>
             </Route>
