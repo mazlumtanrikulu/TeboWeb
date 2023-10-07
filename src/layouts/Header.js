@@ -187,7 +187,7 @@ export default function Header() {
                           'backdrop-filter': 'blur(9px)'
                         }}
                       >
-                        Hakkımızda
+                        {t("header.about_us")}
                       </span>
                     </Link>
                   </li>
@@ -218,7 +218,7 @@ export default function Header() {
                           'backdrop-filter': 'blur(9px)'
                         }}
                       >
-                        Hizmetlerimiz
+                        {t("header.services")}
                       </span>
                     </Link>
                   </li>
@@ -252,7 +252,7 @@ export default function Header() {
                           'backdrop-filter': 'blur(9px)'
                         }}
                       >
-                        Referanslar
+                        {t("header.referances")}
                       </span>
                     </Link>
                   </li>
@@ -283,7 +283,7 @@ export default function Header() {
                           'backdrop-filter': 'blur(9px)'
                         }}
                       >
-                        {t("home.contact_us.form.title")}
+                        {t("header.contact_us")}
                       </span>
                     </Link>
                   </li>
