@@ -34,8 +34,8 @@ function App() {
             </Route>
             <Route path="/services/:service">
               <Switch>
-                <Route path="/services/:service/:detail" component={ServiceGallery} />
-                <Route path="/services/:service" component={Services} />
+                <Route path="/services/:service" component={ServiceGallery} />
+                {/* <Route path="/services/:service" component={Services} /> */}
               </Switch>
             </Route>
             <Route path="/cases">

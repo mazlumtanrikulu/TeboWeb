@@ -4,6 +4,9 @@
     "icon": "flaticon-cogwheel",
     "description": "Firmamız çelik konstrüksiyon imalatı ve montajında uzmandır. Yüksek kalite ve güvenlik standartlarına önem veririz. Müşteri memnuniyeti önceliğimizdir. İşbirliği için bize ulaşın.",
     "image": "/images/gallery/30.jpg",
+    "gallery": [
+      "/images/gallery/30.jpg"
+    ],
     "items": [
       {
         "id": 1,
@@ -194,6 +197,9 @@
     "icon": "flaticon-engineer-1",
     "description": "Firmamız, özel çelikhane ve haddehane makineleri üretiyor. Kalite, özelleştirme, hızlı teslimat ve müşteri memnuniyeti bizim önceliğimizdir. İletişime geçin, ihtiyaçlarınıza çözüm sunalım.",
     "image": "/images/gallery/31.png",
+    "gallery": [
+      "/images/gallery/30.jpg"
+    ],
     "items": [
       {
         "id": 1,
@@ -228,6 +234,9 @@
     "icon": "flaticon-robot-arm",
     "description": "Firmamız, Gezer köprülü tavan vincinin imalatı ve montajında uzmandır. Kaliteli, güvenilir ve özelleştirilmiş çözümler sunarız. Güvenlik ve maliyet etkinlik önceliğimizdir. İhtiyacınız varsa bizimle iletişime geçin.",
     "image": "/images/gallery/32.jpg",
+    "gallery": [
+      "/images/gallery/30.jpg"
+    ],
     "items": [
       {
         "id": 1,
@@ -249,6 +258,9 @@
     "icon": "flaticon-robot-arm",
     "description": "Firmamız, hurda damperi üretiminde uzman. Özel ihtiyaçlara yönelik güvenilir ve yüksek kaliteli ekipmanlar sunuyoruz. Müşteri memnuniyeti ve kalite odaklıyız. İhtiyacınıza uygun çözümler için bize güvenebilirsiniz.",
     "image": "/images/gallery/33.png",
+    "gallery": [
+      "/images/gallery/30.jpg"
+    ],
     "items": [
       {
         "id": 1,

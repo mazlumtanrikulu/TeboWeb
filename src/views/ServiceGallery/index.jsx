@@ -12,10 +12,9 @@ import { useTranslation } from 'react-i18next';
 //Images
 
 function ServiceGallery(props) {
-  const { service, detail } = useParams()
+  const { service } = useParams()
   const { t } = useTranslation();
   const data = t(service, { returnObjects: true })
-  const item = data.items.find((i) => i.id.toString() === detail).item
   const { openLightbox } = useLightbox();
   const options = {
     settings: {
@@ -27,15 +26,15 @@ function ServiceGallery(props) {
 
       <div className="page-content bg-white">
         <PageTitle
-          title={item.title}
-          parentPage={t('home.services.title')}
-          childPage={data.title}
+          title={data.title}
+          parentPage={t('home.title')}
+          childPage={t('home.services.title')}
         />
         <section className="content-inner">
           <div className="container">
             <SRLWrapper options={options}>
               <div className="row lightgallery">
-                {item.gallery.map((data, ind) => (
+                {data.gallery.map((data, ind) => (
                   <div className="col-lg-3 col-md-6 m-b30" key={ind}>
                     <div className="dz-box style-4">
                       <div className="dz-media height-sm">
