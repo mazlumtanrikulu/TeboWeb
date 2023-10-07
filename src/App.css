@@ -40,3 +40,9 @@
 .navbar-item:hover {
   border: 2px solid #fff!important;
 }
+
+.menu-flags-button {
+  border: 2px solid #ffffff36!important;
+  background: #ffffff10!important;
+  color: white!important;
+}
