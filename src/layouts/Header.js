@@ -70,9 +70,8 @@ export default function Header() {
 
         {/* <!-- Main Header --> */}
         <div
-          className={`sticky-header main-bar-wraper navbar-expand-lg ${
-            headerFix ? "is-fixed" : ""
-          } `}
+          className={`sticky-header main-bar-wraper navbar-expand-lg ${headerFix ? "is-fixed" : ""
+            } `}
         >
           <div className="main-bar clearfix ">
             <div className="container-fluid clearfix">
@@ -82,7 +81,7 @@ export default function Header() {
                 style={{ height: "144.2px" }}
               >
                 <Link to={"/"}>
-                  <img src={TeboLogo} alt="" style={{maxWidth: '220px'}} />
+                  <img src={TeboLogo} alt="" style={{ maxWidth: '220px' }} />
                 </Link>
               </div>
               {/* <!-- Nav Toggle Button --> */}
@@ -141,26 +140,25 @@ export default function Header() {
               {/* <!-- Extra Nav --> */}
 
               <div
-                className={`header-nav navbar-collapse justify-content-start ${
-                  openToggleBtn ? " collapse show" : " collapse"
-                }`}
+                className={`header-nav navbar-collapse justify-content-start ${openToggleBtn ? " collapse show" : " collapse"
+                  }`}
               >
                 <div
                   className="logo-header logo-dark"
                   style={{ maxWidth: "200px" }}
                 >
                   <Link to={"/"}>
-                    <img src={TeboLogo} alt=""/>
+                    <img src={TeboLogo} alt="" />
                   </Link>
                 </div>
-                <ul className="navbar-nav navbar navbar-left" style={{ 
-                    width: '100%',
-                    height: '144px',
-                    display: 'flex',
-                    flexDirection: 'row',
-                    justifyContent: 'flex-start',
-                    alignItems: 'center',
-                    gap: '30px'
+                <ul className="navbar-nav navbar navbar-left" style={{
+                  width: '100%',
+                  height: '144px',
+                  display: 'flex',
+                  flexDirection: 'row',
+                  justifyContent: 'flex-start',
+                  alignItems: 'center',
+                  gap: '30px'
                 }}>
                   <li>
                     <Link to={"/"} onClick={() => scrollToElement("about")}>
@@ -168,9 +166,9 @@ export default function Header() {
                         className="navbar-item"
                         style={{
                           background: "#ffffff10",
-                          border: "2px solid #ffffff",
+                          border: "2px solid #ffffff36",
                           borderRadius: 50,
-                          color: "black",
+                          color: "white",
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
@@ -180,11 +178,13 @@ export default function Header() {
                           outline: "none",
                           padding: "5px 11px",
                           transition:
-                            "background-color 0.2s ease-out, color 0.2s ease-out",
+                            "border 0.2s ease-out, color 0.2s ease-out",
                           textDecoration: "none",
                           textAlign: "center",
                           height: "50px",
-                          fontWeight: '600'
+                          fontWeight: '600',
+                          '-webkit-backdrop-filter': 'blur(9px)',
+                          'backdrop-filter': 'blur(9px)'
                         }}
                       >
                         Hakkımızda
@@ -193,13 +193,13 @@ export default function Header() {
                   </li>
                   <li>
                     <Link to={"/"} onClick={() => scrollToElement("services")}>
-                    <span
+                      <span
                         className="navbar-item"
                         style={{
                           background: "#ffffff10",
-                          border: "2px solid #ffffff",
+                          border: "2px solid #ffffff36",
                           borderRadius: 50,
-                          color: "black",
+                          color: "white",
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
@@ -209,11 +209,13 @@ export default function Header() {
                           outline: "none",
                           padding: "5px 11px",
                           transition:
-                            "background-color 0.2s ease-out, color 0.2s ease-out",
+                            "border 0.2s ease-out, color 0.2s ease-out",
                           textDecoration: "none",
                           textAlign: "center",
                           height: "50px",
-                          fontWeight: '600'
+                          fontWeight: '600',
+                          '-webkit-backdrop-filter': 'blur(9px)',
+                          'backdrop-filter': 'blur(9px)'
                         }}
                       >
                         Hizmetlerimiz
@@ -225,13 +227,13 @@ export default function Header() {
                       to={"/"}
                       onClick={() => scrollToElement("references")}
                     >
-                       <span
+                      <span
                         className="navbar-item"
                         style={{
                           background: "#ffffff10",
-                          border: "2px solid #ffffff",
+                          border: "2px solid #ffffff36",
                           borderRadius: 50,
-                          color: "black",
+                          color: "white",
                           display: "flex",
                           flexDirection: "row",
                           justifyContent: "center",
@@ -241,11 +243,13 @@ export default function Header() {
                           outline: "none",
                           padding: "5px 11px",
                           transition:
-                            "background-color 0.2s ease-out, color 0.2s ease-out",
+                            "border 0.2s ease-out, color 0.2s ease-out",
                           textDecoration: "none",
                           textAlign: "center",
                           height: "50px",
-                          fontWeight: '600'
+                          fontWeight: '600',
+                          '-webkit-backdrop-filter': 'blur(9px)',
+                          'backdrop-filter': 'blur(9px)'
                         }}
                       >
                         Referanslar
@@ -270,7 +274,7 @@ export default function Header() {
                           outline: "none",
                           padding: "5px 11px",
                           transition:
-                            "background-color 0.2s ease-out, color 0.2s ease-out",
+                            "border 0.2s ease-out, color 0.2s ease-out",
                           textDecoration: "none",
                           textAlign: "center",
                           height: "50px",

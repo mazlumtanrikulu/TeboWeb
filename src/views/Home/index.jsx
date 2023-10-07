@@ -111,7 +111,7 @@ function Home() {
                         <img className="m-b20 aos-item" src={teboHomePhoto} alt="" />
                       </div>
                     </div>
-                    <div className="exp-bx aos-item" style={{ marginLeft: '-250px', width: '529px' }}>
+                    <div className="exp-bx aos-item">
                       <div className="exp-head" style={{ width: '200px' }}>
                         <div className="counter-num">
                           <h2 className="counter">

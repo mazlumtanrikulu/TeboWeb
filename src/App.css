@@ -38,5 +38,5 @@
 }
 
 .navbar-item:hover {
-  background-color: red!important;
+  border: 2px solid #fff!important;
 }
