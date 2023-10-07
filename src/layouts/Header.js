@@ -1,63 +1,64 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { Link, useHistory } from "react-router-dom";
 
-import logo from './../assets/images/logo.png';
+import logo from "./../assets/images/logo.png";
 // import logowhite from './../assets/images/logo-white.png';
 // import teboLogo from "./../assets/images/tebo-logo.JPG"
-import TeboLogo from './../assets/images/TeboLogo.svg'
-import { useTranslation } from 'react-i18next';
-import TurkeyFlag from './../assets/images/countries/turkey.png'
-import { USAFlag } from './../assets/images/countries/united-states.png'
-import { RussiaFlag } from './../assets/images/countries/russia.png'
-import { UAEFlag } from './../assets/images/countries/united-arab-emirates.png'
+import TeboLogo from "./../assets/images/TeboLogo.svg";
+import { useTranslation } from "react-i18next";
+import TurkeyFlag from "./../assets/images/countries/turkey.png";
+import { USAFlag } from "./../assets/images/countries/united-states.png";
+import { RussiaFlag } from "./../assets/images/countries/russia.png";
+import { UAEFlag } from "./../assets/images/countries/united-arab-emirates.png";
 import ReactFlagsSelect from "react-flags-select";
 
 export default function Header() {
-    //Sidebar
+  //Sidebar
 
-    const [selected, setSelected] = useState(localStorage.getItem('lang') ?? 'US');
-    const { t } = useTranslation();
-    const history = useHistory()
-    const [openToggleBtn, setOpenToggleBtn] = useState(false);
-    //Header fixed
-    const [headerFix, setheaderFix] = React.useState(false);
-    useEffect(() => {
-        // window.addEventListener("scroll", () => {
-        //     setheaderFix(window.scrollY > 50);
-        // });
+  const [selected, setSelected] = useState(
+    localStorage.getItem("lang") ?? "US"
+  );
+  const { t } = useTranslation();
+  const history = useHistory();
+  const [openToggleBtn, setOpenToggleBtn] = useState(false);
+  //Header fixed
+  const [headerFix, setheaderFix] = React.useState(false);
+  useEffect(() => {
+    // window.addEventListener("scroll", () => {
+    //     setheaderFix(window.scrollY > 50);
+    // });
 
-        // // Menu open {mestmenu} 
-        // var navUl = [].slice.call(document.querySelectorAll('.navbar-nav > li'));
-        // for (var y = 0; y < navUl.length; y++) {
-        //     navUl[y].addEventListener('click', function () { checkLi(this) });
-        // }
-        // function checkLi(current) {
-        //     //SubMenu.forEach(el => (current !== el) ? el.classList.remove('none') : '');
-        //     navUl.forEach(el => (current !== el) ? el.classList.remove('open') : '');
-        //     setTimeout(() => {
-        //         current.classList.toggle('open');
-        //     }, 100);
-        // }
+    // // Menu open {mestmenu}
+    // var navUl = [].slice.call(document.querySelectorAll('.navbar-nav > li'));
+    // for (var y = 0; y < navUl.length; y++) {
+    //     navUl[y].addEventListener('click', function () { checkLi(this) });
+    // }
+    // function checkLi(current) {
+    //     //SubMenu.forEach(el => (current !== el) ? el.classList.remove('none') : '');
+    //     navUl.forEach(el => (current !== el) ? el.classList.remove('open') : '');
+    //     setTimeout(() => {
+    //         current.classList.toggle('open');
+    //     }, 100);
+    // }
 
-        localStorage.setItem('lang', selected)
-    }, [selected]);
-    const scrollToElement = (id) => {
-        let container = document.getElementById(id);
-        if (!container) {
-            history.push('/')
-            setTimeout(() => {
-                container = document.getElementById(id);
-                container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }, 100)
-        } else {
-            container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-    };
-    return (
-        <>
-            <header className="site-header mo-left header style-3">
-
-                {/* <div className="top-bar">
+    localStorage.setItem("lang", selected);
+  }, [selected]);
+  const scrollToElement = (id) => {
+    let container = document.getElementById(id);
+    if (!container) {
+      history.push("/");
+      setTimeout(() => {
+        container = document.getElementById(id);
+        container.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }, 100);
+    } else {
+      container.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  };
+  return (
+    <>
+      <header className="site-header mo-left header style-3">
+        {/* <div className="top-bar">
                     <div className="container-fluid">
                         <div className="d-flex justify-content-center align-items-center">
                             <div className="dz-topbar-center">
@@ -67,16 +68,25 @@ export default function Header() {
                     </div>
                 </div> */}
 
-                {/* <!-- Main Header --> */}
-                <div className={`sticky-header main-bar-wraper navbar-expand-lg ${headerFix ? "is-fixed" : ""} `}>
-                    <div className="main-bar clearfix ">
-                        <div className="container-fluid clearfix">
-                            {/* <!-- Website Logo --> */}
-                            <div className="logo-header mostion logo-white" style={{ height: '144.2px' }}>
-                                <Link to={"/"}><img src={TeboLogo} alt="" style={{ height: '144.2px' }} /></Link>
-                            </div>
-                            {/* <!-- Nav Toggle Button --> */}
-                            {/* <button
+        {/* <!-- Main Header --> */}
+        <div
+          className={`sticky-header main-bar-wraper navbar-expand-lg ${
+            headerFix ? "is-fixed" : ""
+          } `}
+        >
+          <div className="main-bar clearfix ">
+            <div className="container-fluid clearfix">
+              {/* <!-- Website Logo --> */}
+              <div
+                className="logo-header mostion logo-white"
+                style={{ height: "144.2px" }}
+              >
+                <Link to={"/"}>
+                  <img src={TeboLogo} alt="" style={{maxWidth: '220px'}} />
+                </Link>
+              </div>
+              {/* <!-- Nav Toggle Button --> */}
+              {/* <button
                                 className={`navbar-toggler navicon justify-content-end ${openToggleBtn ? 'open' : 'collapsed'}`}
                                 onClick={() => setOpenToggleBtn(!openToggleBtn)}
                             >
@@ -84,10 +94,10 @@ export default function Header() {
                                 <span></span>
                                 <span></span>
                             </button> */}
-                            {/* <!-- Extra Nav --> */}
-                            <div className="extra-nav">
-                                <div className="extra-cell">
-                                    {/* <div className="search-inhead">
+              {/* <!-- Extra Nav --> */}
+              <div className="extra-nav">
+                <div className="extra-cell">
+                  {/* <div className="search-inhead">
                                         <div className="dz-quik-search On">
                                             <form action="#">
                                                 <input name="search" value="" type="text" className="form-control" placeholder="Search" />
@@ -98,15 +108,15 @@ export default function Header() {
                                             <i className="fas fa-search"></i>
                                         </Link>
                                     </div> */}
-                                    {/* <li className="sub-menu-down"><Link to={"#"}><span>Portfolio</span></Link>
+                  {/* <li className="sub-menu-down"><Link to={"#"}><span>Portfolio</span></Link>
                                         <ul className="sub-menu">
                                             <li><Link to={'./portfolio'}>Portfolio 1</Link></li>
                                             <li><Link to={'./portfolio-collage'}>Portfolio Collage</Link></li>
                                             <li><Link to={'./portfolio-details'}>Portfolio Details</Link></li>
                                         </ul>
                                     </li> */}
-                                    {/* <Link to={"/contact-us"} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">{t('home.contact_us.form.title')}</Link> */}
-                                    {/* <select>
+                  {/* <Link to={"/contact-us"} className="btn btn-secondary d-xl-inline-block d-none btn-border btn-border-secondary m-r10 m-b10">{t('home.contact_us.form.title')}</Link> */}
+                  {/* <select>
                                         <option>
                                             <img src={TurkeyFlag} />
                                         </option>
@@ -114,34 +124,167 @@ export default function Header() {
                                         <option>3</option>
                                         <option>4</option>
                                     </select> */}
-                                    <ReactFlagsSelect
-                                        className="menu-flags"
-                                        selectButtonClassName="menu-flags-button"
-                                        selected={selected}
-                                        onSelect={(code) => {
-                                            setSelected(code)
-                                            window.location.reload()
-                                        }}
-                                        countries={["TR", "US", "AE", "RU"]}
-                                        customLabels={{ TR: "TR", US: "US", AE: "AE", RU: "RU" }}
-                                        placeholder="Select Language"
-                                    />
-                                </div>
-                            </div>
-                            {/* <!-- Extra Nav --> */}
+                  <ReactFlagsSelect
+                    className="menu-flags"
+                    selectButtonClassName="menu-flags-button"
+                    selected={selected}
+                    onSelect={(code) => {
+                      setSelected(code);
+                      window.location.reload();
+                    }}
+                    countries={["TR", "US", "AE", "RU"]}
+                    customLabels={{ TR: "TR", US: "US", AE: "AE", RU: "RU" }}
+                    placeholder="Select Language"
+                  />
+                </div>
+              </div>
+              {/* <!-- Extra Nav --> */}
 
-                            <div className={`header-nav navbar-collapse justify-content-start ${openToggleBtn ? ' collapse show' : ' collapse'}`}
-                            >
-                                <div className="logo-header logo-dark" style={{ height: '144.2px' }}>
-                                    <Link to={"/"}><img src={TeboLogo} alt="" style={{ height: '144.2px' }} /></Link>
-                                </div>
-                                <ul className="nav navbar-nav navbar navbar-left">
-                                    <li><Link to={"/"} onClick={() => scrollToElement('about')}><span style={{ color: 'white' }}>Hakkımızda</span></Link></li>
-                                    <li><Link to={"/"} onClick={() => scrollToElement('services')}><span style={{ color: 'white' }}>Hizmetlerimiz</span></Link></li>
-                                    <li><Link to={"/"} onClick={() => scrollToElement('references')}><span style={{ color: 'white' }}>Referanslar</span></Link></li>
-                                    <li><Link to={"/"} onClick={() => scrollToElement('contactus')}><span style={{ color: 'white' }}>{t('home.contact_us.form.title')}</span></Link></li>
+              <div
+                className={`header-nav navbar-collapse justify-content-start ${
+                  openToggleBtn ? " collapse show" : " collapse"
+                }`}
+              >
+                <div
+                  className="logo-header logo-dark"
+                  style={{ maxWidth: "200px" }}
+                >
+                  <Link to={"/"}>
+                    <img src={TeboLogo} alt=""/>
+                  </Link>
+                </div>
+                <ul className="navbar-nav navbar navbar-left" style={{ 
+                    width: '100%',
+                    height: '144px',
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'flex-start',
+                    alignItems: 'center',
+                    gap: '30px'
+                }}>
+                  <li>
+                    <Link to={"/"} onClick={() => scrollToElement("about")}>
+                      <span
+                        className="navbar-item"
+                        style={{
+                          background: "#ffffff10",
+                          border: "2px solid #ffffff",
+                          borderRadius: 50,
+                          color: "black",
+                          display: "flex",
+                          flexDirection: "row",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          width: "150px",
 
-                                    {/* <li className="sub-menu-down"><Link to={"#"}><span>Portfolio</span></Link>
+                          outline: "none",
+                          padding: "5px 11px",
+                          transition:
+                            "background-color 0.2s ease-out, color 0.2s ease-out",
+                          textDecoration: "none",
+                          textAlign: "center",
+                          height: "50px",
+                          fontWeight: '600'
+                        }}
+                      >
+                        Hakkımızda
+                      </span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"} onClick={() => scrollToElement("services")}>
+                    <span
+                        className="navbar-item"
+                        style={{
+                          background: "#ffffff10",
+                          border: "2px solid #ffffff",
+                          borderRadius: 50,
+                          color: "black",
+                          display: "flex",
+                          flexDirection: "row",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          width: "150px",
+
+                          outline: "none",
+                          padding: "5px 11px",
+                          transition:
+                            "background-color 0.2s ease-out, color 0.2s ease-out",
+                          textDecoration: "none",
+                          textAlign: "center",
+                          height: "50px",
+                          fontWeight: '600'
+                        }}
+                      >
+                        Hizmetlerimiz
+                      </span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to={"/"}
+                      onClick={() => scrollToElement("references")}
+                    >
+                       <span
+                        className="navbar-item"
+                        style={{
+                          background: "#ffffff10",
+                          border: "2px solid #ffffff",
+                          borderRadius: 50,
+                          color: "black",
+                          display: "flex",
+                          flexDirection: "row",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          width: "150px",
+
+                          outline: "none",
+                          padding: "5px 11px",
+                          transition:
+                            "background-color 0.2s ease-out, color 0.2s ease-out",
+                          textDecoration: "none",
+                          textAlign: "center",
+                          height: "50px",
+                          fontWeight: '600'
+                        }}
+                      >
+                        Referanslar
+                      </span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"} onClick={() => scrollToElement("contactus")}>
+                      <span
+                        className="navbar-item"
+                        style={{
+                          background: "#ffffff10",
+                          border: "2px solid #ffffff36",
+                          borderRadius: 50,
+                          color: "white",
+                          display: "flex",
+                          flexDirection: "row",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          width: "150px",
+
+                          outline: "none",
+                          padding: "5px 11px",
+                          transition:
+                            "background-color 0.2s ease-out, color 0.2s ease-out",
+                          textDecoration: "none",
+                          textAlign: "center",
+                          height: "50px",
+                          fontWeight: '600',
+                          '-webkit-backdrop-filter': 'blur(9px)',
+                          'backdrop-filter': 'blur(9px)'
+                        }}
+                      >
+                        {t("home.contact_us.form.title")}
+                      </span>
+                    </Link>
+                  </li>
+
+                  {/* <li className="sub-menu-down"><Link to={"#"}><span>Portfolio</span></Link>
                                         <ul className="sub-menu">
                                             <li><Link to={'./portfolio'}>Portfolio 1</Link></li>
                                             <li><Link to={'./portfolio-collage'}>Portfolio Collage</Link></li>
@@ -158,14 +301,14 @@ export default function Header() {
                                             <li><Link to={'./login'}>Login</Link></li>
                                         </ul>
                                     </li> */}
-                                    {/* <li className="sub-menu-down"><Link to={"/"} onClick={ScrollToContactUsHandler}><span>İletişim</span></Link>
+                  {/* <li className="sub-menu-down"><Link to={"/"} onClick={ScrollToContactUsHandler}><span>İletişim</span></Link>
                                         <ul className="sub-menu">
                                             <li><Link to={'./contact-us'}>Contact Us</Link></li>
 
                                         </ul>
                                     </li> */}
-                                </ul>
-                                {/* <div className="dz-social-icon">
+                </ul>
+                {/* <div className="dz-social-icon">
                                     <ul>
                                         <li><a className="fab fa-facebook-f" href="https://www.facebook.com/"></a></li>
                                         <li><a className="fab fa-twitter" href="https://twitter.com/?lang=en"></a></li>
@@ -173,12 +316,12 @@ export default function Header() {
                                         <li><a className="fab fa-instagram" href="https://www.instagram.com/?hl=en"></a></li>
                                     </ul>
                                 </div> */}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- Main Header End --> */}
-            </header>
-        </>
-    )
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <!-- Main Header End --> */}
+      </header>
+    </>
+  );
 }

@@ -3120,6 +3120,11 @@ textarea.form-control-lg {
     align-items: center;
     justify-content: space-between; }
 
+.navbar > .navbar-item:hover {
+  background-color: 'red'
+}
+  
+
 .navbar-brand {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
