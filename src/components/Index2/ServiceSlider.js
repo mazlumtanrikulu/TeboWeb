@@ -78,7 +78,7 @@ function ServiceSlider() {
                                 {/* <div className="icon-lg m-b20 text-primary">
                                     <i className={data.icon}></i>
                                 </div> */}
-                                <h3 className="dz-title" style={{ height: '150px' }}><Link to={"./services"}>{data.title}</Link></h3>
+                                <h3 className="dz-title" style={{ height: '150px' }}><Link to={`./services/${index + 1}`}>{data.title}</Link></h3>
                                 {/* <p className="m-b0" style={{ height: '200px' }}>{data.description}</p> */}
                             </div>
                             <div className="dz-bottom">
