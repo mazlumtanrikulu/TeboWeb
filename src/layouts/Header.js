@@ -76,14 +76,14 @@ export default function Header() {
           <div className="main-bar clearfix ">
             <div className="container-fluid clearfix">
               {/* <!-- Website Logo --> */}
-              <div
+              {/* <div
                 className="logo-header mostion logo-white"
                 style={{ height: "144.2px" }}
               >
                 <Link to={"/"}>
                   <img src={TeboLogo} alt="" style={{ maxWidth: '220px' }} />
                 </Link>
-              </div>
+              </div> */}
               {/* <!-- Nav Toggle Button --> */}
               {/* <button
                                 className={`navbar-toggler navicon justify-content-end ${openToggleBtn ? 'open' : 'collapsed'}`}
@@ -158,8 +158,40 @@ export default function Header() {
                   flexDirection: 'row',
                   justifyContent: 'flex-start',
                   alignItems: 'center',
-                  gap: '30px'
+                  gap: '30px',
+                  paddingLeft: '80px'
                 }}>
+                  <li>
+                    <Link to={"/"}>
+                      <span
+                        className="navbar-item"
+                        style={{
+                          background: "#ffffff10",
+                          border: "2px solid #ffffff36",
+                          borderRadius: 50,
+                          color: "white",
+                          display: "flex",
+                          flexDirection: "row",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          width: "150px",
+
+                          outline: "none",
+                          padding: "5px 11px",
+                          transition:
+                            "border 0.2s ease-out, color 0.2s ease-out",
+                          textDecoration: "none",
+                          textAlign: "center",
+                          height: "50px",
+                          fontWeight: '600',
+                          '-webkit-backdrop-filter': 'blur(9px)',
+                          'backdrop-filter': 'blur(9px)'
+                        }}
+                      >
+                        {t("header.home")}
+                      </span>
+                    </Link>
+                  </li>
                   <li>
                     <Link to={"/"} onClick={() => scrollToElement("about")}>
                       <span

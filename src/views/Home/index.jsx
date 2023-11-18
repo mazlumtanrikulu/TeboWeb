@@ -49,6 +49,10 @@ function Home() {
   const [isOpen, setOpen] = useState(false);
   const [splitEvent, setsplitEvent] = useState(false);
   const { t } = useTranslation();
+  useEffect(() => {
+    // setOpen(true)
+    document.getElementById('popup-youtube').click()
+  }, [])
   return (
     <>
 
@@ -67,6 +71,7 @@ function Home() {
               <div className="video-bx" style={{ marginBottom: '40px' }}>
                 <Link
                   to={"#"}
+                  id={'popup-youtube'}
                   className="popup-youtube play-btn5"
                   onClick={() => setOpen(true)}
                 >
@@ -97,7 +102,7 @@ function Home() {
                       }
                     >
                       <div>
-                        <img className="m-b30" src={teboHomePhoto2} alt="" />
+                        <img className="m-b30" src={teboHomePhoto2} alt="" style={{ height: '200px' }}/>
                       </div>
                     </div>
                   </div>
@@ -108,7 +113,7 @@ function Home() {
                       }
                     >
                       <div>
-                        <img className="m-b20 aos-item" src={teboHomePhoto} alt="" />
+                        <img className="m-b20 aos-item" src={teboHomePhoto} alt="" style={{ height: '200px' }}/>
                       </div>
                     </div>
                     <div className="exp-bx aos-item">

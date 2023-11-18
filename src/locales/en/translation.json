@@ -1,6 +1,6 @@
 {
   "1": {
-    "title": "Steel Mill Machinery Manufacturing and Assembly",
+    "title": "Steel Mill Spare Manufacturing and Heavy Industry Machinery",
     "icon": "flaticon-cogwheel",
     "description": "Our company is an expert in steel construction manufacturing and assembly. We attach importance to high quality and safety standards. Customer satisfaction is our priority. Contact us for cooperation.",
     "image": "/images/gallery/30.jpg",
@@ -529,7 +529,7 @@
     ]
   },
   "4": {
-    "title": "Damper Manufacturing and Assembly",
+    "title": "Scrap Transport Dumper Manufacturing",
     "icon": "flaticon-robot-arm",
     "description": "Our company is specialized in the production of scrap dumpers. We offer reliable and high-quality equipment for specific needs. We are focused on customer satisfaction and quality. You can trust us for solutions that suit your needs.",
     "image": "/images/gallery/33.png",
@@ -601,7 +601,7 @@
         "p4": "Scrap Transport Dumps"
       },
       "title": "HEAVY INDUSTRIAL MACHINERY AND STEEL MANUFACTURING",
-      "content": "We manufacture heavy industrial machinery and steel in our factory in the organized industry of Iskenderun, located within the four major ports of Iskenderun, which is the new industrial and commercial base in Turkiye's vision.",
+      "content": "We manufacture heavy industrial machinery and steel in our factory in the Iskenderun Organized Industrial Zone, located within the four major ports of Iskenderun, which is the new industrial and commercial base in Turkiye's vision.",
       "btn": "About Our Company"
     },
     "services": {
@@ -842,9 +842,10 @@
     "title": "References"
   },
   "header": {
+    "home": "Home",
     "about_us": "About Us",
-    "services": "Services",
-    "referances": "Referances",
+    "services": "Services", 
+    "referances": "References",
     "contact_us": "Contact Us"
   }
 }

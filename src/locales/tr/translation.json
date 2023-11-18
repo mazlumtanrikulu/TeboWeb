@@ -1,6 +1,6 @@
 {
   "1": {
-    "title": "Çelikhane Makineleri İmalatı ve Montajı",
+    "title": "Çelikhane Yedek İmalatları ve Ağır Sanayi Makineleri",
     "icon": "flaticon-cogwheel",
     "description": "Firmamız çelik konstrüksiyon imalatı ve montajında uzmandır. Yüksek kalite ve güvenlik standartlarına önem veririz. Müşteri memnuniyeti önceliğimizdir. İşbirliği için bize ulaşın.",
     "image": "/images/gallery/30.jpg",
@@ -529,7 +529,7 @@
     ]
   },
   "4": {
-    "title": "Damper İmalatı ve Montajı",
+    "title": "Hurda Taşıma Damperi İmalatı",
     "icon": "flaticon-robot-arm",
     "description": "Firmamız, hurda damperi üretiminde uzman. Özel ihtiyaçlara yönelik güvenilir ve yüksek kaliteli ekipmanlar sunuyoruz. Müşteri memnuniyeti ve kalite odaklıyız. İhtiyacınıza uygun çözümler için bize güvenebilirsiniz.",
     "image": "/images/gallery/33.png",
@@ -601,7 +601,7 @@
         "p4": "Hurda Nakliye Damperleri"
       },
       "title": "AĞIR SANAYİ MAKİNE VE ÇELİK İMALATLARI",
-      "content": "Türkiye vizyonunda yeni sanayi ve ticaret üssü olan İskenderunda, dört büyük limanı içerisinde bulunan İskenderun organize sanayideki fabrikamızda Ağırsanayi makineleri ve Çelik imalat yapıyoruz",
+      "content": "Türkiye vizyonunda yeni sanayi ve ticaret üssü olan İskenderunda, dört büyük limanı içerisinde bulunan İskenderun Organize Sanayi bölgesindeki fabrikamızda Ağırsanayi makineleri ve Çelik imalat yapıyoruz",
       "btn": "Şirketimiz Hakkında"
     },
     "services": {
@@ -842,6 +842,7 @@
     "title": "Referanslar"
   },
   "header": {
+    "home": "Ana Sayfa",
     "about_us": "Hakkımızda",
     "services": "Hizmetlerimiz",
     "referances": "Referanslar",
